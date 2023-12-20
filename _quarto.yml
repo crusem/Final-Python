@@ -5,9 +5,9 @@ project:
     port: 3333
 
 website:
-  title: "MUSA 550 Quarto Template"
-  site-url: "https://musa-550-fall-2023.github.io/quarto-website-template" 
-  repo-url: https://github.com/MUSA-550-Fall-2023/quarto-website-template 
+  title: "Predicting Asthma Prevalence by Census Tracts in Philadeplhia, PA"
+  site-url: "https://musa-550-fall-2023.github.io/Final-Python-MC-AFA" 
+  repo-url: https://github.com/MUSA-550-Fall-2023/Final-Python-MC-AFA
   repo-actions: [source]
 
   page-footer:
@@ -36,12 +36,11 @@ website:
       - href: index.qmd
         text: Welcome
       - about.qmd
-      - section: analysis/index.qmd
+      - section: Our Model/index.qmd
         contents:
-          - analysis/1-python-code-blocks.qmd 
-          - analysis/2-static-images.ipynb
-          - analysis/3-altair-hvplot.ipynb
-          - analysis/4-folium.ipynb
+          - Our Model/Exploratory Analysis.ipynb 
+          - Our Model/Regression-Analysis.ipynb
+          - Our Model/Predictions.ipynb
 
 format:
   html:
