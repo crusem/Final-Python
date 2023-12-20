@@ -36,7 +36,7 @@ website:
       - href: index.qmd
         text: Introduction
       - about.qmd
-      - section: Our Model/index.qmd
+      - section: Our Model/About1.qmd
         contents:
           - Our Model/1-Exploratory-Analysis.ipynb 
           - Our Model/2-Regression-Analysis.ipynb

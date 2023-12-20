@@ -1,31 +1,20 @@
 ---
-title: "MUSA 550 Final Project Template"
-subtitle: "An example website demonstrating the power of Quarto for sharing analyses on the web"
+title: ""Predicting Asthma Prevalence by Census Tracts in Philadeplhia, PA"
+subtitle: "Marissa & Alyssa"
 ---
 
-## Welcome!
+## Introduction
 
-We can create beautiful websites that describe complex technical analyses in Python using [Quarto](https://quarto.org) 
-and deploy them online using [GitHub Pages](https://pages.github.com/). This combination of tools is a really powerful way 
-to create and share your work. This website is a demo that is meant to be used to create your own Quarto website for the 
-final project in MUSA 550. 
-
-Quarto is a relatively new tool, but is becoming popular quickly. It's a successor 
-to the Rmarkdown ecosystem that combines functionality into a single tool and also extends its computation power to other
-languages. Most importantly for us, Quarto supports executing Python code, allowing us to convert Jupyter notebooks to HTML and share them online.  
+Asthma, a chronic lung disease, is largely impacted by a combination of genetics and social determinants of health, defined as conditions in the environments that people are born and live in that affect health and quality of life outcomes [1]. Within the Philadelphia region, there are a combination of both indoor and outdoor factors that contribute to a high prevalence of asthma. In understanding this, according to the Center for Disease Control and Prevention(CDC), 5.8 percent of children in the United States have asthma, while 21 percent of children in Philadelphia have asthma [2]. Philadelphia was ranked the seventh most challenging place to live with asthma, where the burden is high among racial and ethnic groups, where Black individuals are approximately three times more likely to die from asthma than white individuals [2]. With this context, our analysis builds a random forest regression model in order to predict asthma prevalence by census tract in the City of Philadelphia, validating our model against the estimated asthma prevalence from the CDC. In conducting a literature review, our prediction model identified variables/predictors that lead to disproportionate rates of asthma in the City of Philadelphia region. These predictors originate from the Environmental Justice Index [3], CDC’s PLACES[4] and Philadelphia’s Social Progress Index[5]. 
 
 ::: {.callout-important}
 This template site, including the layout it uses, is just a suggested place to start! For your final project, you're welcome (and encouraged) to 
 make as many changes as you like to best fit your project.
 :::
 
-## Find out more
+## About the Authors
 
-The code for this repository is hosted on our course's GitHub page: [https://github.com/MUSA-550-Fall-2023/quarto-website-template](https://github.com/MUSA-550-Fall-2023/quarto-website-template).
-
-We covered the basics of getting started with Quarto and GitHub Pages in week 9. Take a look at
-[the slides for lecture 9A](https://musa-550-fall-2023.github.io/content/week-9/lecture-9A.html) to find out more.
-
+Alyssa Felix-Arreola, B.S. in Global Health from the University of Southern California, and Marissa Cruse, B.S. in Economics from the University of Nebraska-Lincoln completed this project as our final assignment for Geospatial Data Science In Python, a course taught by Nick Hand at the University of Pennsylvania in the fall semester of 2023. 
 
 
 
