@@ -15,19 +15,11 @@ website:
     left: "&copy; CC-Nick Hand, 2023"
 
   sidebar:
-    logo: "images/course-icon.png"
+    logo: "images/asthma.jpg"
     pinned: true
     align: center
     tools: 
-      - icon: globe
-        href: https://nickhand.dev
-        text: "Personal Website"
-      - icon: github
-        href: https://github.com/MUSA-550-Fall-2023/
-        text: "MUSA 550 GitHub"
-      - icon: twitter
-        href: https://twitter.com/nicholashand
-        text: "Nick Hand Twitter"         
+         
 
     style: "docked"
     search: true
@@ -35,7 +27,6 @@ website:
     contents:
       - href: index.qmd
         text: Introduction
-      - about.qmd
       - section: Our Model/About1.qmd
         contents:
           - Our Model/1-Exploratory-Analysis.ipynb 

@@ -7,10 +7,6 @@ subtitle: "Marissa and Alyssa"
 
 Asthma, a chronic lung disease, is largely impacted by a combination of genetics and social determinants of health, defined as conditions in the environments that people are born and live in that affect health and quality of life outcomes [1]. Within the Philadelphia region, there are a combination of both indoor and outdoor factors that contribute to a high prevalence of asthma. In understanding this, according to the Center for Disease Control and Prevention(CDC), 5.8 percent of children in the United States have asthma, while 21 percent of children in Philadelphia have asthma [2]. Philadelphia was ranked the seventh most challenging place to live with asthma, where the burden is high among racial and ethnic groups, where Black individuals are approximately three times more likely to die from asthma than white individuals [2]. With this context, our analysis builds a random forest regression model in order to predict asthma prevalence by census tract in the City of Philadelphia, validating our model against the estimated asthma prevalence from the CDC. In conducting a literature review, our prediction model identified variables/predictors that lead to disproportionate rates of asthma in the City of Philadelphia region. These predictors originate from the Environmental Justice Index [3], CDC’s PLACES[4] and Philadelphia’s Social Progress Index[5]. 
 
-::: {.callout-important}
-This template site, including the layout it uses, is just a suggested place to start! For your final project, you're welcome (and encouraged) to 
-make as many changes as you like to best fit your project.
-:::
 
 ## About the Authors
 
