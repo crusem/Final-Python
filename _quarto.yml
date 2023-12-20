@@ -34,13 +34,13 @@ website:
     collapse-level: 2
     contents:
       - href: index.qmd
-        text: Welcome
+        text: Introduction
       - about.qmd
       - section: Our Model/index.qmd
         contents:
-          - Our Model/Exploratory Analysis.ipynb 
-          - Our Model/Regression-Analysis.ipynb
-          - Our Model/Predictions.ipynb
+          - Our Model/1-Exploratory-Analysis.ipynb 
+          - Our Model/2-Regression-Analysis.ipynb
+          - Our Model/3-Predictions.ipynb
 
 format:
   html:
