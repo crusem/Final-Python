@@ -5,9 +5,9 @@ project:
     port: 3333
 
 website:
-  title: "Predicting Asthma Prevalence by Census Tracts in Philadelphia, PA"
-  site-url: "https://musa-550-fall-2023.github.io/Final-Python-MC-AFA" 
-  repo-url: https://github.com/MUSA-550-Fall-2023/Final-Python-MC-AFA
+  title: "Predicting Asthma Prevalence by Census Tracts in Philadeplhia, PA"
+  site-url: "https://musa-550-fall-2023.github.io/Final-Python-MC-AFA/" 
+  repo-url: https://github.com/MUSA-550-Fall-2023/Final-Python-MC-AFA/
   repo-actions: [source]
 
   page-footer:
@@ -18,12 +18,15 @@ website:
     logo: "images/asthma.jpg"
     pinned: true
     align: center
+         
+
     style: "docked"
     search: true
     collapse-level: 2
     contents:
       - href: index.qmd
         text: Introduction
+      - about.qmd
       - section: Our Model/About1.qmd
         contents:
           - Our Model/1-Exploratory-Analysis.ipynb 
@@ -38,3 +41,7 @@ format:
     code-copy: true
     code-overflow: wrap
     toc: true
+
+
+
+
