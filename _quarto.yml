@@ -6,8 +6,8 @@ project:
 
 website:
   title: "Predicting Asthma Prevalence by Census Tracts in Philadelphia, PA"
-  site-url: "https://musa-550-fall-2023.github.io/Final-Python-MC-AFA" 
-  repo-url: https://github.com/MUSA-550-Fall-2023/Final-Python-MC-AFA
+  site-url: "https://crusem.github.io/Final-Python-MC-AFA/" 
+  repo-url: https://crusem.github.io/Final-Python-MC-AFA/
   repo-actions: [source]
 
   page-footer:
