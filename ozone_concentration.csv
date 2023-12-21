@@ -1,0 +1,373 @@
+geoid,neighborhood_name,value,average_label,rank,variable,region_name,tract_name
+42101000100,Center City East,44.32678595,Below Average,328,Ozone concentration,Greater Center City,Center City East 1
+42101000200,Center City East,43.92083734,Below Average,314,Ozone concentration,Greater Center City,Center City East 2
+42101000300,Center City West,43.47262904,Average,273,Ozone concentration,Greater Center City,Center City West 1
+42101000401,Center City West,43.47263277,Below Average,288,Ozone concentration,Greater Center City,Center City West 2
+42101000402,Center City West,43.47262904,Average,273,Ozone concentration,Greater Center City,Center City West 3
+42101000500,Center City East,43.83989424,Below Average,311,Ozone concentration,Greater Center City,Center City East 3
+42101000600,Center City East,43.8044928,Below Average,310,Ozone concentration,Greater Center City,Center City East 4
+42101000700,Center City West,43.47262904,Average,273,Ozone concentration,Greater Center City,Center City West 4
+42101000801,Center City West,43.47263277,Below Average,288,Ozone concentration,Greater Center City,Center City West 5
+42101000803,Center City West,43.47263277,Below Average,288,Ozone concentration,Greater Center City,Center City West 6
+42101000804,Center City West,43.47262904,Average,273,Ozone concentration,Greater Center City,Center City West 7
+42101000901,Center City East,43.47262904,Average,273,Ozone concentration,Greater Center City,Center City East 5
+42101000902,Center City East,43.9661704,Below Average,315,Ozone concentration,Greater Center City,Center City East 6
+42101001001,Center City East,44.32678595,Below Average,328,Ozone concentration,Greater Center City,Center City East 7
+42101001002,Center City East,44.32678595,Below Average,328,Ozone concentration,Greater Center City,Center City East 8
+42101001101,Center City East,43.47263277,Below Average,288,Ozone concentration,Greater Center City,Center City East 9
+42101001102,Center City East,43.96657646,Below Average,316,Ozone concentration,Greater Center City,Center City East 10
+42101001201,Center City West,43.47262904,Average,273,Ozone concentration,Greater Center City,Center City West 8
+42101001202,Center City West,43.47262904,Average,273,Ozone concentration,Greater Center City,Center City West 9
+42101001300,Schuylkill-Point Breeze,43.47262904,Average,273,Ozone concentration,Greater Center City,Schuylkill-Point Breeze 1
+42101001400,Schuylkill-Point Breeze,43.47262904,Average,273,Ozone concentration,Greater Center City,Schuylkill-Point Breeze 2
+42101001500,Pennsport-Queen Village,43.77663136,Below Average,307,Ozone concentration,Greater Center City,Pennsport-Queen Village 1
+42101001600,Pennsport-Queen Village,44.32678595,Below Average,328,Ozone concentration,Greater Center City,Pennsport-Queen Village 2
+42101001700,Pennsport-Queen Village,44.32678223,Below Average,326,Ozone concentration,Greater Center City,Pennsport-Queen Village 3
+42101001800,Pennsport-Queen Village,43.77665371,Below Average,308,Ozone concentration,Greater Center City,Pennsport-Queen Village 4
+42101001900,Schuylkill-Point Breeze,43.47262904,Average,273,Ozone concentration,Greater Center City,Schuylkill-Point Breeze 3
+42101002000,Schuylkill-Point Breeze,43.47263277,Below Average,288,Ozone concentration,South,Schuylkill-Point Breeze 4
+42101002100,Schuylkill-Point Breeze,43.47263277,Below Average,288,Ozone concentration,South,Schuylkill-Point Breeze 5
+42101002200,Schuylkill-Point Breeze,43.47262904,Average,273,Ozone concentration,South,Schuylkill-Point Breeze 6
+42101002300,Southwark-Bella Vista,43.47263277,Below Average,288,Ozone concentration,Greater Center City,Southwark-Bella Vista 1
+42101002400,Southwark-Bella Vista,43.76358911,Below Average,306,Ozone concentration,Greater Center City,Southwark-Bella Vista 2
+42101002500,Pennsport-Queen Village,44.32678223,Below Average,326,Ozone concentration,Greater Center City,Pennsport-Queen Village 5
+42101002701,Pennsport-Queen Village,44.15081441,Below Average,322,Ozone concentration,South,Pennsport-Queen Village 6
+42101002702,Pennsport-Queen Village,44.10313442,Below Average,321,Ozone concentration,South,Pennsport-Queen Village 7
+42101002801,Southwark-Bella Vista,43.783281,Below Average,309,Ozone concentration,South,Southwark-Bella Vista 3
+42101002802,Southwark-Bella Vista,43.23954135,Average,241,Ozone concentration,South,Southwark-Bella Vista 4
+42101002900,Southwark-Bella Vista,43.41853783,Average,266,Ozone concentration,South,Southwark-Bella Vista 5
+42101003001,Southwark-Bella Vista,43.47173125,Average,272,Ozone concentration,South,Southwark-Bella Vista 6
+42101003002,Southwark-Bella Vista,43.47263277,Below Average,288,Ozone concentration,South,Southwark-Bella Vista 7
+42101003100,Schuylkill-Point Breeze,43.47263277,Below Average,288,Ozone concentration,South,Schuylkill-Point Breeze 7
+42101003200,Schuylkill-Point Breeze,43.47263277,Below Average,288,Ozone concentration,South,Schuylkill-Point Breeze 8
+42101003300,Grays Ferry-Passyunk,43.47263277,Below Average,288,Ozone concentration,South,Grays Ferry-Passyunk 1
+42101003600,Grays Ferry-Passyunk,42.98009723,Average,234,Ozone concentration,South,Grays Ferry-Passyunk 2
+42101003701,South Broad-Girard Estates,43.10961068,Average,237,Ozone concentration,South,South Broad-Girard Estates 1
+42101003702,South Broad-Girard Estates,42.18391702,Average,172,Ozone concentration,South,South Broad-Girard Estates 2
+42101003800,Grays Ferry-Passyunk,42.18391329,Average,170,Ozone concentration,South,Grays Ferry-Passyunk 3
+42101003901,South Broad-Girard Estates,42.25218296,Average,180,Ozone concentration,South,South Broad-Girard Estates 3
+42101003902,South Broad-Girard Estates,42.18391702,Average,172,Ozone concentration,South,South Broad-Girard Estates 4
+42101004001,South Broad-Girard Estates,42.18391702,Average,172,Ozone concentration,South,South Broad-Girard Estates 5
+42101004002,South Broad-Girard Estates,42.18391329,Average,170,Ozone concentration,South,South Broad-Girard Estates 6
+42101004101,Snyder-Whitman,42.58960113,Average,221,Ozone concentration,South,Snyder-Whitman 1
+42101004102,Snyder-Whitman,42.38232598,Average,215,Ozone concentration,South,Snyder-Whitman 2
+42101004201,Snyder-Whitman,43.67699474,Below Average,303,Ozone concentration,South,Snyder-Whitman 3
+42101004202,Snyder-Whitman,43.67699847,Below Average,304,Ozone concentration,South,Snyder-Whitman 4
+42101005400,Eastwick-Elmwood,41.25141352,Average,130,Ozone concentration,Southwest,Eastwick-Elmwood 1
+42101005500,Eastwick-Elmwood,41.6367203,Average,132,Ozone concentration,Southwest,Eastwick-Elmwood 2
+42101005600,Eastwick-Elmwood,41.6367203,Average,132,Ozone concentration,Southwest,Eastwick-Elmwood 3
+42101006000,Eastwick-Elmwood,41.6367203,Average,132,Ozone concentration,Southwest,Eastwick-Elmwood 4
+42101006100,Eastwick-Elmwood,41.6367203,Average,132,Ozone concentration,Southwest,Eastwick-Elmwood 5
+42101006200,Eastwick-Elmwood,41.6367203,Average,132,Ozone concentration,Southwest,Eastwick-Elmwood 6
+42101006300,Paschall-Kingsessing,41.63672403,Average,137,Ozone concentration,Southwest,Paschall-Kingsessing 1
+42101006400,Paschall-Kingsessing,41.86237231,Average,148,Ozone concentration,Southwest,Paschall-Kingsessing 2
+42101006500,Paschall-Kingsessing,42.27215797,Average,181,Ozone concentration,Southwest,Paschall-Kingsessing 3
+42101006600,Paschall-Kingsessing,42.170614,Average,169,Ozone concentration,Southwest,Paschall-Kingsessing 4
+42101006700,Eastwick-Elmwood,41.76405445,Average,145,Ozone concentration,Southwest,Eastwick-Elmwood 7
+42101006900,Paschall-Kingsessing,42.94355959,Average,233,Ozone concentration,Southwest,Paschall-Kingsessing 5
+42101007000,Paschall-Kingsessing,42.27228463,Average,192,Ozone concentration,Southwest,Paschall-Kingsessing 6
+42101007101,Paschall-Kingsessing,42.27216169,Average,189,Ozone concentration,Southwest,Paschall-Kingsessing 7
+42101007102,Paschall-Kingsessing,42.27215797,Average,181,Ozone concentration,Southwest,Paschall-Kingsessing 8
+42101007200,Paschall-Kingsessing,42.27216169,Average,189,Ozone concentration,Southwest,Paschall-Kingsessing 9
+42101007300,Paschall-Kingsessing,42.27215797,Average,181,Ozone concentration,Southwest,Paschall-Kingsessing 10
+42101007400,Paschall-Kingsessing,43.06059331,Average,236,Ozone concentration,Southwest,Paschall-Kingsessing 11
+42101007700,University City,43.47262904,Average,273,Ozone concentration,Southwest,University City 1
+42101007800,University City,42.83664376,Average,230,Ozone concentration,Southwest,University City 2
+42101007900,University City,42.572245,Average,220,Ozone concentration,Southwest,University City 3
+42101008000,Cobbs Creek,42.27215797,Average,181,Ozone concentration,Southwest,Cobbs Creek 1
+42101008101,Cobbs Creek,42.27215797,Average,181,Ozone concentration,Southwest,Cobbs Creek 2
+42101008102,Cobbs Creek,42.27216169,Average,189,Ozone concentration,Southwest,Cobbs Creek 3
+42101008200,Cobbs Creek,42.27215797,Average,181,Ozone concentration,Southwest,Cobbs Creek 4
+42101008301,Cobbs Creek,42.27741435,Average,195,Ozone concentration,Southwest,Cobbs Creek 5
+42101008302,Cobbs Creek,42.27346554,Average,193,Ozone concentration,Southwest,Cobbs Creek 6
+42101008400,Cobbs Creek,42.27215797,Average,181,Ozone concentration,Southwest,Cobbs Creek 7
+42101008500,Cobbs Creek,42.27215797,Average,181,Ozone concentration,Southwest,Cobbs Creek 8
+42101008601,University City,42.83428565,Average,229,Ozone concentration,Southwest,University City 4
+42101008602,University City,42.7332446,Average,227,Ozone concentration,Southwest,University City 5
+42101008701,University City,43.47263277,Below Average,288,Ozone concentration,Southwest,University City 6
+42101008702,University City,43.47262904,Average,273,Ozone concentration,Southwest,University City 7
+42101008801,University City,43.47262904,Average,273,Ozone concentration,Southwest,University City 8
+42101008802,University City,43.47262904,Average,273,Ozone concentration,Southwest,University City 9
+42101009000,University City,43.45998541,Average,269,Ozone concentration,West,University City 10
+42101009100,University City,43.46776754,Average,271,Ozone concentration,West,University City 11
+42101009200,Mill Creek-Parkside,43.4615612,Average,270,Ozone concentration,West,Mill Creek-Parkside 1
+42101009300,Haddington-Overbrook,42.31740162,Average,196,Ozone concentration,West,Haddington-Overbrook 1
+42101009400,Haddington-Overbrook,42.33522713,Average,197,Ozone concentration,West,Haddington-Overbrook 2
+42101009500,Haddington-Overbrook,42.34778509,Average,200,Ozone concentration,West,Haddington-Overbrook 3
+42101009600,Haddington-Overbrook,42.34865308,Average,201,Ozone concentration,West,Haddington-Overbrook 4
+42101009801,Overbrook Park-Wynnefield Heights,42.34865308,Average,201,Ozone concentration,West,Overbrook Park-Wynnefield Heights 1
+42101009802,Overbrook Park-Wynnefield Heights,42.36264154,Average,214,Ozone concentration,West,Overbrook Park-Wynnefield Heights 2
+42101010000,Haddington-Overbrook,42.34865308,Average,201,Ozone concentration,West,Haddington-Overbrook 5
+42101010100,Haddington-Overbrook,42.34865308,Average,201,Ozone concentration,West,Haddington-Overbrook 6
+42101010200,Haddington-Overbrook,42.34865308,Average,201,Ozone concentration,West,Haddington-Overbrook 7
+42101010300,Mill Creek-Parkside,42.34865308,Average,201,Ozone concentration,West,Mill Creek-Parkside 2
+42101010400,Mill Creek-Parkside,42.33781248,Average,198,Ozone concentration,West,Mill Creek-Parkside 3
+42101010500,Mill Creek-Parkside,43.21821779,Average,239,Ozone concentration,West,Mill Creek-Parkside 4
+42101010600,Mill Creek-Parkside,43.40325296,Average,244,Ozone concentration,West,Mill Creek-Parkside 5
+42101010700,Mill Creek-Parkside,43.40325668,Average,264,Ozone concentration,West,Mill Creek-Parkside 6
+42101010800,Mill Creek-Parkside,43.40332001,Average,265,Ozone concentration,West,Mill Creek-Parkside 7
+42101010900,Mill Creek-Parkside,43.40325296,Average,244,Ozone concentration,West,Mill Creek-Parkside 8
+42101011000,Mill Creek-Parkside,43.40325296,Average,244,Ozone concentration,West,Mill Creek-Parkside 9
+42101011100,Mill Creek-Parkside,42.46780649,Average,217,Ozone concentration,West,Mill Creek-Parkside 10
+42101011200,Haddington-Overbrook,42.34865308,Average,201,Ozone concentration,West,Haddington-Overbrook 8
+42101011300,Haddington-Overbrook,42.34865308,Average,201,Ozone concentration,West,Haddington-Overbrook 9
+42101011400,Haddington-Overbrook,42.34865308,Average,201,Ozone concentration,West,Haddington-Overbrook 10
+42101011500,Haddington-Overbrook,42.34865308,Average,201,Ozone concentration,West,Haddington-Overbrook 11
+42101011700,Overbrook Park-Wynnefield Heights,42.34743863,Average,199,Ozone concentration,West,Overbrook Park-Wynnefield Heights 3
+42101011800,Overbrook Park-Wynnefield Heights,42.34865308,Average,201,Ozone concentration,West,Overbrook Park-Wynnefield Heights 4
+42101011900,Overbrook Park-Wynnefield Heights,42.34865308,Average,201,Ozone concentration,West,Overbrook Park-Wynnefield Heights 5
+42101012000,Overbrook Park-Wynnefield Heights,42.22784191,Average,178,Ozone concentration,West,Overbrook Park-Wynnefield Heights 6
+42101012100,Overbrook Park-Wynnefield Heights,42.18835384,Average,176,Ozone concentration,West,Overbrook Park-Wynnefield Heights 7
+42101012201,Overbrook Park-Wynnefield Heights,42.10560769,Average,158,Ozone concentration,West,Overbrook Park-Wynnefield Heights 8
+42101012203,Overbrook Park-Wynnefield Heights,42.10560769,Average,158,Ozone concentration,West,Overbrook Park-Wynnefield Heights 9
+42101012204,Overbrook Park-Wynnefield Heights,42.08217561,Average,156,Ozone concentration,West,Overbrook Park-Wynnefield Heights 10
+42101012500,Fairmount-Spring Garden,43.44245046,Average,267,Ozone concentration,Greater Center City,Fairmount-Spring Garden 1
+42101013100,Poplar-Temple,44.3790257,Below Average,337,Ozone concentration,Greater Center City,Poplar-Temple 1
+42101013200,Poplar-Temple,43.89500618,Below Average,312,Ozone concentration,Greater Center City,Poplar-Temple 2
+42101013300,Fairmount-Spring Garden,43.40325296,Average,244,Ozone concentration,Greater Center City,Fairmount-Spring Garden 2
+42101013401,Fairmount-Spring Garden,43.40325296,Average,244,Ozone concentration,Greater Center City,Fairmount-Spring Garden 3
+42101013402,Fairmount-Spring Garden,43.40325296,Average,244,Ozone concentration,Greater Center City,Fairmount-Spring Garden 4
+42101013500,Fairmount-Spring Garden,43.40325296,Average,244,Ozone concentration,Greater Center City,Fairmount-Spring Garden 5
+42101013601,Fairmount-Spring Garden,43.40325296,Average,244,Ozone concentration,Greater Center City,Fairmount-Spring Garden 6
+42101013602,Fairmount-Spring Garden,43.40325296,Average,244,Ozone concentration,Greater Center City,Fairmount-Spring Garden 7
+42101013700,Strawberry Mansion,43.40325296,Average,244,Ozone concentration,Lower North,Strawberry Mansion 1
+42101013800,Sharswood-Stanton,43.40325296,Average,244,Ozone concentration,Lower North,Sharswood-Stanton 1
+42101013900,Sharswood-Stanton,43.40325296,Average,244,Ozone concentration,Lower North,Sharswood-Stanton 2
+42101014000,Sharswood-Stanton,43.40325296,Average,244,Ozone concentration,Lower North,Sharswood-Stanton 3
+42101014100,Poplar-Temple,44.22438517,Below Average,324,Ozone concentration,Lower North,Poplar-Temple 3
+42101014200,Northern Liberties-West Kensington,44.37290132,Below Average,334,Ozone concentration,Greater Center City,Northern Liberties-West Kensington 1
+42101014300,Lower Kensington,44.3790257,Below Average,337,Ozone concentration,East,Lower Kensington 1
+42101014400,Northern Liberties-West Kensington,44.3790257,Below Average,337,Ozone concentration,East,Northern Liberties-West Kensington 2
+42101014500,Poplar-Temple,44.3790257,Below Average,337,Ozone concentration,Lower North,Poplar-Temple 4
+42101014600,Poplar-Temple,44.25558075,Below Average,325,Ozone concentration,Lower North,Poplar-Temple 5
+42101014700,Sharswood-Stanton,43.40325296,Average,244,Ozone concentration,Lower North,Sharswood-Stanton 4
+42101014800,Sharswood-Stanton,43.40325296,Average,244,Ozone concentration,Lower North,Sharswood-Stanton 5
+42101014900,Strawberry Mansion,43.40325296,Average,244,Ozone concentration,Lower North,Strawberry Mansion 2
+42101015101,Strawberry Mansion,43.40325296,Average,244,Ozone concentration,Lower North,Strawberry Mansion 3
+42101015102,Strawberry Mansion,43.40325296,Average,244,Ozone concentration,Lower North,Strawberry Mansion 4
+42101015200,Strawberry Mansion,43.40325296,Average,244,Ozone concentration,Lower North,Strawberry Mansion 5
+42101015300,Sharswood-Stanton,43.44273731,Average,268,Ozone concentration,Lower North,Sharswood-Stanton 6
+42101015600,Northern Liberties-West Kensington,44.37902197,Below Average,336,Ozone concentration,East,Northern Liberties-West Kensington 3
+42101015700,Northern Liberties-West Kensington,44.37902942,Below Average,352,Ozone concentration,East,Northern Liberties-West Kensington 4
+42101015800,Lower Kensington,44.3790257,Below Average,337,Ozone concentration,East,Lower Kensington 2
+42101016000,Lower Kensington,44.3790257,Below Average,337,Ozone concentration,East,Lower Kensington 3
+42101016100,Lower Kensington,44.3790257,Below Average,337,Ozone concentration,East,Lower Kensington 4
+42101016200,Northern Liberties-West Kensington,44.3790257,Below Average,337,Ozone concentration,East,Northern Liberties-West Kensington 5
+42101016300,Northern Liberties-West Kensington,44.3790257,Below Average,337,Ozone concentration,East,Northern Liberties-West Kensington 6
+42101016400,Northern Liberties-West Kensington,44.3790257,Below Average,337,Ozone concentration,East,Northern Liberties-West Kensington 7
+42101016500,Poplar-Temple,44.3790257,Below Average,337,Ozone concentration,Lower North,Poplar-Temple 6
+42101016600,Poplar-Temple,44.3790257,Below Average,337,Ozone concentration,Lower North,Poplar-Temple 7
+42101016701,Sharswood-Stanton,43.40324923,Average,243,Ozone concentration,Lower North,Sharswood-Stanton 7
+42101016702,Sharswood-Stanton,43.76291111,Below Average,305,Ozone concentration,Lower North,Sharswood-Stanton 8
+42101016800,Strawberry Mansion,43.40325296,Average,244,Ozone concentration,Lower North,Strawberry Mansion 6
+42101016901,Strawberry Mansion,43.39069873,Average,242,Ozone concentration,Lower North,Strawberry Mansion 7
+42101016902,Strawberry Mansion,43.21767762,Average,238,Ozone concentration,Lower North,Strawberry Mansion 8
+42101017000,Nicetown-Tioga,42.10560769,Average,158,Ozone concentration,Lower North,Nicetown-Tioga 1
+42101017100,Nicetown-Tioga,42.10560769,Average,158,Ozone concentration,Lower North,Nicetown-Tioga 2
+42101017201,Nicetown-Tioga,42.27691144,Average,194,Ozone concentration,Lower North,Nicetown-Tioga 3
+42101017202,Nicetown-Tioga,42.13927686,Average,168,Ozone concentration,Lower North,Nicetown-Tioga 4
+42101017300,Nicetown-Tioga,42.42867604,Average,216,Ozone concentration,Lower North,Nicetown-Tioga 5
+42101017400,Hunting Park-Fairhill,42.85105318,Average,231,Ozone concentration,Lower North,Hunting Park-Fairhill 1
+42101017500,Hunting Park-Fairhill,42.19946265,Average,177,Ozone concentration,East,Hunting Park-Fairhill 2
+42101017601,Hunting Park-Fairhill,44.02181134,Below Average,318,Ozone concentration,East,Hunting Park-Fairhill 3
+42101017602,Hunting Park-Fairhill,42.23465174,Average,179,Ozone concentration,East,Hunting Park-Fairhill 4
+42101017701,Upper Kensington,42.51996428,Average,218,Ozone concentration,East,Upper Kensington 1
+42101017702,Upper Kensington,43.22681949,Average,240,Ozone concentration,East,Upper Kensington 2
+42101017800,Upper Kensington,44.3790257,Below Average,337,Ozone concentration,East,Upper Kensington 3
+42101017900,Upper Kensington,44.3790257,Below Average,337,Ozone concentration,East,Upper Kensington 4
+42101018001,Richmond-Bridesburg,44.3790257,Below Average,337,Ozone concentration,East,Richmond-Bridesburg 1
+42101018002,Richmond-Bridesburg,44.37902942,Below Average,352,Ozone concentration,East,Richmond-Bridesburg 2
+42101018300,Richmond-Bridesburg,38.26745227,Above Average,37,Ozone concentration,Lower Northeast (East),Richmond-Bridesburg 3
+42101018400,Richmond-Bridesburg,37.79804334,Above Average,17,Ozone concentration,Lower Northeast (East),Richmond-Bridesburg 4
+42101018800,Juniata Park-Harrowgate,42.00015217,Average,151,Ozone concentration,East,Juniata Park-Harrowgate 1
+42101019000,Juniata Park-Harrowgate,38.75052556,Above Average,40,Ozone concentration,East,Juniata Park-Harrowgate 2
+42101019100,Juniata Park-Harrowgate,40.54420441,Above Average,83,Ozone concentration,East,Juniata Park-Harrowgate 3
+42101019200,Juniata Park-Harrowgate,40.63005745,Average,88,Ozone concentration,East,Juniata Park-Harrowgate 4
+42101019501,Hunting Park-Fairhill,40.63005745,Average,88,Ozone concentration,East,Hunting Park-Fairhill 5
+42101019502,Hunting Park-Fairhill,40.63005745,Average,88,Ozone concentration,East,Hunting Park-Fairhill 6
+42101019700,Hunting Park-Fairhill,40.63005745,Average,88,Ozone concentration,East,Hunting Park-Fairhill 7
+42101019800,Hunting Park-Fairhill,40.63005745,Average,88,Ozone concentration,East,Hunting Park-Fairhill 8
+42101019900,Hunting Park-Fairhill,40.63005745,Average,88,Ozone concentration,East,Hunting Park-Fairhill 9
+42101020000,Nicetown-Tioga,40.63005745,Average,88,Ozone concentration,Lower North,Nicetown-Tioga 6
+42101020101,Nicetown-Tioga,40.86808115,Average,120,Ozone concentration,Lower North,Nicetown-Tioga 7
+42101020102,Nicetown-Tioga,40.69795087,Average,104,Ozone concentration,Lower North,Nicetown-Tioga 8
+42101020200,Nicetown-Tioga,42.09253937,Average,157,Ozone concentration,Lower North,Nicetown-Tioga 9
+42101020300,Nicetown-Tioga,40.63005745,Average,88,Ozone concentration,East,Nicetown-Tioga 10
+42101020400,Nicetown-Tioga,40.68548605,Average,102,Ozone concentration,East,Nicetown-Tioga 11
+42101020500,Nicetown-Tioga,41.99084267,Average,150,Ozone concentration,Lower North,Nicetown-Tioga 12
+42101020600,East Falls-Westside,42.10560769,Average,158,Ozone concentration,Northwest,East Falls-Westside 1
+42101020700,East Falls-Westside,42.10560769,Average,158,Ozone concentration,Northwest,East Falls-Westside 2
+42101020800,East Falls-Westside,42.10560769,Average,158,Ozone concentration,Northwest,East Falls-Westside 3
+42101020900,Roxborough-Manayunk,42.10560769,Average,158,Ozone concentration,Northwest,Roxborough-Manayunk 1
+42101021000,Roxborough-Manayunk,42.06176475,Average,154,Ozone concentration,Northwest,Roxborough-Manayunk 2
+42101021100,Roxborough-Manayunk,42.07557812,Average,155,Ozone concentration,Northwest,Roxborough-Manayunk 3
+42101021200,Roxborough-Manayunk,40.95935822,Average,124,Ozone concentration,Northwest,Roxborough-Manayunk 4
+42101021300,Roxborough-Manayunk,41.77490622,Average,146,Ozone concentration,Northwest,Roxborough-Manayunk 5
+42101021400,Roxborough-Manayunk,41.9768393,Average,149,Ozone concentration,Northwest,Roxborough-Manayunk 6
+42101021500,Roxborough-Manayunk,41.74854606,Average,143,Ozone concentration,Northwest,Roxborough-Manayunk 7
+42101021600,Roxborough-Manayunk,41.70402884,Average,141,Ozone concentration,Northwest,Roxborough-Manayunk 8
+42101021700,Roxborough-Manayunk,41.67353362,Average,138,Ozone concentration,Northwest,Roxborough-Manayunk 9
+42101021800,Roxborough-Manayunk,41.70069844,Average,139,Ozone concentration,Northwest,Roxborough-Manayunk 10
+42101021900,Roxborough-Manayunk,41.70069844,Average,139,Ozone concentration,Northwest,Roxborough-Manayunk 11
+42101022000,Roxborough-Manayunk,41.710224,Average,142,Ozone concentration,Northwest,Roxborough-Manayunk 12
+42101023100,Chestnut Hill-West Mt. Airy,40.62008485,Above Average,85,Ozone concentration,Northwest,Chestnut Hill-West Mt. Airy 1
+42101023500,Chestnut Hill-West Mt. Airy,40.76526687,Average,118,Ozone concentration,Northwest,Chestnut Hill-West Mt. Airy 2
+42101023600,Chestnut Hill-West Mt. Airy,40.75762257,Average,107,Ozone concentration,Northwest,Chestnut Hill-West Mt. Airy 3
+42101023700,Chestnut Hill-West Mt. Airy,40.7576263,Average,115,Ozone concentration,Northwest,Chestnut Hill-West Mt. Airy 4
+42101023800,Germantown,40.75762257,Average,107,Ozone concentration,Northwest,Germantown 1
+42101023900,Chestnut Hill-West Mt. Airy,40.93617573,Average,122,Ozone concentration,Northwest,Chestnut Hill-West Mt. Airy 5
+42101024000,East Falls-Westside,42.04177111,Average,153,Ozone concentration,Northwest,East Falls-Westside 4
+42101024100,Germantown,40.99082947,Average,126,Ozone concentration,Northwest,Germantown 2
+42101024200,Germantown,42.02354327,Average,152,Ozone concentration,Northwest,Germantown 3
+42101024300,East Falls-Westside,42.10560769,Average,158,Ozone concentration,Northwest,East Falls-Westside 5
+42101024400,East Falls-Westside,42.10560769,Average,158,Ozone concentration,Northwest,East Falls-Westside 6
+42101024500,Germantown,41.15818068,Average,128,Ozone concentration,Northwest,Germantown 4
+42101024600,Germantown,40.75762257,Average,107,Ozone concentration,Northwest,Germantown 5
+42101024700,Germantown,40.75762257,Average,107,Ozone concentration,Northwest,Germantown 6
+42101024800,Germantown,40.75762257,Average,107,Ozone concentration,Northwest,Germantown 7
+42101024900,Germantown,40.75762257,Average,107,Ozone concentration,Northwest,Germantown 8
+42101025200,East Mt. Airy,40.75762257,Average,107,Ozone concentration,Northwest,East Mt. Airy 1
+42101025300,East Mt. Airy,40.75762257,Average,107,Ozone concentration,Northwest,East Mt. Airy 2
+42101025400,East Mt. Airy,40.7576263,Average,115,Ozone concentration,Northwest,East Mt. Airy 3
+42101025500,East Mt. Airy,40.73201865,Average,105,Ozone concentration,Northwest,East Mt. Airy 4
+42101025600,East Mt. Airy,40.60997814,Above Average,84,Ozone concentration,Northwest,East Mt. Airy 5
+42101025700,Chestnut Hill-West Mt. Airy,40.50638899,Above Average,77,Ozone concentration,Northwest,Chestnut Hill-West Mt. Airy 6
+42101025800,West Oak Lane-Cedarbrook,40.50638899,Above Average,77,Ozone concentration,Upper North,West Oak Lane-Cedarbrook 1
+42101025900,West Oak Lane-Cedarbrook,40.50638899,Above Average,77,Ozone concentration,Upper North,West Oak Lane-Cedarbrook 2
+42101026000,West Oak Lane-Cedarbrook,40.50638899,Above Average,77,Ozone concentration,Upper North,West Oak Lane-Cedarbrook 3
+42101026100,West Oak Lane-Cedarbrook,40.51449522,Above Average,82,Ozone concentration,Upper North,West Oak Lane-Cedarbrook 4
+42101026200,West Oak Lane-Cedarbrook,40.62571377,Above Average,86,Ozone concentration,Upper North,West Oak Lane-Cedarbrook 5
+42101026301,West Oak Lane-Cedarbrook,40.50638899,Above Average,77,Ozone concentration,Upper North,West Oak Lane-Cedarbrook 6
+42101026302,West Oak Lane-Cedarbrook,40.06768763,Above Average,67,Ozone concentration,Upper North,West Oak Lane-Cedarbrook 7
+42101026400,West Oak Lane-Cedarbrook,40.68817571,Average,103,Ozone concentration,Upper North,West Oak Lane-Cedarbrook 8
+42101026500,Ogontz,39.82712328,Above Average,65,Ozone concentration,Upper North,Ogontz 1
+42101026600,West Oak Lane-Cedarbrook,39.63667527,Above Average,58,Ozone concentration,Upper North,West Oak Lane-Cedarbrook 9
+42101026700,Ogontz,39.63371366,Above Average,51,Ozone concentration,Upper North,Ogontz 2
+42101026800,Oak Lane-Fernrock,39.63370994,Above Average,46,Ozone concentration,Upper North,Oak Lane-Fernrock 1
+42101026900,Oak Lane-Fernrock,39.63371366,Above Average,51,Ozone concentration,Upper North,Oak Lane-Fernrock 2
+42101027000,Oak Lane-Fernrock,39.63370994,Above Average,46,Ozone concentration,Upper North,Oak Lane-Fernrock 3
+42101027100,Oak Lane-Fernrock,39.63371366,Above Average,51,Ozone concentration,Upper North,Oak Lane-Fernrock 4
+42101027200,Oak Lane-Fernrock,39.63370994,Above Average,46,Ozone concentration,Upper North,Oak Lane-Fernrock 5
+42101027300,Olney-Feltonville,39.63371366,Above Average,51,Ozone concentration,Upper North,Olney-Feltonville 1
+42101027401,Olney-Feltonville,39.63370994,Above Average,46,Ozone concentration,Upper North,Olney-Feltonville 2
+42101027402,Olney-Feltonville,39.63370994,Above Average,46,Ozone concentration,Upper North,Olney-Feltonville 3
+42101027500,Olney-Feltonville,39.63371366,Above Average,51,Ozone concentration,Upper North,Olney-Feltonville 4
+42101027600,Oak Lane-Fernrock,39.63371366,Above Average,51,Ozone concentration,Upper North,Oak Lane-Fernrock 6
+42101027700,Ogontz,39.70196843,Above Average,59,Ozone concentration,Upper North,Ogontz 3
+42101027800,Ogontz,39.63371366,Above Average,51,Ozone concentration,Upper North,Ogontz 4
+42101027901,Ogontz,39.78487849,Above Average,63,Ozone concentration,Upper North,Ogontz 5
+42101027902,Ogontz,39.82089087,Above Average,64,Ozone concentration,Upper North,Ogontz 6
+42101028000,Logan,40.95452279,Average,123,Ozone concentration,Upper North,Logan 1
+42101028100,Logan,40.25541991,Above Average,68,Ozone concentration,Upper North,Logan 2
+42101028200,Logan,39.72411901,Above Average,60,Ozone concentration,Upper North,Logan 3
+42101028300,Logan,40.62831774,Above Average,87,Ozone concentration,Upper North,Logan 4
+42101028400,Logan,40.63005745,Average,88,Ozone concentration,Upper North,Logan 5
+42101028500,Olney-Feltonville,40.43735191,Above Average,75,Ozone concentration,Upper North,Olney-Feltonville 5
+42101028600,Olney-Feltonville,40.49985483,Above Average,76,Ozone concentration,Upper North,Olney-Feltonville 6
+42101028700,Olney-Feltonville,40.63005745,Average,88,Ozone concentration,Upper North,Olney-Feltonville 7
+42101028800,Olney-Feltonville,40.63005745,Average,88,Ozone concentration,Upper North,Olney-Feltonville 8
+42101028901,Hunting Park-Fairhill,40.63005745,Average,88,Ozone concentration,Upper North,Hunting Park-Fairhill 10
+42101028902,Olney-Feltonville,40.63005745,Average,88,Ozone concentration,Upper North,Olney-Feltonville 9
+42101029000,Olney-Feltonville,40.30910507,Above Average,72,Ozone concentration,Upper North,Olney-Feltonville 10
+42101029100,Lawndale-Crescentville,39.7836417,Above Average,62,Ozone concentration,Lower Northeast (West),Lawndale-Crescentville 1
+42101029200,Lawndale-Crescentville,39.35603052,Above Average,44,Ozone concentration,Lower Northeast (East),Lawndale-Crescentville 2
+42101029300,Frankford,36.81704029,Above Average,3,Ozone concentration,Lower Northeast (East),Frankford 1
+42101029400,Frankford,36.81704029,Above Average,3,Ozone concentration,Lower Northeast (East),Frankford 2
+42101029800,Wissinoming-Tacony,36.81703657,Above Average,1,Ozone concentration,Lower Northeast (East),Wissinoming-Tacony 1
+42101029900,Frankford,36.81703657,Above Average,1,Ozone concentration,Lower Northeast (East),Frankford 3
+42101030000,Frankford,36.81704029,Above Average,3,Ozone concentration,Lower Northeast (East),Frankford 4
+42101030100,Frankford,36.81704029,Above Average,3,Ozone concentration,Lower Northeast (East),Frankford 5
+42101030200,Frankford,36.81704029,Above Average,3,Ozone concentration,Lower Northeast (East),Frankford 6
+42101030501,Lawndale-Crescentville,39.0226841,Above Average,42,Ozone concentration,Lower Northeast (West),Lawndale-Crescentville 3
+42101030502,Lawndale-Crescentville,39.63010758,Above Average,45,Ozone concentration,Lower Northeast (West),Lawndale-Crescentville 4
+42101030600,Lawndale-Crescentville,38.20767999,Above Average,35,Ozone concentration,Lower Northeast (West),Lawndale-Crescentville 5
+42101030700,Lawndale-Crescentville,37.94375807,Above Average,18,Ozone concentration,Lower Northeast (West),Lawndale-Crescentville 6
+42101030800,Oxford Circle,37.94375807,Above Average,18,Ozone concentration,Lower Northeast (West),Oxford Circle 1
+42101030900,Oxford Circle,37.94375807,Above Average,18,Ozone concentration,Lower Northeast (West),Oxford Circle 2
+42101031000,Oxford Circle,37.9437618,Above Average,30,Ozone concentration,Lower Northeast (West),Oxford Circle 3
+42101031101,Oxford Circle,37.94375807,Above Average,18,Ozone concentration,Lower Northeast (West),Oxford Circle 4
+42101031102,Oxford Circle,37.94375807,Above Average,18,Ozone concentration,Lower Northeast (West),Oxford Circle 5
+42101031200,Oxford Circle,37.94375807,Above Average,18,Ozone concentration,Lower Northeast (West),Oxford Circle 6
+42101031300,Oxford Circle,37.94375807,Above Average,18,Ozone concentration,Lower Northeast (West),Oxford Circle 7
+42101031401,Oxford Circle,37.94375807,Above Average,18,Ozone concentration,Lower Northeast (West),Oxford Circle 8
+42101031402,Oxford Circle,37.94375807,Above Average,18,Ozone concentration,Lower Northeast (West),Oxford Circle 9
+42101031501,Mayfair-Holmesburg,37.9437618,Above Average,30,Ozone concentration,Lower Northeast (East),Mayfair-Holmesburg 1
+42101031502,Mayfair-Holmesburg,37.94375807,Above Average,18,Ozone concentration,Lower Northeast (East),Mayfair-Holmesburg 2
+42101031600,Mayfair-Holmesburg,37.55788505,Above Average,16,Ozone concentration,Lower Northeast (East),Mayfair-Holmesburg 3
+42101031700,Mayfair-Holmesburg,37.22647205,Above Average,14,Ozone concentration,Lower Northeast (East),Mayfair-Holmesburg 4
+42101031800,Mayfair-Holmesburg,37.28525341,Above Average,15,Ozone concentration,Lower Northeast (East),Mayfair-Holmesburg 5
+42101031900,Wissinoming-Tacony,36.81704029,Above Average,3,Ozone concentration,Lower Northeast (East),Wissinoming-Tacony 2
+42101032000,Wissinoming-Tacony,36.83665395,Above Average,12,Ozone concentration,Lower Northeast (East),Wissinoming-Tacony 3
+42101032100,Wissinoming-Tacony,36.81704029,Above Average,3,Ozone concentration,Lower Northeast (East),Wissinoming-Tacony 4
+42101032300,Wissinoming-Tacony,36.81704029,Above Average,3,Ozone concentration,Lower Northeast (East),Wissinoming-Tacony 5
+42101032500,Wissinoming-Tacony,36.97115183,Above Average,13,Ozone concentration,Lower Northeast (East),Wissinoming-Tacony 6
+42101032600,Mayfair-Holmesburg,38.85812685,Above Average,41,Ozone concentration,Lower Northeast (East),Mayfair-Holmesburg 6
+42101032900,Mayfair-Holmesburg,42.53507778,Average,219,Ozone concentration,Lower Northeast (East),Mayfair-Holmesburg 7
+42101033000,Mayfair-Holmesburg,41.78975523,Average,147,Ozone concentration,Lower Northeast (East),Mayfair-Holmesburg 8
+42101033101,Mayfair-Holmesburg,41.20164737,Average,129,Ozone concentration,Lower Northeast (East),Mayfair-Holmesburg 9
+42101033102,Mayfair-Holmesburg,42.65695065,Average,222,Ozone concentration,Lower Northeast (East),Mayfair-Holmesburg 10
+42101033200,Mayfair-Holmesburg,38.64293173,Above Average,39,Ozone concentration,Lower Northeast (East),Mayfair-Holmesburg 11
+42101033300,Mayfair-Holmesburg,38.23529184,Above Average,36,Ozone concentration,Lower Northeast (West),Mayfair-Holmesburg 12
+42101033400,Rhawnhurst-Fox Chase,37.94375807,Above Average,18,Ozone concentration,Lower Northeast (West),Rhawnhurst-Fox Chase 1
+42101033500,Rhawnhurst-Fox Chase,37.94375807,Above Average,18,Ozone concentration,Lower Northeast (West),Rhawnhurst-Fox Chase 2
+42101033600,Rhawnhurst-Fox Chase,38.02720085,Above Average,33,Ozone concentration,Lower Northeast (West),Rhawnhurst-Fox Chase 3
+42101033701,Rhawnhurst-Fox Chase,39.12755474,Above Average,43,Ozone concentration,Lower Northeast (West),Rhawnhurst-Fox Chase 4
+42101033702,Rhawnhurst-Fox Chase,40.28020054,Above Average,69,Ozone concentration,Lower Northeast (West),Rhawnhurst-Fox Chase 5
+42101033800,Rhawnhurst-Fox Chase,38.16907853,Above Average,34,Ozone concentration,Lower Northeast (West),Rhawnhurst-Fox Chase 6
+42101033900,Rhawnhurst-Fox Chase,39.72769156,Above Average,61,Ozone concentration,Lower Northeast (West),Rhawnhurst-Fox Chase 7
+42101034000,Rhawnhurst-Fox Chase,40.30146077,Above Average,70,Ozone concentration,Lower Northeast (West),Rhawnhurst-Fox Chase 8
+42101034100,Rhawnhurst-Fox Chase,40.33572599,Above Average,73,Ozone concentration,Lower Northeast (West),Rhawnhurst-Fox Chase 9
+42101034200,Rhawnhurst-Fox Chase,40.33572599,Above Average,73,Ozone concentration,Lower Northeast (West),Rhawnhurst-Fox Chase 10
+42101034400,Bustleton,40.84861651,Average,119,Ozone concentration,Far Northeast,Bustleton 1
+42101034501,Bustleton,44.01285574,Below Average,317,Ozone concentration,Far Northeast,Bustleton 2
+42101034502,Bustleton,43.62187907,Below Average,301,Ozone concentration,Far Northeast,Bustleton 3
+42101034600,Torresdale South-Pennypack Park,45.91611028,Below Average,361,Ozone concentration,Far Northeast,Torresdale South-Pennypack Park 1
+42101034701,Torresdale South-Pennypack Park,44.19441894,Below Average,323,Ozone concentration,Far Northeast,Torresdale South-Pennypack Park 2
+42101034702,Torresdale South-Pennypack Park,42.68036038,Average,226,Ozone concentration,Far Northeast,Torresdale South-Pennypack Park 3
+42101034801,Torresdale South-Pennypack Park,42.65695065,Average,222,Ozone concentration,Far Northeast,Torresdale South-Pennypack Park 4
+42101034802,Torresdale South-Pennypack Park,43.62909123,Below Average,302,Ozone concentration,Far Northeast,Torresdale South-Pennypack Park 5
+42101034803,Torresdale South-Pennypack Park,42.90434718,Average,232,Ozone concentration,Far Northeast,Torresdale South-Pennypack Park 6
+42101034900,Torresdale South-Pennypack Park,42.65695065,Average,222,Ozone concentration,Far Northeast,Torresdale South-Pennypack Park 7
+42101035100,Torresdale South-Pennypack Park,43.04537922,Average,235,Ozone concentration,Far Northeast,Torresdale South-Pennypack Park 8
+42101035200,Torresdale South-Pennypack Park,42.67777875,Average,225,Ozone concentration,Far Northeast,Torresdale South-Pennypack Park 9
+42101035301,Torresdale North,44.63692009,Below Average,354,Ozone concentration,Far Northeast,Torresdale North 1
+42101035302,Torresdale North,46.0408628,Below Average,362,Ozone concentration,Far Northeast,Torresdale North 2
+42101035500,Bustleton,46.10234499,Below Average,364,Ozone concentration,Far Northeast,Bustleton 4
+42101035601,Bustleton,43.91289502,Below Average,313,Ozone concentration,Far Northeast,Bustleton 5
+42101035602,Bustleton,44.06721145,Below Average,320,Ozone concentration,Far Northeast,Bustleton 6
+42101035701,Somerton,46.27465829,Below Average,371,Ozone concentration,Far Northeast,Somerton 1
+42101035702,Somerton,45.62503844,Below Average,359,Ozone concentration,Far Northeast,Somerton 2
+42101035800,Somerton,46.27465457,Below Average,370,Ozone concentration,Far Northeast,Somerton 3
+42101035900,Somerton,46.27407715,Below Average,369,Ozone concentration,Far Northeast,Somerton 4
+42101036000,Somerton,46.24413699,Below Average,367,Ozone concentration,Far Northeast,Somerton 5
+42101036100,Torresdale North,46.18566483,Below Average,366,Ozone concentration,Far Northeast,Torresdale North 3
+42101036201,Torresdale North,46.13078758,Below Average,365,Ozone concentration,Far Northeast,Torresdale North 4
+42101036202,Torresdale North,45.50395161,Below Average,358,Ozone concentration,Far Northeast,Torresdale North 5
+42101036203,Torresdale North,45.31641304,Below Average,355,Ozone concentration,Far Northeast,Torresdale North 6
+42101036301,Torresdale North,45.33856362,Below Average,356,Ozone concentration,Far Northeast,Torresdale North 7
+42101036302,Torresdale North,45.68053037,Below Average,360,Ozone concentration,Far Northeast,Torresdale North 8
+42101036303,Torresdale North,45.41812837,Below Average,357,Ozone concentration,Far Northeast,Torresdale North 9
+42101036400,Torresdale North,46.0575819,Below Average,363,Ozone concentration,Far Northeast,Torresdale North 10
+42101036501,Somerton,46.27165943,Below Average,368,Ozone concentration,Far Northeast,Somerton 6
+42101036502,Somerton,46.27465829,Below Average,371,Ozone concentration,Far Northeast,Somerton 7
+42101036600,Center City East,44.32732239,Below Average,332,Ozone concentration,Greater Center City,Center City East 11
+42101036700,Northern Liberties-West Kensington,44.34606433,Below Average,333,Ozone concentration,Greater Center City,Northern Liberties-West Kensington 8
+42101036900,University City,43.47263277,Below Average,288,Ozone concentration,Southwest,University City 12
+42101037200,Snyder-Whitman,42.77114943,Average,228,Ozone concentration,South,Snyder-Whitman 5
+42101037300,Grays Ferry-Passyunk,42.18391702,Average,172,Ozone concentration,South,Grays Ferry-Passyunk 4
+42101037500,Overbrook Park-Wynnefield Heights,42.3486568,Average,213,Ozone concentration,West,Overbrook Park-Wynnefield Heights 11
+42101037600,Northern Liberties-West Kensington,44.03042421,Below Average,319,Ozone concentration,Greater Center City,Northern Liberties-West Kensington 9
+42101037700,Poplar-Temple,44.37445477,Below Average,335,Ozone concentration,Lower North,Poplar-Temple 8
+42101037800,Richmond-Bridesburg,41.41690955,Average,131,Ozone concentration,East,Richmond-Bridesburg 5
+42101037900,Richmond-Bridesburg,40.30757397,Above Average,71,Ozone concentration,East,Richmond-Bridesburg 6
+42101038000,Frankford,36.81704029,Above Average,3,Ozone concentration,Lower Northeast (East),Frankford 7
+42101038100,Wissinoming-Tacony,38.30060363,Above Average,38,Ozone concentration,Lower Northeast (East),Wissinoming-Tacony 7
+42101038200,Juniata Park-Harrowgate,39.93805498,Above Average,66,Ozone concentration,East,Juniata Park-Harrowgate 5
+42101038300,Hunting Park-Fairhill,40.63005745,Average,88,Ozone concentration,East,Hunting Park-Fairhill 11
+42101038400,Roxborough-Manayunk,41.75655916,Average,144,Ozone concentration,Northwest,Roxborough-Manayunk 13
+42101038500,Chestnut Hill-West Mt. Airy,40.96644744,Average,125,Ozone concentration,Northwest,Chestnut Hill-West Mt. Airy 7
+42101038600,Chestnut Hill-West Mt. Airy,40.92008621,Average,121,Ozone concentration,Northwest,Chestnut Hill-West Mt. Airy 8
+42101038700,Chestnut Hill-West Mt. Airy,41.08327255,Average,127,Ozone concentration,Northwest,Chestnut Hill-West Mt. Airy 9
+42101038800,Chestnut Hill-West Mt. Airy,40.75759277,Average,106,Ozone concentration,Northwest,Chestnut Hill-West Mt. Airy 10
+42101038900,East Mt. Airy,40.7576263,Average,115,Ozone concentration,Northwest,East Mt. Airy 6
+42101039000,Lawndale-Crescentville,38.01907226,Above Average,32,Ozone concentration,Lower Northeast (West),Lawndale-Crescentville 7

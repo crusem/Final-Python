@@ -1,6 +1,26 @@
 # Our Model
 
-Our model uses a series of risk factors to build a machine learning algorithm to predict asthma prevalence by census tract in Philadelphia. Our process is outlined in the exploratory analysis, regression and cross validation, and prediction sections of this project. 
+## Project Overview: Predicting Asthma Prevalence in Philadelphia
+
+In this project, our goal is to predict asthma prevalence in Philadelphia census tracts using a machine learning algorithm. The entire process can be categorized into three main sections: Exploratory Analysis, Regression and Cross Validation, and Prediction.
+
+## Exploratory Analysis:
+
+Conducted an in-depth exploration of the dataset, identifying relevant risk factors.
+Explored relationships between variables and asthma prevalence.
+Cleaned and preprocessed data to prepare it for model training.
+
+## Regression and Cross Validation:
+
+Utilized regression analysis to understand the impact of various risk factors on asthma prevalence.
+Employed cross-validation techniques to assess model performance and generalizability.
+Explored different regression models to identify the most effective one.
+
+Prediction using Random Forest Model:
+
+After thorough cross-validation, opted for the Random Forest model as the most suitable for our prediction task.
+Leveraged scikit-learn's machine learning library for model implementation.
+Trained the model on the identified risk factors and census tract data.
 
 
 

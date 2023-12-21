@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Predicting Asthma Prevalence by Census Tracts in Philadeplhia, PA - MUSA 550 Final Project Template</title>
+<title>Predicting Asthma Prevalence by Census Tracts in Philadelphia, PA - Predicting Asthma Prevalence by Census Tracts in Philadeplhia, PA</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -87,13 +87,8 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
       <a href="./index.html" class="sidebar-logo-link">
-      <img src="./images/course-icon.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <img src="./images/asthma.jpg" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
-      <div class="sidebar-tools-main tools-wide">
-    <a href="https://nickhand.dev" rel="" title="Personal Website" class="quarto-navigation-tool px-1" aria-label="Personal Website"><i class="bi bi-globe"></i></a>
-    <a href="https://github.com/MUSA-550-Fall-2023/" rel="" title="MUSA 550 GitHub" class="quarto-navigation-tool px-1" aria-label="MUSA 550 GitHub"><i class="bi bi-github"></i></a>
-    <a href="https://twitter.com/nicholashand" rel="" title="Nick Hand Twitter" class="quarto-navigation-tool px-1" aria-label="Nick Hand Twitter"><i class="bi bi-twitter"></i></a>
-</div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
@@ -108,16 +103,10 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Introduction</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About me</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./Our Model/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Analysis</span></a>
+            <a href="./Our Model/About1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Our Model</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -130,11 +119,17 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </li>
           <li class="sidebar-item">
- <span class="menu-text">Our Model/2-Regression-Analysis.ipynb</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="./Our Model/2-Regression-Analysis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Regression Analysis &amp; Cross-Validation</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
- <span class="menu-text">Our Model/3-Predictions.ipynb</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="./Our Model/3-Predictions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Predictions</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -147,8 +142,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome!</a></li>
-  <li><a href="#find-out-more" id="toc-find-out-more" class="nav-link" data-scroll-target="#find-out-more">Find out more</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#about-the-authors" id="toc-about-the-authors" class="nav-link" data-scroll-target="#about-the-authors">About the Authors</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/MUSA-550-Fall-2023/Final-Python-MC-AFA/blob/main/index.qmd" class="toc-action">View source</a></p></div></div></nav>
     </div>
@@ -157,8 +152,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">MUSA 550 Final Project Template</h1>
-<p class="subtitle lead">An example website demonstrating the power of Quarto for sharing analyses on the web</p>
+<h1 class="title">Predicting Asthma Prevalence by Census Tracts in Philadeplhia, PA</h1>
+<p class="subtitle lead">Marissa and Alyssa</p>
 </div>
 
 
@@ -173,28 +168,13 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="welcome" class="level2">
-<h2 class="anchored" data-anchor-id="welcome">Welcome!</h2>
-<p>We can create beautiful websites that describe complex technical analyses in Python using <a href="https://quarto.org">Quarto</a> and deploy them online using <a href="https://pages.github.com/">GitHub Pages</a>. This combination of tools is a really powerful way to create and share your work. This website is a demo that is meant to be used to create your own Quarto website for the final project in MUSA 550.</p>
-<p>Quarto is a relatively new tool, but is becoming popular quickly. It’s a successor to the Rmarkdown ecosystem that combines functionality into a single tool and also extends its computation power to other languages. Most importantly for us, Quarto supports executing Python code, allowing us to convert Jupyter notebooks to HTML and share them online.</p>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This template site, including the layout it uses, is just a suggested place to start! For your final project, you’re welcome (and encouraged) to make as many changes as you like to best fit your project.</p>
-</div>
-</div>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Asthma, a chronic lung disease, is largely impacted by a combination of genetics and social determinants of health, defined as conditions in the environments that people are born and live in that affect health and quality of life outcomes [1]. Within the Philadelphia region, there are a combination of both indoor and outdoor factors that contribute to a high prevalence of asthma. In understanding this, according to the Center for Disease Control and Prevention(CDC), 5.8 percent of children in the United States have asthma, while 21 percent of children in Philadelphia have asthma [2]. Philadelphia was ranked the seventh most challenging place to live with asthma, where the burden is high among racial and ethnic groups, where Black individuals are approximately three times more likely to die from asthma than white individuals [2]. With this context, our analysis builds a random forest regression model in order to predict asthma prevalence by census tract in the City of Philadelphia, validating our model against the estimated asthma prevalence from the CDC. In conducting a literature review, our prediction model identified variables/predictors that lead to disproportionate rates of asthma in the City of Philadelphia region. These predictors originate from the Environmental Justice Index [3], CDC’s PLACES[4] and Philadelphia’s Social Progress Index[5].</p>
 </section>
-<section id="find-out-more" class="level2">
-<h2 class="anchored" data-anchor-id="find-out-more">Find out more</h2>
-<p>The code for this repository is hosted on our course’s GitHub page: <a href="https://github.com/MUSA-550-Fall-2023/quarto-website-template">https://github.com/MUSA-550-Fall-2023/quarto-website-template</a>.</p>
-<p>We covered the basics of getting started with Quarto and GitHub Pages in week 9. Take a look at <a href="https://musa-550-fall-2023.github.io/content/week-9/lecture-9A.html">the slides for lecture 9A</a> to find out more.</p>
+<section id="about-the-authors" class="level2">
+<h2 class="anchored" data-anchor-id="about-the-authors">About the Authors</h2>
+<p>Alyssa Felix-Arreola, B.S. in Global Health from the University of Southern California, and Marissa Cruse, B.S. in Economics from the University of Nebraska-Lincoln completed this project as our final assignment for Geospatial Data Science In Python, a course taught by Nick Hand at the University of Pennsylvania in the fall semester of 2023.</p>
 
 
 </section>

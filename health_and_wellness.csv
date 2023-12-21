@@ -1,0 +1,373 @@
+geoid,neighborhood_name,value,average_label,rank,variable,region_name,tract_name
+42101000100,Center City East,83.97641047889493,Above Average,3,Health and Wellness,Greater Center City,Center City East 1
+42101000200,Center City East,74.59625289472827,Above Average,29,Health and Wellness,Greater Center City,Center City East 2
+42101000300,Center City West,74.24922109968497,Above Average,31,Health and Wellness,Greater Center City,Center City West 1
+42101000401,Center City West,70.4219936748047,Above Average,44,Health and Wellness,Greater Center City,Center City West 2
+42101000402,Center City West,44.042336673428764,Average,246,Health and Wellness,Greater Center City,Center City West 3
+42101000500,Center City East,70.60800272700573,Above Average,41,Health and Wellness,Greater Center City,Center City East 3
+42101000600,Center City East,85.45708024774852,Above Average,1,Health and Wellness,Greater Center City,Center City East 4
+42101000700,Center City West,79.70012423924315,Above Average,14,Health and Wellness,Greater Center City,Center City West 4
+42101000801,Center City West,83.53165343788008,Above Average,4,Health and Wellness,Greater Center City,Center City West 5
+42101000803,Center City West,69.09999655068277,Above Average,50,Health and Wellness,Greater Center City,Center City West 6
+42101000804,Center City West,78.57717682513206,Above Average,16,Health and Wellness,Greater Center City,Center City West 7
+42101000901,Center City East,81.58896461083216,Above Average,9,Health and Wellness,Greater Center City,Center City East 5
+42101000902,Center City East,68.53066838763374,Above Average,54,Health and Wellness,Greater Center City,Center City East 6
+42101001001,Center City East,47.101955808213106,Average,209,Health and Wellness,Greater Center City,Center City East 7
+42101001002,Center City East,59.33656974069897,Above Average,81,Health and Wellness,Greater Center City,Center City East 8
+42101001101,Center City East,72.8864621999092,Above Average,35,Health and Wellness,Greater Center City,Center City East 9
+42101001102,Center City East,82.66144301230436,Above Average,5,Health and Wellness,Greater Center City,Center City East 10
+42101001201,Center City West,77.14066612883694,Above Average,19,Health and Wellness,Greater Center City,Center City West 8
+42101001202,Center City West,81.70454806187797,Above Average,7,Health and Wellness,Greater Center City,Center City West 9
+42101001300,Schuylkill-Point Breeze,77.61689326071996,Above Average,18,Health and Wellness,Greater Center City,Schuylkill-Point Breeze 1
+42101001400,Schuylkill-Point Breeze,75.03967877655278,Above Average,28,Health and Wellness,Greater Center City,Schuylkill-Point Breeze 2
+42101001500,Pennsport-Queen Village,77.81958727262838,Above Average,17,Health and Wellness,Greater Center City,Pennsport-Queen Village 1
+42101001600,Pennsport-Queen Village,80.84231672342783,Above Average,13,Health and Wellness,Greater Center City,Pennsport-Queen Village 2
+42101001700,Pennsport-Queen Village,78.9544926120495,Above Average,15,Health and Wellness,Greater Center City,Pennsport-Queen Village 3
+42101001800,Pennsport-Queen Village,73.79504587127916,Above Average,33,Health and Wellness,Greater Center City,Pennsport-Queen Village 4
+42101001900,Schuylkill-Point Breeze,81.21837669376177,Above Average,10,Health and Wellness,Greater Center City,Schuylkill-Point Breeze 3
+42101002000,Schuylkill-Point Breeze,50.273163954700514,Average,167,Health and Wellness,South,Schuylkill-Point Breeze 4
+42101002100,Schuylkill-Point Breeze,54.95436576135494,Average,118,Health and Wellness,South,Schuylkill-Point Breeze 5
+42101002200,Schuylkill-Point Breeze,64.20619697820838,Above Average,63,Health and Wellness,South,Schuylkill-Point Breeze 6
+42101002300,Southwark-Bella Vista,68.71742820600316,Above Average,51,Health and Wellness,Greater Center City,Southwark-Bella Vista 1
+42101002400,Southwark-Bella Vista,74.03675681963743,Above Average,32,Health and Wellness,Greater Center City,Southwark-Bella Vista 2
+42101002500,Pennsport-Queen Village,59.695290087918,Above Average,80,Health and Wellness,Greater Center City,Pennsport-Queen Village 5
+42101002701,Pennsport-Queen Village,66.9937897540885,Above Average,57,Health and Wellness,South,Pennsport-Queen Village 6
+42101002702,Pennsport-Queen Village,59.11071213396936,Above Average,83,Health and Wellness,South,Pennsport-Queen Village 7
+42101002801,Southwark-Bella Vista,67.54649616943242,Above Average,55,Health and Wellness,South,Southwark-Bella Vista 3
+42101002802,Southwark-Bella Vista,62.7247791246448,Above Average,71,Health and Wellness,South,Southwark-Bella Vista 4
+42101002900,Southwark-Bella Vista,56.27417538614865,Average,106,Health and Wellness,South,Southwark-Bella Vista 5
+42101003001,Southwark-Bella Vista,68.68167447392385,Above Average,52,Health and Wellness,South,Southwark-Bella Vista 6
+42101003002,Southwark-Bella Vista,52.67642936132272,Average,142,Health and Wellness,South,Southwark-Bella Vista 7
+42101003100,Schuylkill-Point Breeze,48.8448932515402,Average,184,Health and Wellness,South,Schuylkill-Point Breeze 7
+42101003200,Schuylkill-Point Breeze,39.11743844643079,Below Average,288,Health and Wellness,South,Schuylkill-Point Breeze 8
+42101003300,Grays Ferry-Passyunk,42.83741669719659,Average,257,Health and Wellness,South,Grays Ferry-Passyunk 1
+42101003600,Grays Ferry-Passyunk,33.27682803763411,Below Average,321,Health and Wellness,South,Grays Ferry-Passyunk 2
+42101003701,South Broad-Girard Estates,48.64670575809194,Average,187,Health and Wellness,South,South Broad-Girard Estates 1
+42101003702,South Broad-Girard Estates,51.51467459937212,Average,152,Health and Wellness,South,South Broad-Girard Estates 2
+42101003800,Grays Ferry-Passyunk,43.611955257364954,Average,252,Health and Wellness,South,Grays Ferry-Passyunk 3
+42101003901,South Broad-Girard Estates,55.67854382589545,Average,111,Health and Wellness,South,South Broad-Girard Estates 3
+42101003902,South Broad-Girard Estates,43.82186979033386,Average,249,Health and Wellness,South,South Broad-Girard Estates 4
+42101004001,South Broad-Girard Estates,51.10632030928737,Average,156,Health and Wellness,South,South Broad-Girard Estates 5
+42101004002,South Broad-Girard Estates,46.10154093611319,Average,223,Health and Wellness,South,South Broad-Girard Estates 6
+42101004101,Snyder-Whitman,52.03146393394394,Average,147,Health and Wellness,South,Snyder-Whitman 1
+42101004102,Snyder-Whitman,44.292015394782,Average,244,Health and Wellness,South,Snyder-Whitman 2
+42101004201,Snyder-Whitman,57.05918317527333,Average,96,Health and Wellness,South,Snyder-Whitman 3
+42101004202,Snyder-Whitman,44.89223123042015,Average,232,Health and Wellness,South,Snyder-Whitman 4
+42101005400,Eastwick-Elmwood,52.03145871983183,Average,148,Health and Wellness,Southwest,Eastwick-Elmwood 1
+42101005500,Eastwick-Elmwood,51.486978582058434,Average,154,Health and Wellness,Southwest,Eastwick-Elmwood 2
+42101005600,Eastwick-Elmwood,41.44999601240385,Average,268,Health and Wellness,Southwest,Eastwick-Elmwood 3
+42101006000,Eastwick-Elmwood,45.60797282190632,Average,228,Health and Wellness,Southwest,Eastwick-Elmwood 4
+42101006100,Eastwick-Elmwood,47.48242533140064,Average,205,Health and Wellness,Southwest,Eastwick-Elmwood 5
+42101006200,Eastwick-Elmwood,47.186102460445966,Average,208,Health and Wellness,Southwest,Eastwick-Elmwood 6
+42101006300,Paschall-Kingsessing,43.68530429828124,Average,251,Health and Wellness,Southwest,Paschall-Kingsessing 1
+42101006400,Paschall-Kingsessing,48.21685712728057,Average,190,Health and Wellness,Southwest,Paschall-Kingsessing 2
+42101006500,Paschall-Kingsessing,40.695932833917475,Average,275,Health and Wellness,Southwest,Paschall-Kingsessing 3
+42101006600,Paschall-Kingsessing,26.28130417178223,Below Average,353,Health and Wellness,Southwest,Paschall-Kingsessing 4
+42101006700,Eastwick-Elmwood,50.17237808612857,Average,170,Health and Wellness,Southwest,Eastwick-Elmwood 7
+42101006900,Paschall-Kingsessing,32.33908424514611,Below Average,329,Health and Wellness,Southwest,Paschall-Kingsessing 5
+42101007000,Paschall-Kingsessing,41.384843709236264,Average,270,Health and Wellness,Southwest,Paschall-Kingsessing 6
+42101007101,Paschall-Kingsessing,22.5538796281482,Below Average,367,Health and Wellness,Southwest,Paschall-Kingsessing 7
+42101007102,Paschall-Kingsessing,33.90032581011364,Below Average,318,Health and Wellness,Southwest,Paschall-Kingsessing 8
+42101007200,Paschall-Kingsessing,36.07244066855256,Below Average,309,Health and Wellness,Southwest,Paschall-Kingsessing 9
+42101007300,Paschall-Kingsessing,47.00576286384744,Average,210,Health and Wellness,Southwest,Paschall-Kingsessing 10
+42101007400,Paschall-Kingsessing,42.62217802724213,Average,260,Health and Wellness,Southwest,Paschall-Kingsessing 11
+42101007700,University City,69.40996016586949,Above Average,49,Health and Wellness,Southwest,University City 1
+42101007800,University City,66.96484358076135,Above Average,58,Health and Wellness,Southwest,University City 2
+42101007900,University City,73.72584944149878,Above Average,34,Health and Wellness,Southwest,University City 3
+42101008000,Cobbs Creek,51.50303166530833,Average,153,Health and Wellness,Southwest,Cobbs Creek 1
+42101008101,Cobbs Creek,34.25927093266154,Below Average,317,Health and Wellness,Southwest,Cobbs Creek 2
+42101008102,Cobbs Creek,30.42993287847127,Below Average,336,Health and Wellness,Southwest,Cobbs Creek 3
+42101008200,Cobbs Creek,40.59226125571574,Average,276,Health and Wellness,Southwest,Cobbs Creek 4
+42101008301,Cobbs Creek,26.17786802959924,Below Average,354,Health and Wellness,Southwest,Cobbs Creek 5
+42101008302,Cobbs Creek,37.49801244606149,Below Average,300,Health and Wellness,Southwest,Cobbs Creek 6
+42101008400,Cobbs Creek,36.617696209935744,Below Average,304,Health and Wellness,Southwest,Cobbs Creek 7
+42101008500,Cobbs Creek,34.43333854276625,Below Average,316,Health and Wellness,Southwest,Cobbs Creek 8
+42101008601,University City,76.235023234,Above Average,21,Health and Wellness,Southwest,University City 4
+42101008602,University City,53.914876269995226,Average,128,Health and Wellness,Southwest,University City 5
+42101008701,University City,81.08890530960483,Above Average,11,Health and Wellness,Southwest,University City 6
+42101008702,University City,81.59878293460568,Above Average,8,Health and Wellness,Southwest,University City 7
+42101008801,University City,69.94102531775701,Above Average,46,Health and Wellness,Southwest,University City 8
+42101008802,University City,64.36741471952922,Above Average,62,Health and Wellness,Southwest,University City 9
+42101009000,University City,60.012966331599024,Above Average,77,Health and Wellness,West,University City 10
+42101009100,University City,55.28891263019045,Average,114,Health and Wellness,West,University City 11
+42101009200,Mill Creek-Parkside,48.15586841108178,Average,193,Health and Wellness,West,Mill Creek-Parkside 1
+42101009300,Haddington-Overbrook,40.19225751824794,Average,279,Health and Wellness,West,Haddington-Overbrook 1
+42101009400,Haddington-Overbrook,24.560517034179217,Below Average,357,Health and Wellness,West,Haddington-Overbrook 2
+42101009500,Haddington-Overbrook,32.4444481009869,Below Average,326,Health and Wellness,West,Haddington-Overbrook 3
+42101009600,Haddington-Overbrook,32.33494454800832,Below Average,330,Health and Wellness,West,Haddington-Overbrook 4
+42101009801,Overbrook Park-Wynnefield Heights,59.75269934866936,Above Average,79,Health and Wellness,West,Overbrook Park-Wynnefield Heights 1
+42101009802,Overbrook Park-Wynnefield Heights,54.744491601118106,Average,122,Health and Wellness,West,Overbrook Park-Wynnefield Heights 2
+42101010000,Haddington-Overbrook,47.98472357695535,Average,198,Health and Wellness,West,Haddington-Overbrook 5
+42101010100,Haddington-Overbrook,43.72419133663246,Average,250,Health and Wellness,West,Haddington-Overbrook 6
+42101010200,Haddington-Overbrook,28.971276402736486,Below Average,341,Health and Wellness,West,Haddington-Overbrook 7
+42101010300,Mill Creek-Parkside,41.846079689037225,Average,264,Health and Wellness,West,Mill Creek-Parkside 2
+42101010400,Mill Creek-Parkside,29.551088777273822,Below Average,338,Health and Wellness,West,Mill Creek-Parkside 3
+42101010500,Mill Creek-Parkside,19.089545379394004,Below Average,370,Health and Wellness,West,Mill Creek-Parkside 4
+42101010600,Mill Creek-Parkside,20.527535681574907,Below Average,368,Health and Wellness,West,Mill Creek-Parkside 5
+42101010700,Mill Creek-Parkside,32.36137768002398,Below Average,328,Health and Wellness,West,Mill Creek-Parkside 6
+42101010800,Mill Creek-Parkside,39.06971655083703,Below Average,289,Health and Wellness,West,Mill Creek-Parkside 7
+42101010900,Mill Creek-Parkside,40.459650574016116,Average,277,Health and Wellness,West,Mill Creek-Parkside 8
+42101011000,Mill Creek-Parkside,25.614720467207448,Below Average,355,Health and Wellness,West,Mill Creek-Parkside 9
+42101011100,Mill Creek-Parkside,39.60542030161331,Below Average,283,Health and Wellness,West,Mill Creek-Parkside 10
+42101011200,Haddington-Overbrook,36.16431174376536,Below Average,307,Health and Wellness,West,Haddington-Overbrook 8
+42101011300,Haddington-Overbrook,32.00322106257816,Below Average,332,Health and Wellness,West,Haddington-Overbrook 9
+42101011400,Haddington-Overbrook,47.496498914200345,Average,204,Health and Wellness,West,Haddington-Overbrook 10
+42101011500,Haddington-Overbrook,56.92618098334076,Average,97,Health and Wellness,West,Haddington-Overbrook 11
+42101011700,Overbrook Park-Wynnefield Heights,64.3764984598676,Above Average,61,Health and Wellness,West,Overbrook Park-Wynnefield Heights 3
+42101011800,Overbrook Park-Wynnefield Heights,38.01171271260733,Below Average,297,Health and Wellness,West,Overbrook Park-Wynnefield Heights 4
+42101011900,Overbrook Park-Wynnefield Heights,38.92746358346082,Below Average,292,Health and Wellness,West,Overbrook Park-Wynnefield Heights 5
+42101012000,Overbrook Park-Wynnefield Heights,63.48827233566508,Above Average,68,Health and Wellness,West,Overbrook Park-Wynnefield Heights 6
+42101012100,Overbrook Park-Wynnefield Heights,42.862061289705814,Average,256,Health and Wellness,West,Overbrook Park-Wynnefield Heights 7
+42101012201,Overbrook Park-Wynnefield Heights,50.755744547511654,Average,162,Health and Wellness,West,Overbrook Park-Wynnefield Heights 8
+42101012203,Overbrook Park-Wynnefield Heights,74.43352119719047,Above Average,30,Health and Wellness,West,Overbrook Park-Wynnefield Heights 9
+42101012204,Overbrook Park-Wynnefield Heights,32.72542707169382,Below Average,323,Health and Wellness,West,Overbrook Park-Wynnefield Heights 10
+42101012500,Fairmount-Spring Garden,75.08216975145461,Above Average,27,Health and Wellness,Greater Center City,Fairmount-Spring Garden 1
+42101013100,Poplar-Temple,55.908263239407454,Average,108,Health and Wellness,Greater Center City,Poplar-Temple 1
+42101013200,Poplar-Temple,32.00287678575385,Below Average,333,Health and Wellness,Greater Center City,Poplar-Temple 2
+42101013300,Fairmount-Spring Garden,72.38826159789843,Above Average,37,Health and Wellness,Greater Center City,Fairmount-Spring Garden 2
+42101013401,Fairmount-Spring Garden,45.44746656687653,Average,229,Health and Wellness,Greater Center City,Fairmount-Spring Garden 3
+42101013402,Fairmount-Spring Garden,84.10845268103145,Above Average,2,Health and Wellness,Greater Center City,Fairmount-Spring Garden 4
+42101013500,Fairmount-Spring Garden,70.43711651181867,Above Average,43,Health and Wellness,Greater Center City,Fairmount-Spring Garden 5
+42101013601,Fairmount-Spring Garden,76.0957249291567,Above Average,23,Health and Wellness,Greater Center City,Fairmount-Spring Garden 6
+42101013602,Fairmount-Spring Garden,76.17495066322876,Above Average,22,Health and Wellness,Greater Center City,Fairmount-Spring Garden 7
+42101013700,Strawberry Mansion,54.46555750650372,Average,126,Health and Wellness,Lower North,Strawberry Mansion 1
+42101013800,Sharswood-Stanton,44.76010737465245,Average,237,Health and Wellness,Lower North,Sharswood-Stanton 1
+42101013900,Sharswood-Stanton,35.04277904319942,Below Average,312,Health and Wellness,Lower North,Sharswood-Stanton 2
+42101014000,Sharswood-Stanton,52.42386787014611,Average,143,Health and Wellness,Lower North,Sharswood-Stanton 3
+42101014100,Poplar-Temple,27.390792904142728,Below Average,349,Health and Wellness,Lower North,Poplar-Temple 3
+42101014200,Northern Liberties-West Kensington,82.34038929360501,Above Average,6,Health and Wellness,Greater Center City,Northern Liberties-West Kensington 1
+42101014300,Lower Kensington,70.26937278926451,Above Average,45,Health and Wellness,East,Lower Kensington 1
+42101014400,Northern Liberties-West Kensington,63.571011219930085,Above Average,67,Health and Wellness,East,Northern Liberties-West Kensington 2
+42101014500,Poplar-Temple,53.91763882564138,Average,127,Health and Wellness,Lower North,Poplar-Temple 4
+42101014600,Poplar-Temple,60.77986031726876,Above Average,74,Health and Wellness,Lower North,Poplar-Temple 5
+42101014700,Sharswood-Stanton,48.30376407041642,Average,189,Health and Wellness,Lower North,Sharswood-Stanton 4
+42101014800,Sharswood-Stanton,23.57684628407515,Below Average,364,Health and Wellness,Lower North,Sharswood-Stanton 5
+42101014900,Strawberry Mansion,24.045967149943944,Below Average,362,Health and Wellness,Lower North,Strawberry Mansion 2
+42101015101,Strawberry Mansion,29.963486742237997,Below Average,337,Health and Wellness,Lower North,Strawberry Mansion 3
+42101015102,Strawberry Mansion,23.13893242700778,Below Average,366,Health and Wellness,Lower North,Strawberry Mansion 4
+42101015200,Strawberry Mansion,32.6044929760594,Below Average,325,Health and Wellness,Lower North,Strawberry Mansion 5
+42101015300,Sharswood-Stanton,47.837273641420076,Average,200,Health and Wellness,Lower North,Sharswood-Stanton 6
+42101015600,Northern Liberties-West Kensington,40.854736822425735,Average,274,Health and Wellness,East,Northern Liberties-West Kensington 3
+42101015700,Northern Liberties-West Kensington,59.760569317898586,Above Average,78,Health and Wellness,East,Northern Liberties-West Kensington 4
+42101015800,Lower Kensington,63.99013387580544,Above Average,65,Health and Wellness,East,Lower Kensington 2
+42101016000,Lower Kensington,62.950063201142534,Above Average,70,Health and Wellness,East,Lower Kensington 3
+42101016100,Lower Kensington,64.4296057924842,Above Average,60,Health and Wellness,East,Lower Kensington 4
+42101016200,Northern Liberties-West Kensington,49.10904885972037,Average,178,Health and Wellness,East,Northern Liberties-West Kensington 5
+42101016300,Northern Liberties-West Kensington,39.50128623422979,Below Average,285,Health and Wellness,East,Northern Liberties-West Kensington 6
+42101016400,Northern Liberties-West Kensington,38.84603243688204,Below Average,293,Health and Wellness,East,Northern Liberties-West Kensington 7
+42101016500,Poplar-Temple,15.533833930219055,Below Average,372,Health and Wellness,Lower North,Poplar-Temple 6
+42101016600,Poplar-Temple,46.895329758184026,Average,212,Health and Wellness,Lower North,Poplar-Temple 7
+42101016701,Sharswood-Stanton,35.025022711009754,Below Average,313,Health and Wellness,Lower North,Sharswood-Stanton 7
+42101016702,Sharswood-Stanton,35.67178221788663,Below Average,310,Health and Wellness,Lower North,Sharswood-Stanton 8
+42101016800,Strawberry Mansion,27.10830944155203,Below Average,350,Health and Wellness,Lower North,Strawberry Mansion 6
+42101016901,Strawberry Mansion,35.22713238762425,Below Average,311,Health and Wellness,Lower North,Strawberry Mansion 7
+42101016902,Strawberry Mansion,23.925041658583215,Below Average,363,Health and Wellness,Lower North,Strawberry Mansion 8
+42101017000,Nicetown-Tioga,58.41868061520446,Above Average,87,Health and Wellness,Lower North,Nicetown-Tioga 1
+42101017100,Nicetown-Tioga,38.42805029634309,Below Average,296,Health and Wellness,Lower North,Nicetown-Tioga 2
+42101017201,Nicetown-Tioga,41.797648959879915,Average,266,Health and Wellness,Lower North,Nicetown-Tioga 3
+42101017202,Nicetown-Tioga,23.15593882494508,Below Average,365,Health and Wellness,Lower North,Nicetown-Tioga 4
+42101017300,Nicetown-Tioga,29.02947415302685,Below Average,340,Health and Wellness,Lower North,Nicetown-Tioga 5
+42101017400,Hunting Park-Fairhill,24.30269244974207,Below Average,359,Health and Wellness,Lower North,Hunting Park-Fairhill 1
+42101017500,Hunting Park-Fairhill,29.063366097812494,Below Average,339,Health and Wellness,East,Hunting Park-Fairhill 2
+42101017601,Hunting Park-Fairhill,37.29893235801358,Below Average,301,Health and Wellness,East,Hunting Park-Fairhill 3
+42101017602,Hunting Park-Fairhill,28.210361059015632,Below Average,344,Health and Wellness,East,Hunting Park-Fairhill 4
+42101017701,Upper Kensington,38.58777134694065,Below Average,294,Health and Wellness,East,Upper Kensington 1
+42101017702,Upper Kensington,30.4765225829189,Below Average,335,Health and Wellness,East,Upper Kensington 2
+42101017800,Upper Kensington,37.27275013838035,Below Average,302,Health and Wellness,East,Upper Kensington 3
+42101017900,Upper Kensington,43.558879939848254,Average,253,Health and Wellness,East,Upper Kensington 4
+42101018001,Richmond-Bridesburg,53.145591151542234,Average,136,Health and Wellness,East,Richmond-Bridesburg 1
+42101018002,Richmond-Bridesburg,46.34994952051464,Average,218,Health and Wellness,East,Richmond-Bridesburg 2
+42101018300,Richmond-Bridesburg,51.046271399095616,Average,158,Health and Wellness,Lower Northeast (East),Richmond-Bridesburg 3
+42101018400,Richmond-Bridesburg,52.87079421370527,Average,138,Health and Wellness,Lower Northeast (East),Richmond-Bridesburg 4
+42101018800,Juniata Park-Harrowgate,39.202764224615294,Below Average,286,Health and Wellness,East,Juniata Park-Harrowgate 1
+42101019000,Juniata Park-Harrowgate,54.52918306973459,Average,125,Health and Wellness,East,Juniata Park-Harrowgate 2
+42101019100,Juniata Park-Harrowgate,53.729214382765385,Average,130,Health and Wellness,East,Juniata Park-Harrowgate 3
+42101019200,Juniata Park-Harrowgate,43.110861518253394,Average,254,Health and Wellness,East,Juniata Park-Harrowgate 4
+42101019501,Hunting Park-Fairhill,39.14080854474863,Below Average,287,Health and Wellness,East,Hunting Park-Fairhill 5
+42101019502,Hunting Park-Fairhill,37.843318326711874,Below Average,299,Health and Wellness,East,Hunting Park-Fairhill 6
+42101019700,Hunting Park-Fairhill,44.81149174325417,Average,235,Health and Wellness,East,Hunting Park-Fairhill 7
+42101019800,Hunting Park-Fairhill,37.97170942025495,Below Average,298,Health and Wellness,East,Hunting Park-Fairhill 8
+42101019900,Hunting Park-Fairhill,28.91784915005242,Below Average,342,Health and Wellness,East,Hunting Park-Fairhill 9
+42101020000,Nicetown-Tioga,40.28430650400048,Average,278,Health and Wellness,Lower North,Nicetown-Tioga 6
+42101020101,Nicetown-Tioga,28.691271254827637,Below Average,343,Health and Wellness,Lower North,Nicetown-Tioga 7
+42101020102,Nicetown-Tioga,46.41148382713029,Average,217,Health and Wellness,Lower North,Nicetown-Tioga 8
+42101020200,Nicetown-Tioga,24.226583961029576,Below Average,361,Health and Wellness,Lower North,Nicetown-Tioga 9
+42101020300,Nicetown-Tioga,26.834989351794295,Below Average,351,Health and Wellness,East,Nicetown-Tioga 10
+42101020400,Nicetown-Tioga,32.16812931871767,Below Average,331,Health and Wellness,East,Nicetown-Tioga 11
+42101020500,Nicetown-Tioga,33.35417666810478,Below Average,320,Health and Wellness,Lower North,Nicetown-Tioga 12
+42101020600,East Falls-Westside,64.05565990071179,Above Average,64,Health and Wellness,Northwest,East Falls-Westside 1
+42101020700,East Falls-Westside,75.93433952706607,Above Average,24,Health and Wellness,Northwest,East Falls-Westside 2
+42101020800,East Falls-Westside,71.58115240931002,Above Average,38,Health and Wellness,Northwest,East Falls-Westside 3
+42101020900,Roxborough-Manayunk,75.90484336347563,Above Average,25,Health and Wellness,Northwest,Roxborough-Manayunk 1
+42101021000,Roxborough-Manayunk,71.27667995165645,Above Average,39,Health and Wellness,Northwest,Roxborough-Manayunk 2
+42101021100,Roxborough-Manayunk,63.83180089614253,Above Average,66,Health and Wellness,Northwest,Roxborough-Manayunk 3
+42101021200,Roxborough-Manayunk,66.31108149995185,Above Average,59,Health and Wellness,Northwest,Roxborough-Manayunk 4
+42101021300,Roxborough-Manayunk,69.90595383674797,Above Average,47,Health and Wellness,Northwest,Roxborough-Manayunk 5
+42101021400,Roxborough-Manayunk,76.37621428525411,Above Average,20,Health and Wellness,Northwest,Roxborough-Manayunk 6
+42101021500,Roxborough-Manayunk,75.44137643639947,Above Average,26,Health and Wellness,Northwest,Roxborough-Manayunk 7
+42101021600,Roxborough-Manayunk,68.55865390412646,Above Average,53,Health and Wellness,Northwest,Roxborough-Manayunk 8
+42101021700,Roxborough-Manayunk,55.81998416534296,Average,110,Health and Wellness,Northwest,Roxborough-Manayunk 9
+42101021800,Roxborough-Manayunk,69.57404915259447,Above Average,48,Health and Wellness,Northwest,Roxborough-Manayunk 10
+42101021900,Roxborough-Manayunk,53.67644770303197,Average,132,Health and Wellness,Northwest,Roxborough-Manayunk 11
+42101022000,Roxborough-Manayunk,40.065027009371136,Below Average,281,Health and Wellness,Northwest,Roxborough-Manayunk 12
+42101023100,Chestnut Hill-West Mt. Airy,56.680234799109954,Average,102,Health and Wellness,Northwest,Chestnut Hill-West Mt. Airy 1
+42101023500,Chestnut Hill-West Mt. Airy,49.013256747628944,Average,180,Health and Wellness,Northwest,Chestnut Hill-West Mt. Airy 2
+42101023600,Chestnut Hill-West Mt. Airy,50.19059185203649,Average,169,Health and Wellness,Northwest,Chestnut Hill-West Mt. Airy 3
+42101023700,Chestnut Hill-West Mt. Airy,55.069631227033,Average,116,Health and Wellness,Northwest,Chestnut Hill-West Mt. Airy 4
+42101023800,Germantown,52.162570632397845,Average,146,Health and Wellness,Northwest,Germantown 1
+42101023900,Chestnut Hill-West Mt. Airy,48.55489861127263,Average,188,Health and Wellness,Northwest,Chestnut Hill-West Mt. Airy 5
+42101024000,East Falls-Westside,62.438594218464765,Above Average,72,Health and Wellness,Northwest,East Falls-Westside 4
+42101024100,Germantown,18.59029957155046,Below Average,371,Health and Wellness,Northwest,Germantown 2
+42101024200,Germantown,47.312740815296976,Average,206,Health and Wellness,Northwest,Germantown 3
+42101024300,East Falls-Westside,50.22965300539665,Average,168,Health and Wellness,Northwest,East Falls-Westside 5
+42101024400,East Falls-Westside,42.93723880279776,Average,255,Health and Wellness,Northwest,East Falls-Westside 6
+42101024500,Germantown,32.939951621911476,Below Average,322,Health and Wellness,Northwest,Germantown 4
+42101024600,Germantown,24.240533119985635,Below Average,360,Health and Wellness,Northwest,Germantown 5
+42101024700,Germantown,42.2894977776786,Average,261,Health and Wellness,Northwest,Germantown 6
+42101024800,Germantown,41.885446101379955,Average,263,Health and Wellness,Northwest,Germantown 7
+42101024900,Germantown,31.324044787023468,Below Average,334,Health and Wellness,Northwest,Germantown 8
+42101025200,East Mt. Airy,32.69235157273018,Below Average,324,Health and Wellness,Northwest,East Mt. Airy 1
+42101025300,East Mt. Airy,44.85960296497156,Average,233,Health and Wellness,Northwest,East Mt. Airy 2
+42101025400,East Mt. Airy,47.72146162507065,Average,202,Health and Wellness,Northwest,East Mt. Airy 3
+42101025500,East Mt. Airy,56.08764677291828,Average,107,Health and Wellness,Northwest,East Mt. Airy 4
+42101025600,East Mt. Airy,56.374252328329256,Average,105,Health and Wellness,Northwest,East Mt. Airy 5
+42101025700,Chestnut Hill-West Mt. Airy,63.24505648329307,Above Average,69,Health and Wellness,Northwest,Chestnut Hill-West Mt. Airy 6
+42101025800,West Oak Lane-Cedarbrook,41.13716611256799,Average,273,Health and Wellness,Upper North,West Oak Lane-Cedarbrook 1
+42101025900,West Oak Lane-Cedarbrook,49.602099391961026,Average,175,Health and Wellness,Upper North,West Oak Lane-Cedarbrook 2
+42101026000,West Oak Lane-Cedarbrook,49.1804767113037,Average,177,Health and Wellness,Upper North,West Oak Lane-Cedarbrook 3
+42101026100,West Oak Lane-Cedarbrook,37.26673613697327,Below Average,303,Health and Wellness,Upper North,West Oak Lane-Cedarbrook 4
+42101026200,West Oak Lane-Cedarbrook,44.161311289170825,Average,245,Health and Wellness,Upper North,West Oak Lane-Cedarbrook 5
+42101026301,West Oak Lane-Cedarbrook,44.53207323111067,Average,240,Health and Wellness,Upper North,West Oak Lane-Cedarbrook 6
+42101026302,West Oak Lane-Cedarbrook,50.855991411384906,Average,160,Health and Wellness,Upper North,West Oak Lane-Cedarbrook 7
+42101026400,West Oak Lane-Cedarbrook,48.13209523621682,Average,194,Health and Wellness,Upper North,West Oak Lane-Cedarbrook 8
+42101026500,Ogontz,45.79887629700087,Average,225,Health and Wellness,Upper North,Ogontz 1
+42101026600,West Oak Lane-Cedarbrook,41.417605653014235,Average,269,Health and Wellness,Upper North,West Oak Lane-Cedarbrook 9
+42101026700,Ogontz,36.12192631164942,Below Average,308,Health and Wellness,Upper North,Ogontz 2
+42101026800,Oak Lane-Fernrock,44.75760495463544,Average,238,Health and Wellness,Upper North,Oak Lane-Fernrock 1
+42101026900,Oak Lane-Fernrock,38.942174687705325,Below Average,291,Health and Wellness,Upper North,Oak Lane-Fernrock 2
+42101027000,Oak Lane-Fernrock,56.77155715815336,Average,101,Health and Wellness,Upper North,Oak Lane-Fernrock 3
+42101027100,Oak Lane-Fernrock,58.379244410915625,Above Average,88,Health and Wellness,Upper North,Oak Lane-Fernrock 4
+42101027200,Oak Lane-Fernrock,56.798276239372434,Average,99,Health and Wellness,Upper North,Oak Lane-Fernrock 5
+42101027300,Olney-Feltonville,61.01407158747909,Above Average,73,Health and Wellness,Upper North,Olney-Feltonville 1
+42101027401,Olney-Feltonville,60.06091884918737,Above Average,76,Health and Wellness,Upper North,Olney-Feltonville 2
+42101027402,Olney-Feltonville,57.986161740068525,Above Average,92,Health and Wellness,Upper North,Olney-Feltonville 3
+42101027500,Olney-Feltonville,58.528099263714985,Above Average,86,Health and Wellness,Upper North,Olney-Feltonville 4
+42101027600,Oak Lane-Fernrock,46.106129191620674,Average,222,Health and Wellness,Upper North,Oak Lane-Fernrock 6
+42101027700,Ogontz,28.01662141602749,Below Average,345,Health and Wellness,Upper North,Ogontz 3
+42101027800,Ogontz,41.822675220955006,Average,265,Health and Wellness,Upper North,Ogontz 4
+42101027901,Ogontz,45.94401957386633,Average,224,Health and Wellness,Upper North,Ogontz 5
+42101027902,Ogontz,56.819926119577545,Average,98,Health and Wellness,Upper North,Ogontz 6
+42101028000,Logan,34.66204387079574,Below Average,314,Health and Wellness,Upper North,Logan 1
+42101028100,Logan,44.31997968766832,Average,242,Health and Wellness,Upper North,Logan 2
+42101028200,Logan,47.88073656550912,Average,199,Health and Wellness,Upper North,Logan 3
+42101028300,Logan,47.69210682062678,Average,203,Health and Wellness,Upper North,Logan 4
+42101028400,Logan,41.45451261368064,Average,267,Health and Wellness,Upper North,Logan 5
+42101028500,Olney-Feltonville,46.71464369170744,Average,215,Health and Wellness,Upper North,Olney-Feltonville 5
+42101028600,Olney-Feltonville,50.72595222452291,Average,163,Health and Wellness,Upper North,Olney-Feltonville 6
+42101028700,Olney-Feltonville,47.305629893211716,Average,207,Health and Wellness,Upper North,Olney-Feltonville 7
+42101028800,Olney-Feltonville,46.93824310982093,Average,211,Health and Wellness,Upper North,Olney-Feltonville 8
+42101028901,Hunting Park-Fairhill,50.934708729893224,Average,159,Health and Wellness,Upper North,Hunting Park-Fairhill 10
+42101028902,Olney-Feltonville,54.59674207524179,Average,123,Health and Wellness,Upper North,Olney-Feltonville 9
+42101029000,Olney-Feltonville,48.937754195438465,Average,183,Health and Wellness,Upper North,Olney-Feltonville 10
+42101029100,Lawndale-Crescentville,46.44163377432368,Average,216,Health and Wellness,Lower Northeast (West),Lawndale-Crescentville 1
+42101029200,Lawndale-Crescentville,59.1424837673105,Above Average,82,Health and Wellness,Lower Northeast (East),Lawndale-Crescentville 2
+42101029300,Frankford,36.32477721562127,Below Average,306,Health and Wellness,Lower Northeast (East),Frankford 1
+42101029400,Frankford,20.331025532323167,Below Average,369,Health and Wellness,Lower Northeast (East),Frankford 2
+42101029800,Wissinoming-Tacony,45.29947757138403,Average,230,Health and Wellness,Lower Northeast (East),Wissinoming-Tacony 1
+42101029900,Frankford,42.19100086261927,Average,262,Health and Wellness,Lower Northeast (East),Frankford 3
+42101030000,Frankford,41.337969088011974,Average,271,Health and Wellness,Lower Northeast (East),Frankford 4
+42101030100,Frankford,45.71137662928203,Average,226,Health and Wellness,Lower Northeast (East),Frankford 5
+42101030200,Frankford,56.78304156361101,Average,100,Health and Wellness,Lower Northeast (East),Frankford 6
+42101030501,Lawndale-Crescentville,53.532845256923366,Average,133,Health and Wellness,Lower Northeast (West),Lawndale-Crescentville 3
+42101030502,Lawndale-Crescentville,54.83410922711505,Average,120,Health and Wellness,Lower Northeast (West),Lawndale-Crescentville 4
+42101030600,Lawndale-Crescentville,49.816943334447885,Average,173,Health and Wellness,Lower Northeast (West),Lawndale-Crescentville 5
+42101030700,Lawndale-Crescentville,50.33107868661386,Average,166,Health and Wellness,Lower Northeast (West),Lawndale-Crescentville 6
+42101030800,Oxford Circle,56.44547055107206,Average,103,Health and Wellness,Lower Northeast (West),Oxford Circle 1
+42101030900,Oxford Circle,58.13096863385479,Above Average,90,Health and Wellness,Lower Northeast (West),Oxford Circle 2
+42101031000,Oxford Circle,58.12756608856143,Above Average,91,Health and Wellness,Lower Northeast (West),Oxford Circle 3
+42101031101,Oxford Circle,50.46235400474207,Average,165,Health and Wellness,Lower Northeast (West),Oxford Circle 4
+42101031102,Oxford Circle,49.005855506239804,Average,182,Health and Wellness,Lower Northeast (West),Oxford Circle 5
+42101031200,Oxford Circle,53.72185753515324,Average,131,Health and Wellness,Lower Northeast (West),Oxford Circle 6
+42101031300,Oxford Circle,55.82536489108674,Average,109,Health and Wellness,Lower Northeast (West),Oxford Circle 7
+42101031401,Oxford Circle,53.814221119299816,Average,129,Health and Wellness,Lower Northeast (West),Oxford Circle 8
+42101031402,Oxford Circle,50.52693480796621,Average,164,Health and Wellness,Lower Northeast (West),Oxford Circle 9
+42101031501,Mayfair-Holmesburg,55.410012873790535,Average,112,Health and Wellness,Lower Northeast (East),Mayfair-Holmesburg 1
+42101031502,Mayfair-Holmesburg,44.831559526706315,Average,234,Health and Wellness,Lower Northeast (East),Mayfair-Holmesburg 2
+42101031600,Mayfair-Holmesburg,48.674798768266115,Average,186,Health and Wellness,Lower Northeast (East),Mayfair-Holmesburg 3
+42101031700,Mayfair-Holmesburg,51.816606105134184,Average,149,Health and Wellness,Lower Northeast (East),Mayfair-Holmesburg 4
+42101031800,Mayfair-Holmesburg,52.811441722245085,Average,139,Health and Wellness,Lower Northeast (East),Mayfair-Holmesburg 5
+42101031900,Wissinoming-Tacony,54.88397854680482,Average,119,Health and Wellness,Lower Northeast (East),Wissinoming-Tacony 2
+42101032000,Wissinoming-Tacony,54.534764360701175,Average,124,Health and Wellness,Lower Northeast (East),Wissinoming-Tacony 3
+42101032100,Wissinoming-Tacony,48.194495458198816,Average,192,Health and Wellness,Lower Northeast (East),Wissinoming-Tacony 4
+42101032300,Wissinoming-Tacony,51.68855477789175,Average,150,Health and Wellness,Lower Northeast (East),Wissinoming-Tacony 5
+42101032500,Wissinoming-Tacony,43.9687882436131,Average,247,Health and Wellness,Lower Northeast (East),Wissinoming-Tacony 6
+42101032600,Mayfair-Holmesburg,52.40205756168709,Average,144,Health and Wellness,Lower Northeast (East),Mayfair-Holmesburg 6
+42101032900,Mayfair-Holmesburg,47.75383394144935,Average,201,Health and Wellness,Lower Northeast (East),Mayfair-Holmesburg 7
+42101033000,Mayfair-Holmesburg,46.82008692985742,Average,214,Health and Wellness,Lower Northeast (East),Mayfair-Holmesburg 8
+42101033101,Mayfair-Holmesburg,58.67664321995372,Above Average,85,Health and Wellness,Lower Northeast (East),Mayfair-Holmesburg 9
+42101033102,Mayfair-Holmesburg,44.33907340796415,Average,241,Health and Wellness,Lower Northeast (East),Mayfair-Holmesburg 10
+42101033200,Mayfair-Holmesburg,52.76366584270789,Average,140,Health and Wellness,Lower Northeast (East),Mayfair-Holmesburg 11
+42101033300,Mayfair-Holmesburg,27.417799934266768,Below Average,348,Health and Wellness,Lower Northeast (West),Mayfair-Holmesburg 12
+42101033400,Rhawnhurst-Fox Chase,34.58083775926602,Below Average,315,Health and Wellness,Lower Northeast (West),Rhawnhurst-Fox Chase 1
+42101033500,Rhawnhurst-Fox Chase,49.80680229502837,Average,174,Health and Wellness,Lower Northeast (West),Rhawnhurst-Fox Chase 2
+42101033600,Rhawnhurst-Fox Chase,55.07450759464297,Average,115,Health and Wellness,Lower Northeast (West),Rhawnhurst-Fox Chase 3
+42101033701,Rhawnhurst-Fox Chase,25.292830189016115,Below Average,356,Health and Wellness,Lower Northeast (West),Rhawnhurst-Fox Chase 4
+42101033702,Rhawnhurst-Fox Chase,46.296746812200105,Average,219,Health and Wellness,Lower Northeast (West),Rhawnhurst-Fox Chase 5
+42101033800,Rhawnhurst-Fox Chase,46.25340025485261,Average,221,Health and Wellness,Lower Northeast (West),Rhawnhurst-Fox Chase 6
+42101033900,Rhawnhurst-Fox Chase,46.82794693113321,Average,213,Health and Wellness,Lower Northeast (West),Rhawnhurst-Fox Chase 7
+42101034000,Rhawnhurst-Fox Chase,44.31322692329239,Average,243,Health and Wellness,Lower Northeast (West),Rhawnhurst-Fox Chase 8
+42101034100,Rhawnhurst-Fox Chase,57.356835964531484,Average,95,Health and Wellness,Lower Northeast (West),Rhawnhurst-Fox Chase 9
+42101034200,Rhawnhurst-Fox Chase,27.560557252464235,Below Average,347,Health and Wellness,Lower Northeast (West),Rhawnhurst-Fox Chase 10
+42101034400,Bustleton,42.818958682381506,Average,258,Health and Wellness,Far Northeast,Bustleton 1
+42101034501,Bustleton,26.755866626932033,Below Average,352,Health and Wellness,Far Northeast,Bustleton 2
+42101034502,Bustleton,53.346751065358674,Average,134,Health and Wellness,Far Northeast,Bustleton 3
+42101034600,Torresdale South-Pennypack Park,44.59477760105793,Average,239,Health and Wellness,Far Northeast,Torresdale South-Pennypack Park 1
+42101034701,Torresdale South-Pennypack Park,48.2020957490387,Average,191,Health and Wellness,Far Northeast,Torresdale South-Pennypack Park 2
+42101034702,Torresdale South-Pennypack Park,51.59282888899405,Average,151,Health and Wellness,Far Northeast,Torresdale South-Pennypack Park 3
+42101034801,Torresdale South-Pennypack Park,39.01707551433302,Below Average,290,Health and Wellness,Far Northeast,Torresdale South-Pennypack Park 4
+42101034802,Torresdale South-Pennypack Park,55.355401327093226,Average,113,Health and Wellness,Far Northeast,Torresdale South-Pennypack Park 5
+42101034803,Torresdale South-Pennypack Park,45.27957626346652,Average,231,Health and Wellness,Far Northeast,Torresdale South-Pennypack Park 6
+42101034900,Torresdale South-Pennypack Park,50.114284953999515,Average,171,Health and Wellness,Far Northeast,Torresdale South-Pennypack Park 7
+42101035100,Torresdale South-Pennypack Park,27.63855681118219,Below Average,346,Health and Wellness,Far Northeast,Torresdale South-Pennypack Park 8
+42101035200,Torresdale South-Pennypack Park,52.75608924351444,Average,141,Health and Wellness,Far Northeast,Torresdale South-Pennypack Park 9
+42101035301,Torresdale North,57.77185881266478,Average,94,Health and Wellness,Far Northeast,Torresdale North 1
+42101035302,Torresdale North,49.93284330200837,Average,172,Health and Wellness,Far Northeast,Torresdale North 2
+42101035500,Bustleton,41.19751583903881,Average,272,Health and Wellness,Far Northeast,Bustleton 4
+42101035601,Bustleton,32.435482158129155,Below Average,327,Health and Wellness,Far Northeast,Bustleton 5
+42101035602,Bustleton,58.794635822411706,Above Average,84,Health and Wellness,Far Northeast,Bustleton 6
+42101035701,Somerton,56.444174112068865,Average,104,Health and Wellness,Far Northeast,Somerton 1
+42101035702,Somerton,49.480186472703835,Average,176,Health and Wellness,Far Northeast,Somerton 2
+42101035800,Somerton,48.78824725980512,Average,185,Health and Wellness,Far Northeast,Somerton 3
+42101035900,Somerton,36.361071648304666,Below Average,305,Health and Wellness,Far Northeast,Somerton 4
+42101036000,Somerton,33.71496994145755,Below Average,319,Health and Wellness,Far Northeast,Somerton 5
+42101036100,Torresdale North,55.042491266026545,Average,117,Health and Wellness,Far Northeast,Torresdale North 3
+42101036201,Torresdale North,51.367985609675635,Average,155,Health and Wellness,Far Northeast,Torresdale North 4
+42101036202,Torresdale North,51.08434104325754,Average,157,Health and Wellness,Far Northeast,Torresdale North 5
+42101036203,Torresdale North,53.04047525410501,Average,137,Health and Wellness,Far Northeast,Torresdale North 6
+42101036301,Torresdale North,50.81979804263196,Average,161,Health and Wellness,Far Northeast,Torresdale North 7
+42101036302,Torresdale North,60.06366597915891,Above Average,75,Health and Wellness,Far Northeast,Torresdale North 8
+42101036303,Torresdale North,49.059834288920115,Average,179,Health and Wellness,Far Northeast,Torresdale North 9
+42101036400,Torresdale North,24.5230225969072,Below Average,358,Health and Wellness,Far Northeast,Torresdale North 10
+42101036501,Somerton,46.258637935837946,Average,220,Health and Wellness,Far Northeast,Somerton 6
+42101036502,Somerton,52.28562345222993,Average,145,Health and Wellness,Far Northeast,Somerton 7
+42101036600,Center City East,71.13876327870095,Above Average,40,Health and Wellness,Greater Center City,Center City East 11
+42101036700,Northern Liberties-West Kensington,80.90105732102943,Above Average,12,Health and Wellness,Greater Center City,Northern Liberties-West Kensington 8
+42101036900,University City,70.4695623851104,Above Average,42,Health and Wellness,Southwest,University City 12
+42101037200,Snyder-Whitman,40.11089768387737,Below Average,280,Health and Wellness,South,Snyder-Whitman 5
+42101037300,Grays Ferry-Passyunk,49.007357786385704,Average,181,Health and Wellness,South,Grays Ferry-Passyunk 4
+42101037500,Overbrook Park-Wynnefield Heights,67.11244892449568,Above Average,56,Health and Wellness,West,Overbrook Park-Wynnefield Heights 11
+42101037600,Northern Liberties-West Kensington,72.60436677068307,Above Average,36,Health and Wellness,Greater Center City,Northern Liberties-West Kensington 9
+42101037700,Poplar-Temple,53.27954054275357,Average,135,Health and Wellness,Lower North,Poplar-Temple 8
+42101037800,Richmond-Bridesburg,58.26311331462501,Above Average,89,Health and Wellness,East,Richmond-Bridesburg 5
+42101037900,Richmond-Bridesburg,48.03740553401105,Average,197,Health and Wellness,East,Richmond-Bridesburg 6
+42101038000,Frankford,43.90486868359322,Average,248,Health and Wellness,Lower Northeast (East),Frankford 7
+42101038100,Wissinoming-Tacony,39.56210431570465,Below Average,284,Health and Wellness,Lower Northeast (East),Wissinoming-Tacony 7
+42101038200,Juniata Park-Harrowgate,42.64550136422593,Average,259,Health and Wellness,East,Juniata Park-Harrowgate 5
+42101038300,Hunting Park-Fairhill,48.08967735910878,Average,196,Health and Wellness,East,Hunting Park-Fairhill 11
+42101038400,Roxborough-Manayunk,40.05577112792313,Below Average,282,Health and Wellness,Northwest,Roxborough-Manayunk 13
+42101038500,Chestnut Hill-West Mt. Airy,44.7899667613949,Average,236,Health and Wellness,Northwest,Chestnut Hill-West Mt. Airy 7
+42101038600,Chestnut Hill-West Mt. Airy,45.613637776872345,Average,227,Health and Wellness,Northwest,Chestnut Hill-West Mt. Airy 8
+42101038700,Chestnut Hill-West Mt. Airy,54.82755824761312,Average,121,Health and Wellness,Northwest,Chestnut Hill-West Mt. Airy 9
+42101038800,Chestnut Hill-West Mt. Airy,57.96748712236825,Above Average,93,Health and Wellness,Northwest,Chestnut Hill-West Mt. Airy 10
+42101038900,East Mt. Airy,38.45856996748913,Below Average,295,Health and Wellness,Northwest,East Mt. Airy 6
+42101039000,Lawndale-Crescentville,48.10607820075981,Average,195,Health and Wellness,Lower Northeast (West),Lawndale-Crescentville 7

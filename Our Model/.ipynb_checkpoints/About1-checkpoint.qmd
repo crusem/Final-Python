@@ -1,0 +1,6 @@
+# Our Model
+
+Our model uses a series of risk factors to build a machine learning algorithm to predict asthma prevalence by census tract in Philadelphia. Our process is outlined in the exploratory analysis, regression and cross validation, and prediction sections of this project. 
+
+
+

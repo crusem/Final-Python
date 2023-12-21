@@ -1,0 +1,373 @@
+geoid,neighborhood_name,value,average_label,rank,variable,region_name,tract_name
+42101000100,Center City East,10.01288891,Below Average,345,Particulate matter concentration,Greater Center City,Center City East 1
+42101000200,Center City East,9.267068863,Below Average,334,Particulate matter concentration,Greater Center City,Center City East 2
+42101000300,Center City West,8.443595886,Average,267,Particulate matter concentration,Greater Center City,Center City West 1
+42101000401,Center City West,8.443595886,Average,267,Particulate matter concentration,Greater Center City,Center City West 2
+42101000402,Center City West,8.443595886,Average,267,Particulate matter concentration,Greater Center City,Center City West 3
+42101000500,Center City East,9.118347168,Below Average,330,Particulate matter concentration,Greater Center City,Center City East 3
+42101000600,Center City East,9.053303719,Below Average,328,Particulate matter concentration,Greater Center City,Center City East 4
+42101000700,Center City West,8.443595886,Average,267,Particulate matter concentration,Greater Center City,Center City West 4
+42101000801,Center City West,8.443595886,Average,267,Particulate matter concentration,Greater Center City,Center City West 5
+42101000803,Center City West,8.443595886,Average,267,Particulate matter concentration,Greater Center City,Center City West 6
+42101000804,Center City West,8.443595886,Average,267,Particulate matter concentration,Greater Center City,Center City West 7
+42101000901,Center City East,8.443595886,Average,267,Particulate matter concentration,Greater Center City,Center City East 5
+42101000902,Center City East,9.350349426,Below Average,337,Particulate matter concentration,Greater Center City,Center City East 6
+42101001001,Center City East,10.01288891,Below Average,345,Particulate matter concentration,Greater Center City,Center City East 7
+42101001002,Center City East,10.01288891,Below Average,345,Particulate matter concentration,Greater Center City,Center City East 8
+42101001101,Center City East,8.443595886,Average,267,Particulate matter concentration,Greater Center City,Center City East 9
+42101001102,Center City East,9.351097107,Below Average,338,Particulate matter concentration,Greater Center City,Center City East 10
+42101001201,Center City West,8.443595886,Average,267,Particulate matter concentration,Greater Center City,Center City West 8
+42101001202,Center City West,8.443595886,Average,267,Particulate matter concentration,Greater Center City,Center City West 9
+42101001300,Schuylkill-Point Breeze,8.443595886,Average,267,Particulate matter concentration,Greater Center City,Schuylkill-Point Breeze 1
+42101001400,Schuylkill-Point Breeze,8.443595886,Average,267,Particulate matter concentration,Greater Center City,Schuylkill-Point Breeze 2
+42101001500,Pennsport-Queen Village,9.002117157,Below Average,325,Particulate matter concentration,Greater Center City,Pennsport-Queen Village 1
+42101001600,Pennsport-Queen Village,10.01288986,Below Average,350,Particulate matter concentration,Greater Center City,Pennsport-Queen Village 2
+42101001700,Pennsport-Queen Village,10.01288891,Below Average,345,Particulate matter concentration,Greater Center City,Pennsport-Queen Village 3
+42101001800,Pennsport-Queen Village,9.002165794,Below Average,326,Particulate matter concentration,Greater Center City,Pennsport-Queen Village 4
+42101001900,Schuylkill-Point Breeze,8.443595886,Average,267,Particulate matter concentration,Greater Center City,Schuylkill-Point Breeze 3
+42101002000,Schuylkill-Point Breeze,8.443595886,Average,267,Particulate matter concentration,South,Schuylkill-Point Breeze 4
+42101002100,Schuylkill-Point Breeze,8.443595886,Average,267,Particulate matter concentration,South,Schuylkill-Point Breeze 5
+42101002200,Schuylkill-Point Breeze,8.443595886,Average,267,Particulate matter concentration,South,Schuylkill-Point Breeze 6
+42101002300,Southwark-Bella Vista,8.443595886,Average,267,Particulate matter concentration,Greater Center City,Southwark-Bella Vista 1
+42101002400,Southwark-Bella Vista,8.978157997,Below Average,324,Particulate matter concentration,Greater Center City,Southwark-Bella Vista 2
+42101002500,Pennsport-Queen Village,10.01288891,Below Average,345,Particulate matter concentration,Greater Center City,Pennsport-Queen Village 5
+42101002701,Pennsport-Queen Village,9.787898064,Below Average,341,Particulate matter concentration,South,Pennsport-Queen Village 6
+42101002702,Pennsport-Queen Village,9.726939201,Below Average,340,Particulate matter concentration,South,Pennsport-Queen Village 7
+42101002801,Southwark-Bella Vista,9.322623253,Below Average,335,Particulate matter concentration,South,Southwark-Bella Vista 3
+42101002802,Southwark-Bella Vista,8.4319067,Average,261,Particulate matter concentration,South,Southwark-Bella Vista 4
+42101002900,Southwark-Bella Vista,8.440882683,Average,264,Particulate matter concentration,South,Southwark-Bella Vista 5
+42101003001,Southwark-Bella Vista,8.443551064,Average,266,Particulate matter concentration,South,Southwark-Bella Vista 6
+42101003002,Southwark-Bella Vista,8.443595886,Average,267,Particulate matter concentration,South,Southwark-Bella Vista 7
+42101003100,Schuylkill-Point Breeze,8.443595886,Average,267,Particulate matter concentration,South,Schuylkill-Point Breeze 7
+42101003200,Schuylkill-Point Breeze,8.443595886,Average,267,Particulate matter concentration,South,Schuylkill-Point Breeze 8
+42101003300,Grays Ferry-Passyunk,8.443595886,Average,267,Particulate matter concentration,South,Grays Ferry-Passyunk 1
+42101003600,Grays Ferry-Passyunk,8.418896675,Average,256,Particulate matter concentration,South,Grays Ferry-Passyunk 2
+42101003701,South Broad-Girard Estates,8.425391197,Average,258,Particulate matter concentration,South,South Broad-Girard Estates 1
+42101003702,South Broad-Girard Estates,8.378969193,Average,205,Particulate matter concentration,South,South Broad-Girard Estates 2
+42101003800,Grays Ferry-Passyunk,8.378969193,Average,205,Particulate matter concentration,South,Grays Ferry-Passyunk 3
+42101003901,South Broad-Girard Estates,8.382392883,Average,210,Particulate matter concentration,South,South Broad-Girard Estates 3
+42101003902,South Broad-Girard Estates,8.378969193,Average,205,Particulate matter concentration,South,South Broad-Girard Estates 4
+42101004001,South Broad-Girard Estates,8.378969193,Average,205,Particulate matter concentration,South,South Broad-Girard Estates 5
+42101004002,South Broad-Girard Estates,8.378968239,Average,204,Particulate matter concentration,South,South Broad-Girard Estates 6
+42101004101,Snyder-Whitman,8.597187996,Below Average,301,Particulate matter concentration,South,Snyder-Whitman 1
+42101004102,Snyder-Whitman,8.485692978,Below Average,298,Particulate matter concentration,South,Snyder-Whitman 2
+42101004201,Snyder-Whitman,9.182100296,Below Average,331,Particulate matter concentration,South,Snyder-Whitman 3
+42101004202,Snyder-Whitman,9.182100296,Below Average,331,Particulate matter concentration,South,Snyder-Whitman 4
+42101005400,Eastwick-Elmwood,7.541946888,Above Average,3,Particulate matter concentration,Southwest,Eastwick-Elmwood 1
+42101005500,Eastwick-Elmwood,8.11270237,Average,107,Particulate matter concentration,Southwest,Eastwick-Elmwood 2
+42101005600,Eastwick-Elmwood,8.11270237,Average,107,Particulate matter concentration,Southwest,Eastwick-Elmwood 3
+42101006000,Eastwick-Elmwood,8.11270237,Average,107,Particulate matter concentration,Southwest,Eastwick-Elmwood 4
+42101006100,Eastwick-Elmwood,8.11270237,Average,107,Particulate matter concentration,Southwest,Eastwick-Elmwood 5
+42101006200,Eastwick-Elmwood,8.11270237,Average,107,Particulate matter concentration,Southwest,Eastwick-Elmwood 6
+42101006300,Paschall-Kingsessing,8.11270237,Average,107,Particulate matter concentration,Southwest,Paschall-Kingsessing 1
+42101006400,Paschall-Kingsessing,8.212408066,Average,120,Particulate matter concentration,Southwest,Paschall-Kingsessing 2
+42101006500,Paschall-Kingsessing,8.393476486,Average,219,Particulate matter concentration,Southwest,Paschall-Kingsessing 3
+42101006600,Paschall-Kingsessing,8.348607063,Average,183,Particulate matter concentration,Southwest,Paschall-Kingsessing 4
+42101006700,Eastwick-Elmwood,8.168966293,Average,117,Particulate matter concentration,Southwest,Eastwick-Elmwood 7
+42101006900,Paschall-Kingsessing,8.420729637,Average,257,Particulate matter concentration,Southwest,Paschall-Kingsessing 5
+42101007000,Paschall-Kingsessing,8.393481255,Average,224,Particulate matter concentration,Southwest,Paschall-Kingsessing 6
+42101007101,Paschall-Kingsessing,8.393475533,Average,213,Particulate matter concentration,Southwest,Paschall-Kingsessing 7
+42101007102,Paschall-Kingsessing,8.393476486,Average,219,Particulate matter concentration,Southwest,Paschall-Kingsessing 8
+42101007200,Paschall-Kingsessing,8.393476486,Average,219,Particulate matter concentration,Southwest,Paschall-Kingsessing 9
+42101007300,Paschall-Kingsessing,8.393475533,Average,213,Particulate matter concentration,Southwest,Paschall-Kingsessing 10
+42101007400,Paschall-Kingsessing,8.426393509,Average,259,Particulate matter concentration,Southwest,Paschall-Kingsessing 11
+42101007700,University City,8.443595886,Average,267,Particulate matter concentration,Southwest,University City 1
+42101007800,University City,8.417042732,Average,255,Particulate matter concentration,Southwest,University City 2
+42101007900,University City,8.406004906,Average,227,Particulate matter concentration,Southwest,University City 3
+42101008000,Cobbs Creek,8.393476486,Average,219,Particulate matter concentration,Southwest,Cobbs Creek 1
+42101008101,Cobbs Creek,8.393476486,Average,219,Particulate matter concentration,Southwest,Cobbs Creek 2
+42101008102,Cobbs Creek,8.393475533,Average,213,Particulate matter concentration,Southwest,Cobbs Creek 3
+42101008200,Cobbs Creek,8.393475533,Average,213,Particulate matter concentration,Southwest,Cobbs Creek 4
+42101008301,Cobbs Creek,8.391145706,Average,211,Particulate matter concentration,Southwest,Cobbs Creek 5
+42101008302,Cobbs Creek,8.392896652,Average,212,Particulate matter concentration,Southwest,Cobbs Creek 6
+42101008400,Cobbs Creek,8.393475533,Average,213,Particulate matter concentration,Southwest,Cobbs Creek 7
+42101008500,Cobbs Creek,8.393475533,Average,213,Particulate matter concentration,Southwest,Cobbs Creek 8
+42101008601,University City,8.416944504,Average,254,Particulate matter concentration,Southwest,University City 4
+42101008602,University City,8.412725449,Average,229,Particulate matter concentration,Southwest,University City 5
+42101008701,University City,8.443595886,Average,267,Particulate matter concentration,Southwest,University City 6
+42101008702,University City,8.443595886,Average,267,Particulate matter concentration,Southwest,University City 7
+42101008801,University City,8.443595886,Average,267,Particulate matter concentration,Southwest,University City 8
+42101008802,University City,8.443595886,Average,267,Particulate matter concentration,Southwest,University City 9
+42101009000,University City,8.438373566,Average,262,Particulate matter concentration,West,University City 10
+42101009100,University City,8.441586494,Average,265,Particulate matter concentration,West,University City 11
+42101009200,Mill Creek-Parkside,8.439023972,Average,263,Particulate matter concentration,West,Mill Creek-Parkside 1
+42101009300,Haddington-Overbrook,8.373418808,Average,203,Particulate matter concentration,West,Haddington-Overbrook 1
+42101009400,Haddington-Overbrook,8.365515709,Average,201,Particulate matter concentration,West,Haddington-Overbrook 2
+42101009500,Haddington-Overbrook,8.359947205,Average,198,Particulate matter concentration,West,Haddington-Overbrook 3
+42101009600,Haddington-Overbrook,8.35956192,Average,188,Particulate matter concentration,West,Haddington-Overbrook 4
+42101009801,Overbrook Park-Wynnefield Heights,8.35956192,Average,188,Particulate matter concentration,West,Overbrook Park-Wynnefield Heights 1
+42101009802,Overbrook Park-Wynnefield Heights,8.364605904,Average,200,Particulate matter concentration,West,Overbrook Park-Wynnefield Heights 2
+42101010000,Haddington-Overbrook,8.35956192,Average,188,Particulate matter concentration,West,Haddington-Overbrook 5
+42101010100,Haddington-Overbrook,8.359560966,Average,185,Particulate matter concentration,West,Haddington-Overbrook 6
+42101010200,Haddington-Overbrook,8.35956192,Average,188,Particulate matter concentration,West,Haddington-Overbrook 7
+42101010300,Mill Creek-Parkside,8.35956192,Average,188,Particulate matter concentration,West,Mill Creek-Parkside 2
+42101010400,Mill Creek-Parkside,8.364366531,Average,199,Particulate matter concentration,West,Mill Creek-Parkside 3
+42101010500,Mill Creek-Parkside,8.408947945,Average,228,Particulate matter concentration,West,Mill Creek-Parkside 4
+42101010600,Mill Creek-Parkside,8.414942741,Average,231,Particulate matter concentration,West,Mill Creek-Parkside 5
+42101010700,Mill Creek-Parkside,8.414943695,Average,240,Particulate matter concentration,West,Mill Creek-Parkside 6
+42101010800,Mill Creek-Parkside,8.414971352,Average,253,Particulate matter concentration,West,Mill Creek-Parkside 7
+42101010900,Mill Creek-Parkside,8.414942741,Average,231,Particulate matter concentration,West,Mill Creek-Parkside 8
+42101011000,Mill Creek-Parkside,8.414943695,Average,240,Particulate matter concentration,West,Mill Creek-Parkside 9
+42101011100,Mill Creek-Parkside,8.365818977,Average,202,Particulate matter concentration,West,Mill Creek-Parkside 10
+42101011200,Haddington-Overbrook,8.35956192,Average,188,Particulate matter concentration,West,Haddington-Overbrook 8
+42101011300,Haddington-Overbrook,8.359560966,Average,185,Particulate matter concentration,West,Haddington-Overbrook 9
+42101011400,Haddington-Overbrook,8.35956192,Average,188,Particulate matter concentration,West,Haddington-Overbrook 10
+42101011500,Haddington-Overbrook,8.359560966,Average,185,Particulate matter concentration,West,Haddington-Overbrook 11
+42101011700,Overbrook Park-Wynnefield Heights,8.359408379,Average,184,Particulate matter concentration,West,Overbrook Park-Wynnefield Heights 3
+42101011800,Overbrook Park-Wynnefield Heights,8.35956192,Average,188,Particulate matter concentration,West,Overbrook Park-Wynnefield Heights 4
+42101011900,Overbrook Park-Wynnefield Heights,8.35956192,Average,188,Particulate matter concentration,West,Overbrook Park-Wynnefield Heights 5
+42101012000,Overbrook Park-Wynnefield Heights,8.344347954,Average,182,Particulate matter concentration,West,Overbrook Park-Wynnefield Heights 6
+42101012100,Overbrook Park-Wynnefield Heights,8.33937645,Average,181,Particulate matter concentration,West,Overbrook Park-Wynnefield Heights 7
+42101012201,Overbrook Park-Wynnefield Heights,8.285245895,Average,144,Particulate matter concentration,West,Overbrook Park-Wynnefield Heights 8
+42101012203,Overbrook Park-Wynnefield Heights,8.285244942,Average,138,Particulate matter concentration,West,Overbrook Park-Wynnefield Heights 9
+42101012204,Overbrook Park-Wynnefield Heights,8.299594879,Average,176,Particulate matter concentration,West,Overbrook Park-Wynnefield Heights 10
+42101012500,Fairmount-Spring Garden,8.431132317,Average,260,Particulate matter concentration,Greater Center City,Fairmount-Spring Garden 1
+42101013100,Poplar-Temple,10.09123993,Below Average,355,Particulate matter concentration,Greater Center City,Poplar-Temple 1
+42101013200,Poplar-Temple,9.259739876,Below Average,333,Particulate matter concentration,Greater Center City,Poplar-Temple 2
+42101013300,Fairmount-Spring Garden,8.414942741,Average,231,Particulate matter concentration,Greater Center City,Fairmount-Spring Garden 2
+42101013401,Fairmount-Spring Garden,8.414943695,Average,240,Particulate matter concentration,Greater Center City,Fairmount-Spring Garden 3
+42101013402,Fairmount-Spring Garden,8.414943695,Average,240,Particulate matter concentration,Greater Center City,Fairmount-Spring Garden 4
+42101013500,Fairmount-Spring Garden,8.414943695,Average,240,Particulate matter concentration,Greater Center City,Fairmount-Spring Garden 5
+42101013601,Fairmount-Spring Garden,8.414943695,Average,240,Particulate matter concentration,Greater Center City,Fairmount-Spring Garden 6
+42101013602,Fairmount-Spring Garden,8.414943695,Average,240,Particulate matter concentration,Greater Center City,Fairmount-Spring Garden 7
+42101013700,Strawberry Mansion,8.414942741,Average,231,Particulate matter concentration,Lower North,Strawberry Mansion 1
+42101013800,Sharswood-Stanton,8.414942741,Average,231,Particulate matter concentration,Lower North,Sharswood-Stanton 1
+42101013900,Sharswood-Stanton,8.414942741,Average,231,Particulate matter concentration,Lower North,Sharswood-Stanton 2
+42101014000,Sharswood-Stanton,8.414942741,Average,231,Particulate matter concentration,Lower North,Sharswood-Stanton 3
+42101014100,Poplar-Temple,9.825577736,Below Average,342,Particulate matter concentration,Lower North,Poplar-Temple 3
+42101014200,Northern Liberties-West Kensington,10.08205509,Below Average,353,Particulate matter concentration,Greater Center City,Northern Liberties-West Kensington 1
+42101014300,Lower Kensington,10.09123993,Below Average,355,Particulate matter concentration,East,Lower Kensington 1
+42101014400,Northern Liberties-West Kensington,10.09123993,Below Average,355,Particulate matter concentration,East,Northern Liberties-West Kensington 2
+42101014500,Poplar-Temple,10.09123993,Below Average,355,Particulate matter concentration,Lower North,Poplar-Temple 4
+42101014600,Poplar-Temple,9.879163742,Below Average,344,Particulate matter concentration,Lower North,Poplar-Temple 5
+42101014700,Sharswood-Stanton,8.414943695,Average,240,Particulate matter concentration,Lower North,Sharswood-Stanton 4
+42101014800,Sharswood-Stanton,8.414943695,Average,240,Particulate matter concentration,Lower North,Sharswood-Stanton 5
+42101014900,Strawberry Mansion,8.414943695,Average,240,Particulate matter concentration,Lower North,Strawberry Mansion 2
+42101015101,Strawberry Mansion,8.414943695,Average,240,Particulate matter concentration,Lower North,Strawberry Mansion 3
+42101015102,Strawberry Mansion,8.414942741,Average,231,Particulate matter concentration,Lower North,Strawberry Mansion 4
+42101015200,Strawberry Mansion,8.414943695,Average,240,Particulate matter concentration,Lower North,Strawberry Mansion 5
+42101015300,Sharswood-Stanton,8.482773781,Below Average,297,Particulate matter concentration,Lower North,Sharswood-Stanton 6
+42101015600,Northern Liberties-West Kensington,10.09123993,Below Average,355,Particulate matter concentration,East,Northern Liberties-West Kensington 3
+42101015700,Northern Liberties-West Kensington,10.09124088,Below Average,372,Particulate matter concentration,East,Northern Liberties-West Kensington 4
+42101015800,Lower Kensington,10.09123993,Below Average,355,Particulate matter concentration,East,Lower Kensington 2
+42101016000,Lower Kensington,10.09123993,Below Average,355,Particulate matter concentration,East,Lower Kensington 3
+42101016100,Lower Kensington,10.09123993,Below Average,355,Particulate matter concentration,East,Lower Kensington 4
+42101016200,Northern Liberties-West Kensington,10.09123993,Below Average,355,Particulate matter concentration,East,Northern Liberties-West Kensington 5
+42101016300,Northern Liberties-West Kensington,10.09123993,Below Average,355,Particulate matter concentration,East,Northern Liberties-West Kensington 6
+42101016400,Northern Liberties-West Kensington,10.09123993,Below Average,355,Particulate matter concentration,East,Northern Liberties-West Kensington 7
+42101016500,Poplar-Temple,10.09123993,Below Average,355,Particulate matter concentration,Lower North,Poplar-Temple 6
+42101016600,Poplar-Temple,10.09123993,Below Average,355,Particulate matter concentration,Lower North,Poplar-Temple 7
+42101016701,Sharswood-Stanton,8.414943695,Average,240,Particulate matter concentration,Lower North,Sharswood-Stanton 7
+42101016702,Sharswood-Stanton,9.032802582,Below Average,327,Particulate matter concentration,Lower North,Sharswood-Stanton 8
+42101016800,Strawberry Mansion,8.414942741,Average,231,Particulate matter concentration,Lower North,Strawberry Mansion 6
+42101016901,Strawberry Mansion,8.41368866,Average,230,Particulate matter concentration,Lower North,Strawberry Mansion 7
+42101016902,Strawberry Mansion,8.39639473,Average,225,Particulate matter concentration,Lower North,Strawberry Mansion 8
+42101017000,Nicetown-Tioga,8.285244942,Average,138,Particulate matter concentration,Lower North,Nicetown-Tioga 1
+42101017100,Nicetown-Tioga,8.285245895,Average,144,Particulate matter concentration,Lower North,Nicetown-Tioga 2
+42101017201,Nicetown-Tioga,8.30236721,Average,177,Particulate matter concentration,Lower North,Nicetown-Tioga 3
+42101017202,Nicetown-Tioga,8.288610458,Average,168,Particulate matter concentration,Lower North,Nicetown-Tioga 4
+42101017300,Nicetown-Tioga,8.404558182,Average,226,Particulate matter concentration,Lower North,Nicetown-Tioga 5
+42101017400,Hunting Park-Fairhill,9.076903343,Below Average,329,Particulate matter concentration,Lower North,Hunting Park-Fairhill 1
+42101017500,Hunting Park-Fairhill,8.64434433,Below Average,313,Particulate matter concentration,East,Hunting Park-Fairhill 2
+42101017601,Hunting Park-Fairhill,9.854103088,Below Average,343,Particulate matter concentration,East,Hunting Park-Fairhill 3
+42101017602,Hunting Park-Fairhill,8.66770649,Below Average,320,Particulate matter concentration,East,Hunting Park-Fairhill 4
+42101017701,Upper Kensington,8.857108116,Below Average,322,Particulate matter concentration,East,Upper Kensington 1
+42101017702,Upper Kensington,9.326351166,Below Average,336,Particulate matter concentration,East,Upper Kensington 2
+42101017800,Upper Kensington,10.09123993,Below Average,355,Particulate matter concentration,East,Upper Kensington 3
+42101017900,Upper Kensington,10.09123993,Below Average,355,Particulate matter concentration,East,Upper Kensington 4
+42101018001,Richmond-Bridesburg,10.09123993,Below Average,355,Particulate matter concentration,East,Richmond-Bridesburg 1
+42101018002,Richmond-Bridesburg,10.09123993,Below Average,355,Particulate matter concentration,East,Richmond-Bridesburg 2
+42101018300,Richmond-Bridesburg,7.980608463,Above Average,86,Particulate matter concentration,Lower Northeast (East),Richmond-Bridesburg 3
+42101018400,Richmond-Bridesburg,7.951079845,Above Average,83,Particulate matter concentration,Lower Northeast (East),Richmond-Bridesburg 4
+42101018800,Juniata Park-Harrowgate,8.523055077,Below Average,299,Particulate matter concentration,East,Juniata Park-Harrowgate 1
+42101019000,Juniata Park-Harrowgate,7.743906498,Above Average,29,Particulate matter concentration,East,Juniata Park-Harrowgate 2
+42101019100,Juniata Park-Harrowgate,7.608962536,Above Average,20,Particulate matter concentration,East,Juniata Park-Harrowgate 3
+42101019200,Juniata Park-Harrowgate,7.602502823,Above Average,5,Particulate matter concentration,East,Juniata Park-Harrowgate 4
+42101019501,Hunting Park-Fairhill,7.602502823,Above Average,5,Particulate matter concentration,East,Hunting Park-Fairhill 5
+42101019502,Hunting Park-Fairhill,7.602502823,Above Average,5,Particulate matter concentration,East,Hunting Park-Fairhill 6
+42101019700,Hunting Park-Fairhill,7.602502823,Above Average,5,Particulate matter concentration,East,Hunting Park-Fairhill 7
+42101019800,Hunting Park-Fairhill,7.602502823,Above Average,5,Particulate matter concentration,East,Hunting Park-Fairhill 8
+42101019900,Hunting Park-Fairhill,7.6025033,Above Average,16,Particulate matter concentration,East,Hunting Park-Fairhill 9
+42101020000,Nicetown-Tioga,7.602502823,Above Average,5,Particulate matter concentration,Lower North,Nicetown-Tioga 6
+42101020101,Nicetown-Tioga,7.712636471,Above Average,26,Particulate matter concentration,Lower North,Nicetown-Tioga 7
+42101020102,Nicetown-Tioga,7.633916855,Above Average,22,Particulate matter concentration,Lower North,Nicetown-Tioga 8
+42101020200,Nicetown-Tioga,8.279198647,Average,135,Particulate matter concentration,Lower North,Nicetown-Tioga 9
+42101020300,Nicetown-Tioga,7.602502823,Above Average,5,Particulate matter concentration,East,Nicetown-Tioga 10
+42101020400,Nicetown-Tioga,7.628149986,Above Average,21,Particulate matter concentration,East,Nicetown-Tioga 11
+42101020500,Nicetown-Tioga,8.232143402,Average,127,Particulate matter concentration,Lower North,Nicetown-Tioga 12
+42101020600,East Falls-Westside,8.285244942,Average,138,Particulate matter concentration,Northwest,East Falls-Westside 1
+42101020700,East Falls-Westside,8.285244942,Average,138,Particulate matter concentration,Northwest,East Falls-Westside 2
+42101020800,East Falls-Westside,8.285245895,Average,144,Particulate matter concentration,Northwest,East Falls-Westside 3
+42101020900,Roxborough-Manayunk,8.285244942,Average,138,Particulate matter concentration,Northwest,Roxborough-Manayunk 1
+42101021000,Roxborough-Manayunk,8.296356201,Average,170,Particulate matter concentration,Northwest,Roxborough-Manayunk 2
+42101021100,Roxborough-Manayunk,8.285299301,Average,148,Particulate matter concentration,Northwest,Roxborough-Manayunk 3
+42101021200,Roxborough-Manayunk,8.28835392,Average,167,Particulate matter concentration,Northwest,Roxborough-Manayunk 4
+42101021300,Roxborough-Manayunk,8.297412872,Average,174,Particulate matter concentration,Northwest,Roxborough-Manayunk 5
+42101021400,Roxborough-Manayunk,8.313605309,Average,178,Particulate matter concentration,Northwest,Roxborough-Manayunk 6
+42101021500,Roxborough-Manayunk,8.299395561,Average,175,Particulate matter concentration,Northwest,Roxborough-Manayunk 7
+42101021600,Roxborough-Manayunk,8.296625137,Average,173,Particulate matter concentration,Northwest,Roxborough-Manayunk 8
+42101021700,Roxborough-Manayunk,8.29616642,Average,169,Particulate matter concentration,Northwest,Roxborough-Manayunk 9
+42101021800,Roxborough-Manayunk,8.29641819,Average,171,Particulate matter concentration,Northwest,Roxborough-Manayunk 10
+42101021900,Roxborough-Manayunk,8.29641819,Average,171,Particulate matter concentration,Northwest,Roxborough-Manayunk 11
+42101022000,Roxborough-Manayunk,8.273730278,Average,134,Particulate matter concentration,Northwest,Roxborough-Manayunk 12
+42101023100,Chestnut Hill-West Mt. Airy,8.253283501,Average,129,Particulate matter concentration,Northwest,Chestnut Hill-West Mt. Airy 1
+42101023500,Chestnut Hill-West Mt. Airy,8.287656784,Average,154,Particulate matter concentration,Northwest,Chestnut Hill-West Mt. Airy 2
+42101023600,Chestnut Hill-West Mt. Airy,8.287671089,Average,161,Particulate matter concentration,Northwest,Chestnut Hill-West Mt. Airy 3
+42101023700,Chestnut Hill-West Mt. Airy,8.287671089,Average,161,Particulate matter concentration,Northwest,Chestnut Hill-West Mt. Airy 4
+42101023800,Germantown,8.287671089,Average,161,Particulate matter concentration,Northwest,Germantown 1
+42101023900,Chestnut Hill-West Mt. Airy,8.287349701,Average,153,Particulate matter concentration,Northwest,Chestnut Hill-West Mt. Airy 5
+42101024000,East Falls-Westside,8.285360336,Average,149,Particulate matter concentration,Northwest,East Falls-Westside 4
+42101024100,Germantown,8.287251472,Average,152,Particulate matter concentration,Northwest,Germantown 2
+42101024200,Germantown,8.285392761,Average,150,Particulate matter concentration,Northwest,Germantown 3
+42101024300,East Falls-Westside,8.285245895,Average,144,Particulate matter concentration,Northwest,East Falls-Westside 5
+42101024400,East Falls-Westside,8.285244942,Average,138,Particulate matter concentration,Northwest,East Falls-Westside 6
+42101024500,Germantown,8.286950111,Average,151,Particulate matter concentration,Northwest,Germantown 4
+42101024600,Germantown,8.287671089,Average,161,Particulate matter concentration,Northwest,Germantown 5
+42101024700,Germantown,8.287671089,Average,161,Particulate matter concentration,Northwest,Germantown 6
+42101024800,Germantown,8.287671089,Average,161,Particulate matter concentration,Northwest,Germantown 7
+42101024900,Germantown,8.287670135,Average,156,Particulate matter concentration,Northwest,Germantown 8
+42101025200,East Mt. Airy,8.287670135,Average,156,Particulate matter concentration,Northwest,East Mt. Airy 1
+42101025300,East Mt. Airy,8.287670135,Average,156,Particulate matter concentration,Northwest,East Mt. Airy 2
+42101025400,East Mt. Airy,8.287670135,Average,156,Particulate matter concentration,Northwest,East Mt. Airy 3
+42101025500,East Mt. Airy,8.281269073,Average,137,Particulate matter concentration,Northwest,East Mt. Airy 4
+42101025600,East Mt. Airy,8.250757217,Average,128,Particulate matter concentration,Northwest,East Mt. Airy 5
+42101025700,Chestnut Hill-West Mt. Airy,8.224858284,Average,121,Particulate matter concentration,Northwest,Chestnut Hill-West Mt. Airy 6
+42101025800,West Oak Lane-Cedarbrook,8.224859238,Average,125,Particulate matter concentration,Upper North,West Oak Lane-Cedarbrook 1
+42101025900,West Oak Lane-Cedarbrook,8.224858284,Average,121,Particulate matter concentration,Upper North,West Oak Lane-Cedarbrook 2
+42101026000,West Oak Lane-Cedarbrook,8.224858284,Average,121,Particulate matter concentration,Upper North,West Oak Lane-Cedarbrook 3
+42101026100,West Oak Lane-Cedarbrook,8.226884842,Average,126,Particulate matter concentration,Upper North,West Oak Lane-Cedarbrook 4
+42101026200,West Oak Lane-Cedarbrook,8.254692078,Average,130,Particulate matter concentration,Upper North,West Oak Lane-Cedarbrook 5
+42101026301,West Oak Lane-Cedarbrook,8.224858284,Average,121,Particulate matter concentration,Upper North,West Oak Lane-Cedarbrook 6
+42101026302,West Oak Lane-Cedarbrook,8.139430046,Average,114,Particulate matter concentration,Upper North,West Oak Lane-Cedarbrook 7
+42101026400,West Oak Lane-Cedarbrook,8.271946907,Average,133,Particulate matter concentration,Upper North,West Oak Lane-Cedarbrook 8
+42101026500,Ogontz,8.080929756,Average,106,Particulate matter concentration,Upper North,Ogontz 1
+42101026600,West Oak Lane-Cedarbrook,8.042309761,Average,102,Particulate matter concentration,Upper North,West Oak Lane-Cedarbrook 9
+42101026700,Ogontz,8.037956238,Average,90,Particulate matter concentration,Upper North,Ogontz 2
+42101026800,Oak Lane-Fernrock,8.037956238,Average,90,Particulate matter concentration,Upper North,Oak Lane-Fernrock 1
+42101026900,Oak Lane-Fernrock,8.037956238,Average,90,Particulate matter concentration,Upper North,Oak Lane-Fernrock 2
+42101027000,Oak Lane-Fernrock,8.037957191,Average,95,Particulate matter concentration,Upper North,Oak Lane-Fernrock 3
+42101027100,Oak Lane-Fernrock,8.037957191,Average,95,Particulate matter concentration,Upper North,Oak Lane-Fernrock 4
+42101027200,Oak Lane-Fernrock,8.037957191,Average,95,Particulate matter concentration,Upper North,Oak Lane-Fernrock 5
+42101027300,Olney-Feltonville,8.037957191,Average,95,Particulate matter concentration,Upper North,Olney-Feltonville 1
+42101027401,Olney-Feltonville,8.037956238,Average,90,Particulate matter concentration,Upper North,Olney-Feltonville 2
+42101027402,Olney-Feltonville,8.037957191,Average,95,Particulate matter concentration,Upper North,Olney-Feltonville 3
+42101027500,Olney-Feltonville,8.037957191,Average,95,Particulate matter concentration,Upper North,Olney-Feltonville 4
+42101027600,Oak Lane-Fernrock,8.037956238,Average,90,Particulate matter concentration,Upper North,Oak Lane-Fernrock 6
+42101027700,Ogontz,8.05312252,Average,103,Particulate matter concentration,Upper North,Ogontz 3
+42101027800,Ogontz,8.037957191,Average,95,Particulate matter concentration,Upper North,Ogontz 4
+42101027901,Ogontz,8.07154274,Average,105,Particulate matter concentration,Upper North,Ogontz 5
+42101027902,Ogontz,8.070036888,Average,104,Particulate matter concentration,Upper North,Ogontz 6
+42101028000,Logan,7.752634048,Above Average,33,Particulate matter concentration,Upper North,Logan 1
+42101028100,Logan,7.766238689,Above Average,36,Particulate matter concentration,Upper North,Logan 2
+42101028200,Logan,7.998444557,Above Average,88,Particulate matter concentration,Upper North,Logan 3
+42101028300,Logan,7.603262424,Above Average,19,Particulate matter concentration,Upper North,Logan 4
+42101028400,Logan,7.602502823,Above Average,5,Particulate matter concentration,Upper North,Logan 5
+42101028500,Olney-Feltonville,7.68672514,Above Average,24,Particulate matter concentration,Upper North,Olney-Feltonville 5
+42101028600,Olney-Feltonville,7.659409046,Above Average,23,Particulate matter concentration,Upper North,Olney-Feltonville 6
+42101028700,Olney-Feltonville,7.602502823,Above Average,5,Particulate matter concentration,Upper North,Olney-Feltonville 7
+42101028800,Olney-Feltonville,7.6025033,Above Average,16,Particulate matter concentration,Upper North,Olney-Feltonville 8
+42101028901,Hunting Park-Fairhill,7.602502823,Above Average,5,Particulate matter concentration,Upper North,Hunting Park-Fairhill 10
+42101028902,Olney-Feltonville,7.6025033,Above Average,16,Particulate matter concentration,Upper North,Olney-Feltonville 9
+42101029000,Olney-Feltonville,7.742774963,Above Average,28,Particulate matter concentration,Upper North,Olney-Feltonville 10
+42101029100,Lawndale-Crescentville,7.97236681,Above Average,85,Particulate matter concentration,Lower Northeast (West),Lawndale-Crescentville 1
+42101029200,Lawndale-Crescentville,7.69835186,Above Average,25,Particulate matter concentration,Lower Northeast (East),Lawndale-Crescentville 2
+42101029300,Frankford,7.889369011,Above Average,73,Particulate matter concentration,Lower Northeast (East),Frankford 1
+42101029400,Frankford,7.889369011,Above Average,73,Particulate matter concentration,Lower Northeast (East),Frankford 2
+42101029800,Wissinoming-Tacony,7.889369011,Above Average,73,Particulate matter concentration,Lower Northeast (East),Wissinoming-Tacony 1
+42101029900,Frankford,7.889369011,Above Average,73,Particulate matter concentration,Lower Northeast (East),Frankford 3
+42101030000,Frankford,7.889369011,Above Average,73,Particulate matter concentration,Lower Northeast (East),Frankford 4
+42101030100,Frankford,7.889369011,Above Average,73,Particulate matter concentration,Lower Northeast (East),Frankford 5
+42101030200,Frankford,7.889369011,Above Average,73,Particulate matter concentration,Lower Northeast (East),Frankford 6
+42101030501,Lawndale-Crescentville,7.970237732,Above Average,84,Particulate matter concentration,Lower Northeast (West),Lawndale-Crescentville 3
+42101030502,Lawndale-Crescentville,8.037557602,Above Average,89,Particulate matter concentration,Lower Northeast (West),Lawndale-Crescentville 4
+42101030600,Lawndale-Crescentville,7.8799119,Above Average,69,Particulate matter concentration,Lower Northeast (West),Lawndale-Crescentville 5
+42101030700,Lawndale-Crescentville,7.850662231,Above Average,57,Particulate matter concentration,Lower Northeast (West),Lawndale-Crescentville 6
+42101030800,Oxford Circle,7.850661755,Above Average,50,Particulate matter concentration,Lower Northeast (West),Oxford Circle 1
+42101030900,Oxford Circle,7.850661755,Above Average,50,Particulate matter concentration,Lower Northeast (West),Oxford Circle 2
+42101031000,Oxford Circle,7.850662231,Above Average,57,Particulate matter concentration,Lower Northeast (West),Oxford Circle 3
+42101031101,Oxford Circle,7.850661755,Above Average,50,Particulate matter concentration,Lower Northeast (West),Oxford Circle 4
+42101031102,Oxford Circle,7.850662231,Above Average,57,Particulate matter concentration,Lower Northeast (West),Oxford Circle 5
+42101031200,Oxford Circle,7.850662231,Above Average,57,Particulate matter concentration,Lower Northeast (West),Oxford Circle 6
+42101031300,Oxford Circle,7.850661755,Above Average,50,Particulate matter concentration,Lower Northeast (West),Oxford Circle 7
+42101031401,Oxford Circle,7.850661755,Above Average,50,Particulate matter concentration,Lower Northeast (West),Oxford Circle 8
+42101031402,Oxford Circle,7.850661755,Above Average,50,Particulate matter concentration,Lower Northeast (West),Oxford Circle 9
+42101031501,Mayfair-Holmesburg,7.850662231,Above Average,57,Particulate matter concentration,Lower Northeast (East),Mayfair-Holmesburg 1
+42101031502,Mayfair-Holmesburg,7.850661755,Above Average,50,Particulate matter concentration,Lower Northeast (East),Mayfair-Holmesburg 2
+42101031600,Mayfair-Holmesburg,7.863918781,Above Average,65,Particulate matter concentration,Lower Northeast (East),Mayfair-Holmesburg 3
+42101031700,Mayfair-Holmesburg,7.875303268,Above Average,68,Particulate matter concentration,Lower Northeast (East),Mayfair-Holmesburg 4
+42101031800,Mayfair-Holmesburg,7.873283863,Above Average,67,Particulate matter concentration,Lower Northeast (East),Mayfair-Holmesburg 5
+42101031900,Wissinoming-Tacony,7.889369011,Above Average,73,Particulate matter concentration,Lower Northeast (East),Wissinoming-Tacony 2
+42101032000,Wissinoming-Tacony,7.888694763,Above Average,70,Particulate matter concentration,Lower Northeast (East),Wissinoming-Tacony 3
+42101032100,Wissinoming-Tacony,7.889369011,Above Average,73,Particulate matter concentration,Lower Northeast (East),Wissinoming-Tacony 4
+42101032300,Wissinoming-Tacony,7.889368534,Above Average,71,Particulate matter concentration,Lower Northeast (East),Wissinoming-Tacony 5
+42101032500,Wissinoming-Tacony,7.867177486,Above Average,66,Particulate matter concentration,Lower Northeast (East),Wissinoming-Tacony 6
+42101032600,Mayfair-Holmesburg,7.489249706,Above Average,2,Particulate matter concentration,Lower Northeast (East),Mayfair-Holmesburg 6
+42101032900,Mayfair-Holmesburg,7.721555233,Above Average,27,Particulate matter concentration,Lower Northeast (East),Mayfair-Holmesburg 7
+42101033000,Mayfair-Holmesburg,7.560985565,Above Average,4,Particulate matter concentration,Lower Northeast (East),Mayfair-Holmesburg 8
+42101033101,Mayfair-Holmesburg,7.780342579,Above Average,37,Particulate matter concentration,Lower Northeast (East),Mayfair-Holmesburg 9
+42101033102,Mayfair-Holmesburg,7.748930454,Above Average,32,Particulate matter concentration,Lower Northeast (East),Mayfair-Holmesburg 10
+42101033200,Mayfair-Holmesburg,7.835570335,Above Average,45,Particulate matter concentration,Lower Northeast (East),Mayfair-Holmesburg 11
+42101033300,Mayfair-Holmesburg,7.844369411,Above Average,47,Particulate matter concentration,Lower Northeast (West),Mayfair-Holmesburg 12
+42101033400,Rhawnhurst-Fox Chase,7.850662231,Above Average,57,Particulate matter concentration,Lower Northeast (West),Rhawnhurst-Fox Chase 1
+42101033500,Rhawnhurst-Fox Chase,7.850662231,Above Average,57,Particulate matter concentration,Lower Northeast (West),Rhawnhurst-Fox Chase 2
+42101033600,Rhawnhurst-Fox Chase,7.849162579,Above Average,49,Particulate matter concentration,Lower Northeast (West),Rhawnhurst-Fox Chase 3
+42101033701,Rhawnhurst-Fox Chase,7.829383373,Above Average,44,Particulate matter concentration,Lower Northeast (West),Rhawnhurst-Fox Chase 4
+42101033702,Rhawnhurst-Fox Chase,7.808664799,Above Average,41,Particulate matter concentration,Lower Northeast (West),Rhawnhurst-Fox Chase 5
+42101033800,Rhawnhurst-Fox Chase,7.846611977,Above Average,48,Particulate matter concentration,Lower Northeast (West),Rhawnhurst-Fox Chase 6
+42101033900,Rhawnhurst-Fox Chase,7.818596363,Above Average,43,Particulate matter concentration,Lower Northeast (West),Rhawnhurst-Fox Chase 7
+42101034000,Rhawnhurst-Fox Chase,7.808282852,Above Average,40,Particulate matter concentration,Lower Northeast (West),Rhawnhurst-Fox Chase 8
+42101034100,Rhawnhurst-Fox Chase,7.807667255,Above Average,39,Particulate matter concentration,Lower Northeast (West),Rhawnhurst-Fox Chase 9
+42101034200,Rhawnhurst-Fox Chase,7.807666779,Above Average,38,Particulate matter concentration,Lower Northeast (West),Rhawnhurst-Fox Chase 10
+42101034400,Bustleton,7.842749119,Above Average,46,Particulate matter concentration,Far Northeast,Bustleton 1
+42101034501,Bustleton,8.336715698,Average,180,Particulate matter concentration,Far Northeast,Bustleton 2
+42101034502,Bustleton,8.280463219,Average,136,Particulate matter concentration,Far Northeast,Bustleton 3
+42101034600,Torresdale South-Pennypack Park,8.584229469,Below Average,300,Particulate matter concentration,Far Northeast,Torresdale South-Pennypack Park 1
+42101034701,Torresdale South-Pennypack Park,8.146673203,Average,115,Particulate matter concentration,Far Northeast,Torresdale South-Pennypack Park 2
+42101034702,Torresdale South-Pennypack Park,7.754929543,Above Average,34,Particulate matter concentration,Far Northeast,Torresdale South-Pennypack Park 3
+42101034801,Torresdale South-Pennypack Park,7.748929977,Above Average,30,Particulate matter concentration,Far Northeast,Torresdale South-Pennypack Park 4
+42101034802,Torresdale South-Pennypack Park,7.998082638,Above Average,87,Particulate matter concentration,Far Northeast,Torresdale South-Pennypack Park 5
+42101034803,Torresdale South-Pennypack Park,7.812336445,Above Average,42,Particulate matter concentration,Far Northeast,Torresdale South-Pennypack Park 6
+42101034900,Torresdale South-Pennypack Park,7.748929977,Above Average,30,Particulate matter concentration,Far Northeast,Torresdale South-Pennypack Park 7
+42101035100,Torresdale South-Pennypack Park,7.941198349,Above Average,82,Particulate matter concentration,Far Northeast,Torresdale South-Pennypack Park 8
+42101035200,Torresdale South-Pennypack Park,7.759241581,Above Average,35,Particulate matter concentration,Far Northeast,Torresdale South-Pennypack Park 9
+42101035301,Torresdale North,8.256381989,Average,131,Particulate matter concentration,Far Northeast,Torresdale North 1
+42101035302,Torresdale North,8.616201401,Below Average,302,Particulate matter concentration,Far Northeast,Torresdale North 2
+42101035500,Bustleton,8.637341499,Below Average,310,Particulate matter concentration,Far Northeast,Bustleton 4
+42101035601,Bustleton,8.318635941,Average,179,Particulate matter concentration,Far Northeast,Bustleton 5
+42101035602,Bustleton,8.124005318,Average,113,Particulate matter concentration,Far Northeast,Bustleton 6
+42101035701,Somerton,8.633406639,Below Average,305,Particulate matter concentration,Far Northeast,Somerton 1
+42101035702,Somerton,8.465693474,Below Average,296,Particulate matter concentration,Far Northeast,Somerton 2
+42101035800,Somerton,8.633405685,Below Average,304,Particulate matter concentration,Far Northeast,Somerton 3
+42101035900,Somerton,8.63345623,Below Average,307,Particulate matter concentration,Far Northeast,Somerton 4
+42101036000,Somerton,8.636059761,Below Average,308,Particulate matter concentration,Far Northeast,Somerton 5
+42101036100,Torresdale North,8.640680313,Below Average,312,Particulate matter concentration,Far Northeast,Torresdale North 3
+42101036201,Torresdale North,8.644670486,Below Average,314,Particulate matter concentration,Far Northeast,Torresdale North 4
+42101036202,Torresdale North,8.658905983,Below Average,318,Particulate matter concentration,Far Northeast,Torresdale North 5
+42101036203,Torresdale North,8.65071106,Below Average,315,Particulate matter concentration,Far Northeast,Torresdale North 6
+42101036301,Torresdale North,8.662660599,Below Average,319,Particulate matter concentration,Far Northeast,Torresdale North 7
+42101036302,Torresdale North,8.654662132,Below Average,317,Particulate matter concentration,Far Northeast,Torresdale North 8
+42101036303,Torresdale North,8.654533386,Below Average,316,Particulate matter concentration,Far Northeast,Torresdale North 9
+42101036400,Torresdale North,8.638246536,Below Average,311,Particulate matter concentration,Far Northeast,Torresdale North 10
+42101036501,Somerton,8.631410599,Below Average,303,Particulate matter concentration,Far Northeast,Somerton 6
+42101036502,Somerton,8.633406639,Below Average,305,Particulate matter concentration,Far Northeast,Somerton 7
+42101036600,Center City East,10.01369095,Below Average,351,Particulate matter concentration,Greater Center City,Center City East 11
+42101036700,Northern Liberties-West Kensington,10.04180717,Below Average,352,Particulate matter concentration,Greater Center City,Northern Liberties-West Kensington 8
+42101036900,University City,8.443595886,Average,267,Particulate matter concentration,Southwest,University City 12
+42101037200,Snyder-Whitman,8.694843292,Below Average,321,Particulate matter concentration,South,Snyder-Whitman 5
+42101037300,Grays Ferry-Passyunk,8.378969193,Average,205,Particulate matter concentration,South,Grays Ferry-Passyunk 4
+42101037500,Overbrook Park-Wynnefield Heights,8.35956192,Average,188,Particulate matter concentration,West,Overbrook Park-Wynnefield Heights 11
+42101037600,Northern Liberties-West Kensington,9.474487305,Below Average,339,Particulate matter concentration,Greater Center City,Northern Liberties-West Kensington 9
+42101037700,Poplar-Temple,10.08339024,Below Average,354,Particulate matter concentration,Lower North,Poplar-Temple 8
+42101037800,Richmond-Bridesburg,8.860437393,Below Average,323,Particulate matter concentration,East,Richmond-Bridesburg 5
+42101037900,Richmond-Bridesburg,8.446583748,Below Average,295,Particulate matter concentration,East,Richmond-Bridesburg 6
+42101038000,Frankford,7.889368534,Above Average,71,Particulate matter concentration,Lower Northeast (East),Frankford 7
+42101038100,Wissinoming-Tacony,7.450447559,Above Average,1,Particulate matter concentration,Lower Northeast (East),Wissinoming-Tacony 7
+42101038200,Juniata Park-Harrowgate,8.636310577,Below Average,309,Particulate matter concentration,East,Juniata Park-Harrowgate 5
+42101038300,Hunting Park-Fairhill,7.602502823,Above Average,5,Particulate matter concentration,East,Hunting Park-Fairhill 11
+42101038400,Roxborough-Manayunk,8.163377762,Average,116,Particulate matter concentration,Northwest,Roxborough-Manayunk 13
+42101038500,Chestnut Hill-West Mt. Airy,8.187309265,Average,119,Particulate matter concentration,Northwest,Chestnut Hill-West Mt. Airy 7
+42101038600,Chestnut Hill-West Mt. Airy,8.270479202,Average,132,Particulate matter concentration,Northwest,Chestnut Hill-West Mt. Airy 8
+42101038700,Chestnut Hill-West Mt. Airy,8.177774429,Average,118,Particulate matter concentration,Northwest,Chestnut Hill-West Mt. Airy 9
+42101038800,Chestnut Hill-West Mt. Airy,8.287662506,Average,155,Particulate matter concentration,Northwest,Chestnut Hill-West Mt. Airy 10
+42101038900,East Mt. Airy,8.287670135,Average,156,Particulate matter concentration,Northwest,East Mt. Airy 6
+42101039000,Lawndale-Crescentville,7.858528614,Above Average,64,Particulate matter concentration,Lower Northeast (West),Lawndale-Crescentville 7
