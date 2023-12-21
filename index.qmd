@@ -1,5 +1,5 @@
 ---
-title: ""Predicting Asthma Prevalence by Census Tracts in Philadeplhia, PA"
+title: "Predicting Asthma Prevalence by Census Tracts in Philadeplhia, PA"
 subtitle: "Marissa and Alyssa"
 ---
 
