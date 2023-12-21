@@ -4,14 +4,7 @@
     "href": "Our Model/About1.html",
     "title": "Our Model",
     "section": "",
-    "text": "In this project, our goal is to predict asthma prevalence in Philadelphia census tracts using a machine learning algorithm. The entire process can be categorized into three main sections: Exploratory Analysis, Regression and Cross Validation, and Prediction.\n\n\n\nConducted an in-depth exploration of the dataset, identifying relevant risk factors. Explored relationships between variables and asthma prevalence. Cleaned and preprocessed data to prepare it for model training.\n\n\n\nUtilized regression analysis to understand the impact of various risk factors on asthma prevalence. Employed cross-validation techniques to assess model performance and generalizability. Explored different regression models to identify the most effective one.\nPrediction using Random Forest Model:\nAfter thorough cross-validation, opted for the Random Forest model as the most suitable for our prediction task. Leveraged scikit-learn’s machine learning library for model implementation. Trained the model on the identified risk factors and census tract data."
-  },
-  {
-    "objectID": "Our Model/About1.html#project-overview-predicting-asthma-prevalence-in-philadelphia",
-    "href": "Our Model/About1.html#project-overview-predicting-asthma-prevalence-in-philadelphia",
-    "title": "Our Model",
-    "section": "",
-    "text": "In this project, our goal is to predict asthma prevalence in Philadelphia census tracts using a machine learning algorithm. The entire process can be categorized into three main sections: Exploratory Analysis, Regression and Cross Validation, and Prediction."
+    "text": "Conducted an in-depth exploration of the dataset, identifying relevant risk factors. Explored relationships between variables and asthma prevalence. Cleaned and preprocessed data to prepare it for model training.\n\n\n\nUtilized regression analysis to understand the impact of various risk factors on asthma prevalence. Employed cross-validation techniques to assess model performance and generalizability. Explored different regression models to identify the most effective one.\n\n\n\nAfter thorough cross-validation, opted for the Random Forest model as the most suitable for our prediction task. Leveraged scikit-learn’s machine learning library for model implementation. Trained the model on the identified risk factors and census tract data."
   },
   {
     "objectID": "Our Model/About1.html#exploratory-analysis",
@@ -25,7 +18,14 @@
     "href": "Our Model/About1.html#regression-and-cross-validation",
     "title": "Our Model",
     "section": "",
-    "text": "Utilized regression analysis to understand the impact of various risk factors on asthma prevalence. Employed cross-validation techniques to assess model performance and generalizability. Explored different regression models to identify the most effective one.\nPrediction using Random Forest Model:\nAfter thorough cross-validation, opted for the Random Forest model as the most suitable for our prediction task. Leveraged scikit-learn’s machine learning library for model implementation. Trained the model on the identified risk factors and census tract data."
+    "text": "Utilized regression analysis to understand the impact of various risk factors on asthma prevalence. Employed cross-validation techniques to assess model performance and generalizability. Explored different regression models to identify the most effective one."
+  },
+  {
+    "objectID": "Our Model/About1.html#prediction-using-random-forest-model",
+    "href": "Our Model/About1.html#prediction-using-random-forest-model",
+    "title": "Our Model",
+    "section": "",
+    "text": "After thorough cross-validation, opted for the Random Forest model as the most suitable for our prediction task. Leveraged scikit-learn’s machine learning library for model implementation. Trained the model on the identified risk factors and census tract data."
   },
   {
     "objectID": "Our Model/2-Regression-Analysis.html",
