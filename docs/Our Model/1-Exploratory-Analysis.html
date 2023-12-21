@@ -95,7 +95,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
 <script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
-<script src="https://unpkg.com/@jupyter-widgets/html-manager@*/dist/embed-amd.js" crossorigin="anonymous"></script>
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -209,7 +208,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<div class="cell" data-tags="[]" data-execution_count="2">
+<div class="cell" data-tags="[]" data-execution_count="1">
 <div class="cell-output cell-output-display">
 
 <script type="application/javascript">
@@ -766,330 +765,222 @@ C:\Users\cruse\mambaforge1\envs\musa-550-fall-2023\lib\site-packages\libpysal\cg
 <section id="philadelphia-social-progress-index-data" class="level2">
 <h2 class="anchored" data-anchor-id="philadelphia-social-progress-index-data">Philadelphia Social Progress Index Data</h2>
 <p>As social determinants of health influence the overall health of individuals, including asthma rates Philadelphia’s Social Progress Index, which measures social progress using a detailed framework of indicators applied in 372 census tracts, helps account for indicators related to conditions of environments that Philadelphians grew up in [5]. This analysis utilizes Health and Wellness data, represented as hw_value, to understand the overall health of communities, as more Black and Hispanic residents reported poor or fair health than any other group, with severe declines in life expectancy [6]. Philadelphia ranked among the worst 25 in the nation for ozone and particle pollution in the country, which are related to serious health effects such as asthma attacks. Further, particle pollution has been linked to the development of asthma [7]. To increase the accuracy of our prediction model, we used Ozone and Particulate Matter 2.5 data, represented as oc_value and pmc_value, respectively.</p>
-<div class="cell" data-tags="[]" data-execution_count="3">
+<div class="cell" data-tags="[]" data-execution_count="2">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>health_and_wellness <span class="op">=</span> pd.read_csv(<span class="st">"health_and_wellness.csv"</span>)</span>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>health_and_wellness <span class="op">=</span> pd.read_csv(<span class="st">'data/health_and_wellness.csv'</span>)</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>health_and_wellness <span class="op">=</span> health_and_wellness.drop([<span class="st">'rank'</span>, <span class="st">'region_name'</span>, <span class="st">'tract_name'</span>, <span class="st">'variable'</span>, <span class="st">'neighborhood_name'</span>, <span class="st">'average_label'</span>], axis<span class="op">=</span><span class="dv">1</span>)</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>health_and_wellness <span class="op">=</span> health_and_wellness.rename(columns<span class="op">=</span>{<span class="st">'value'</span>:<span class="st">'hw_value'</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
+<div class="cell-output cell-output-error">
+<pre><code>FileNotFoundError: [Errno 2] No such file or directory: 'data/health_and_wellness.csv'</code></pre>
 </div>
-<div class="cell" data-tags="[]" data-execution_count="4">
+</div>
+<div class="cell" data-tags="[]" data-execution_count="6">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>ozone_concentration <span class="op">=</span> pd.read_csv(<span class="st">"ozone_concentration.csv"</span>)</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>ozone_concentration <span class="op">=</span> ozone_concentration.drop([<span class="st">'rank'</span>, <span class="st">'region_name'</span>, <span class="st">'tract_name'</span>, <span class="st">'variable'</span>,<span class="st">'neighborhood_name'</span>, <span class="st">'average_label'</span>], axis<span class="op">=</span><span class="dv">1</span>)</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>ozone_concentration <span class="op">=</span> ozone_concentration.rename(columns<span class="op">=</span>{<span class="st">'value'</span>:<span class="st">'oc_value'</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>ozone_concentration <span class="op">=</span> pd.read_csv(<span class="st">"ozone_concentration.csv"</span>)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>ozone_concentration <span class="op">=</span> ozone_concentration.drop([<span class="st">'rank'</span>, <span class="st">'region_name'</span>, <span class="st">'tract_name'</span>, <span class="st">'variable'</span>,<span class="st">'neighborhood_name'</span>, <span class="st">'average_label'</span>], axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>ozone_concentration <span class="op">=</span> ozone_concentration.rename(columns<span class="op">=</span>{<span class="st">'value'</span>:<span class="st">'oc_value'</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
+<div class="cell-output cell-output-error">
+<pre><code>FileNotFoundError: [Errno 2] No such file or directory: 'ozone_concentration.csv'</code></pre>
 </div>
-<div class="cell" data-tags="[]" data-execution_count="5">
+</div>
+<div class="cell" data-tags="[]" data-execution_count="7">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>pmc <span class="op">=</span> pd.read_csv(<span class="st">"particular_matter_concentration.csv"</span>)</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>pmc <span class="op">=</span> pmc.drop([<span class="st">'rank'</span>, <span class="st">'region_name'</span>, <span class="st">'tract_name'</span>, <span class="st">'variable'</span>,<span class="st">'neighborhood_name'</span>, <span class="st">'average_label'</span>], axis<span class="op">=</span><span class="dv">1</span>)</span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>pmc <span class="op">=</span> pmc.rename(columns<span class="op">=</span>{<span class="st">'value'</span>:<span class="st">'pmc_value'</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>pmc <span class="op">=</span> pd.read_csv(<span class="st">"particular_matter_concentration.csv"</span>)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>pmc <span class="op">=</span> pmc.drop([<span class="st">'rank'</span>, <span class="st">'region_name'</span>, <span class="st">'tract_name'</span>, <span class="st">'variable'</span>,<span class="st">'neighborhood_name'</span>, <span class="st">'average_label'</span>], axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>pmc <span class="op">=</span> pmc.rename(columns<span class="op">=</span>{<span class="st">'value'</span>:<span class="st">'pmc_value'</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
+<div class="cell-output cell-output-error">
+<pre><code>FileNotFoundError: [Errno 2] No such file or directory: 'particular_matter_concentration.csv'</code></pre>
+</div>
 </div>
 </section>
 <section id="cdc-places-data" class="level2">
 <h2 class="anchored" data-anchor-id="cdc-places-data">CDC PLACES Data</h2>
 <p>This analysis builds off of the CDC’s PLACES dataset, a model-based population-level analysis and community estimates of health measures across the U.S [4]. Our model uses asthma prevalence data, represented as asthma_prevalance, from this dataset as our dependent variable. Tobacco Smoke, represented through the smoking prevalence data, smoking_prevalance, is known to be an indoor and outdoor pollution source that triggers asthma. In the City of Philadelphia, while the rates are declining, Philadelphians continue to have the highest smoking rate among large U.S cities, with non-Hispanic Black and Hispanic residents more likely to report smoking [6].</p>
-<div class="cell" data-tags="[]" data-execution_count="6">
+<div class="cell" data-tags="[]" data-execution_count="8">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>CDC_data <span class="op">=</span> pd.read_csv(<span class="st">"CDC_data.csv"</span>)</span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>CDC_data <span class="op">=</span> CDC_data[(CDC_data[<span class="st">'StateAbbr'</span>] <span class="op">==</span> <span class="st">'PA'</span>) <span class="op">&amp;</span></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>                         (CDC_data[<span class="st">'StateDesc'</span>] <span class="op">==</span> <span class="st">'Pennsylvania'</span>) <span class="op">&amp;</span></span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>                         (CDC_data[<span class="st">'CountyName'</span>] <span class="op">==</span> <span class="st">'Philadelphia'</span>)]</span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>CDC_data <span class="op">=</span> CDC_data[[<span class="st">'CASTHMA_CrudePrev'</span>, <span class="st">'TractFIPS'</span>, <span class="st">'CSMOKING_CrudePrev'</span>]]</span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>CDC_data <span class="op">=</span> CDC_data.rename(columns<span class="op">=</span>{<span class="st">'TractFIPS'</span>:<span class="st">'geoid'</span>})</span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>CDC_data <span class="op">=</span> CDC_data.rename(columns<span class="op">=</span>{<span class="st">'CASTHMA_CrudePrev'</span>:<span class="st">'asthma_prevalance'</span>})</span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>CDC_data <span class="op">=</span> CDC_data.rename(columns<span class="op">=</span>{<span class="st">'CSMOKING_CrudePrev'</span>: <span class="st">'smoking_prevalance'</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>CDC_data <span class="op">=</span> pd.read_csv(<span class="st">"CDC_data.csv"</span>)</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>CDC_data <span class="op">=</span> CDC_data[(CDC_data[<span class="st">'StateAbbr'</span>] <span class="op">==</span> <span class="st">'PA'</span>) <span class="op">&amp;</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>                         (CDC_data[<span class="st">'StateDesc'</span>] <span class="op">==</span> <span class="st">'Pennsylvania'</span>) <span class="op">&amp;</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>                         (CDC_data[<span class="st">'CountyName'</span>] <span class="op">==</span> <span class="st">'Philadelphia'</span>)]</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>CDC_data <span class="op">=</span> CDC_data[[<span class="st">'CASTHMA_CrudePrev'</span>, <span class="st">'TractFIPS'</span>, <span class="st">'CSMOKING_CrudePrev'</span>]]</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>CDC_data <span class="op">=</span> CDC_data.rename(columns<span class="op">=</span>{<span class="st">'TractFIPS'</span>:<span class="st">'geoid'</span>})</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>CDC_data <span class="op">=</span> CDC_data.rename(columns<span class="op">=</span>{<span class="st">'CASTHMA_CrudePrev'</span>:<span class="st">'asthma_prevalance'</span>})</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>CDC_data <span class="op">=</span> CDC_data.rename(columns<span class="op">=</span>{<span class="st">'CSMOKING_CrudePrev'</span>: <span class="st">'smoking_prevalance'</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
+<div class="cell-output cell-output-error">
+<pre><code>FileNotFoundError: [Errno 2] No such file or directory: 'CDC_data.csv'</code></pre>
+</div>
 </div>
 </section>
 <section id="environmental-justice-index-data" class="level2">
 <h2 class="anchored" data-anchor-id="environmental-justice-index-data">Environmental Justice Index Data</h2>
 <p>This analysis uses data from the Environmental Justice Index, a place-based tool that is designed to measure cumulative impacts of environmental burden that affects health and health equity [3]. In Philadelphia, children are largely exposed to lead, mold and tobacco smoke in the homes of Philadelphia’s residents, which are common asthma triggers [8]. The predictive model reflects these indoor exposures, by including the percentage of houses built pre-1980, as nearly 90 percent of homes were built before 1978, represented as e_houage[8]. The Center of Excellence in Environmental Toxicology shares that children living close to busy roadways is also a major concern for asthma, justifying the data for the proportion of tract’s area within 1 mile buffer of a high-volume road or highway, e_road [8]. Green spaces remain a protective factor that improves air quality, including ozone and particle pollution, and increases the health of individuals, demonstrated in as a predictor variable, e_park, that provides the proportion of the tract’s area within a 1 mile buffer of greenspace[9].</p>
-<div class="cell" data-tags="[]" data-execution_count="7">
+<div class="cell" data-tags="[]" data-execution_count="9">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>eji_pa <span class="op">=</span> pd.read_csv(<span class="st">"eji_pa.csv"</span>)</span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>eji_pa <span class="op">=</span> eji_pa[(eji_pa[<span class="st">'COUNTY'</span>] <span class="op">==</span> <span class="st">'Philadelphia'</span>)]</span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>eji_pa <span class="op">=</span> eji_pa[[<span class="st">'GEOID'</span>, <span class="st">'E_PARK'</span>, <span class="st">'E_HOUAGE'</span>,<span class="st">'E_ROAD'</span>]]</span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>eji_pa <span class="op">=</span> eji_pa.rename(columns<span class="op">=</span>{<span class="st">'GEOID'</span>: <span class="st">'geoid'</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>eji_pa <span class="op">=</span> pd.read_csv(<span class="st">"eji_pa.csv"</span>)</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>eji_pa <span class="op">=</span> eji_pa[(eji_pa[<span class="st">'COUNTY'</span>] <span class="op">==</span> <span class="st">'Philadelphia'</span>)]</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>eji_pa <span class="op">=</span> eji_pa[[<span class="st">'GEOID'</span>, <span class="st">'E_PARK'</span>, <span class="st">'E_HOUAGE'</span>,<span class="st">'E_ROAD'</span>]]</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>eji_pa <span class="op">=</span> eji_pa.rename(columns<span class="op">=</span>{<span class="st">'GEOID'</span>: <span class="st">'geoid'</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
+<div class="cell-output cell-output-error">
+<pre><code>FileNotFoundError: [Errno 2] No such file or directory: 'eji_pa.csv'</code></pre>
 </div>
-<div class="cell" data-tags="[]" data-execution_count="8">
+</div>
+<div class="cell" data-tags="[]">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>censustracts <span class="op">=</span> gpd.read_file(<span class="st">'Census_Tracts_2010.geojson'</span>)</span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>tract_and_geoid <span class="op">=</span> censustracts[[<span class="st">'GEOID10'</span>, <span class="st">'TRACTCE10'</span>]]</span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>tract_and_geoid <span class="op">=</span> tract_and_geoid.rename(columns <span class="op">=</span> {<span class="st">'TRACTCE10'</span>:<span class="st">'tract'</span>})</span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>censustracts <span class="op">=</span> censustracts[[<span class="st">'GEOID10'</span>, <span class="st">'geometry'</span>]]</span>
-<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>censustracts <span class="op">=</span> censustracts.rename(columns <span class="op">=</span> {<span class="st">'GEOID10'</span>:<span class="st">'geoid'</span>})</span>
-<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>censustracts[<span class="st">'geoid'</span>] <span class="op">=</span> censustracts[<span class="st">'geoid'</span>].astype(np.int64)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>censustracts <span class="op">=</span> gpd.read_file(<span class="st">'Census_Tracts_2010.geojson'</span>)</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>tract_and_geoid <span class="op">=</span> censustracts[[<span class="st">'GEOID10'</span>, <span class="st">'TRACTCE10'</span>]]</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>tract_and_geoid <span class="op">=</span> tract_and_geoid.rename(columns <span class="op">=</span> {<span class="st">'TRACTCE10'</span>:<span class="st">'tract'</span>})</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>censustracts <span class="op">=</span> censustracts[[<span class="st">'GEOID10'</span>, <span class="st">'geometry'</span>]]</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>censustracts <span class="op">=</span> censustracts.rename(columns <span class="op">=</span> {<span class="st">'GEOID10'</span>:<span class="st">'geoid'</span>})</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>censustracts[<span class="st">'geoid'</span>] <span class="op">=</span> censustracts[<span class="st">'geoid'</span>].astype(np.int64)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
 </section>
 <section id="philly-demographics" class="level2">
 <h2 class="anchored" data-anchor-id="philly-demographics">Philly Demographics</h2>
 <p>As Black and Latino individuals encounter higher asthma burden, our prediction model uses the Census Bureau to include demographic data including: the percentage of Black, Latino, Asian and other races and ethnicities in Philadelphia. This is represented as blk_percent, white_percent, latino_percent, asian_percent, and other_percent.</p>
-<div class="cell" data-tags="[]" data-execution_count="9">
-<details>
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>variables <span class="op">=</span> [</span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">"NAME"</span>,</span>
-<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">"B03002_001E"</span>,</span>
-<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">"B03002_003E"</span>, </span>
-<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"B03002_004E"</span>, </span>
-<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"B03002_005E"</span>, </span>
-<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">"B03002_006E"</span>, </span>
-<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">"B03002_007E"</span>, </span>
-<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">"B03002_008E"</span>, </span>
-<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">"B03002_009E"</span>, </span>
-<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">"B03002_012E"</span>, </span>
-<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-</div>
 <div class="cell" data-tags="[]" data-execution_count="10">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>available <span class="op">=</span> cenpy.explorer.available()</span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>acs <span class="op">=</span> cenpy.remote.APIConnection(<span class="st">"ACSDT5Y2021"</span>)</span>
-<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>philly_county_code <span class="op">=</span> <span class="st">"101"</span></span>
-<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>pa_state_code <span class="op">=</span> <span class="st">"42"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>variables <span class="op">=</span> [</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">"NAME"</span>,</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">"B03002_001E"</span>,</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">"B03002_003E"</span>, </span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"B03002_004E"</span>, </span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"B03002_005E"</span>, </span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">"B03002_006E"</span>, </span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">"B03002_007E"</span>, </span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">"B03002_008E"</span>, </span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">"B03002_009E"</span>, </span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">"B03002_012E"</span>, </span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-<div class="cell" data-tags="[]" data-execution_count="11">
+<div class="cell" data-tags="[]">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>philly_demographics <span class="op">=</span> acs.query(</span>
-<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>    cols<span class="op">=</span>variables,</span>
-<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>    geo_unit<span class="op">=</span><span class="st">"block group:*"</span>,</span>
-<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>    geo_filter<span class="op">=</span>{<span class="st">"state"</span>: pa_state_code, <span class="st">"county"</span>: philly_county_code, <span class="st">"tract"</span>: <span class="st">"*"</span>},</span>
-<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>philly_demographics <span class="op">=</span> philly_demographics.rename(</span>
-<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>    columns<span class="op">=</span>{</span>
-<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>        <span class="st">"B03002_001E"</span>: <span class="st">"Total"</span>, </span>
-<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>        <span class="st">"B03002_003E"</span>: <span class="st">"White"</span>,  </span>
-<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>        <span class="st">"B03002_004E"</span>: <span class="st">"Black"</span>,  </span>
-<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>        <span class="st">"B03002_005E"</span>: <span class="st">"AI/AN"</span>, </span>
-<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a>        <span class="st">"B03002_006E"</span>: <span class="st">"Asian"</span>,  </span>
-<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a>        <span class="st">"B03002_007E"</span>: <span class="st">"NH/PI"</span>, </span>
-<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a>        <span class="st">"B03002_008E"</span>: <span class="st">"Other_"</span>,  </span>
-<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a>        <span class="st">"B03002_009E"</span>: <span class="st">"Two Plus"</span>,</span>
-<span id="cb10-17"><a href="#cb10-17" aria-hidden="true" tabindex="-1"></a>        <span class="st">"B03002_012E"</span>: <span class="st">"Hispanic"</span>,</span>
-<span id="cb10-18"><a href="#cb10-18" aria-hidden="true" tabindex="-1"></a>    }</span>
-<span id="cb10-19"><a href="#cb10-19" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb10-20"><a href="#cb10-20" aria-hidden="true" tabindex="-1"></a>philly_demographics <span class="op">=</span> pd.merge(philly_demographics, tract_and_geoid, on<span class="op">=</span><span class="st">'tract'</span>, how<span class="op">=</span><span class="st">'inner'</span>)</span>
-<span id="cb10-21"><a href="#cb10-21" aria-hidden="true" tabindex="-1"></a>philly_demographics <span class="op">=</span> philly_demographics.rename(columns <span class="op">=</span> {<span class="st">'GEOID10'</span>:<span class="st">'geoid'</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>available <span class="op">=</span> cenpy.explorer.available()</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>acs <span class="op">=</span> cenpy.remote.APIConnection(<span class="st">"ACSDT5Y2021"</span>)</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>philly_county_code <span class="op">=</span> <span class="st">"101"</span></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>pa_state_code <span class="op">=</span> <span class="st">"42"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-<div class="cell" data-tags="[]" data-execution_count="12">
+<div class="cell" data-tags="[]">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>philly_demographics[<span class="st">'Black'</span>] <span class="op">=</span> pd.to_numeric(philly_demographics[<span class="st">'Black'</span>])</span>
-<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>philly_demographics[<span class="st">'Total'</span>] <span class="op">=</span> pd.to_numeric(philly_demographics[<span class="st">'Total'</span>])</span>
-<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>philly_demographics[<span class="st">'blk_percent'</span>] <span class="op">=</span> (philly_demographics[<span class="st">'Black'</span>] <span class="op">/</span> philly_demographics[<span class="st">'Total'</span>]) <span class="op">*</span> <span class="dv">100</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>philly_demographics <span class="op">=</span> acs.query(</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>    cols<span class="op">=</span>variables,</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>    geo_unit<span class="op">=</span><span class="st">"block group:*"</span>,</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>    geo_filter<span class="op">=</span>{<span class="st">"state"</span>: pa_state_code, <span class="st">"county"</span>: philly_county_code, <span class="st">"tract"</span>: <span class="st">"*"</span>},</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>philly_demographics <span class="op">=</span> philly_demographics.rename(</span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>    columns<span class="op">=</span>{</span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>        <span class="st">"B03002_001E"</span>: <span class="st">"Total"</span>, </span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a>        <span class="st">"B03002_003E"</span>: <span class="st">"White"</span>,  </span>
+<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a>        <span class="st">"B03002_004E"</span>: <span class="st">"Black"</span>,  </span>
+<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a>        <span class="st">"B03002_005E"</span>: <span class="st">"AI/AN"</span>, </span>
+<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a>        <span class="st">"B03002_006E"</span>: <span class="st">"Asian"</span>,  </span>
+<span id="cb15-14"><a href="#cb15-14" aria-hidden="true" tabindex="-1"></a>        <span class="st">"B03002_007E"</span>: <span class="st">"NH/PI"</span>, </span>
+<span id="cb15-15"><a href="#cb15-15" aria-hidden="true" tabindex="-1"></a>        <span class="st">"B03002_008E"</span>: <span class="st">"Other_"</span>,  </span>
+<span id="cb15-16"><a href="#cb15-16" aria-hidden="true" tabindex="-1"></a>        <span class="st">"B03002_009E"</span>: <span class="st">"Two Plus"</span>,</span>
+<span id="cb15-17"><a href="#cb15-17" aria-hidden="true" tabindex="-1"></a>        <span class="st">"B03002_012E"</span>: <span class="st">"Hispanic"</span>,</span>
+<span id="cb15-18"><a href="#cb15-18" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb15-19"><a href="#cb15-19" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb15-20"><a href="#cb15-20" aria-hidden="true" tabindex="-1"></a>philly_demographics <span class="op">=</span> pd.merge(philly_demographics, tract_and_geoid, on<span class="op">=</span><span class="st">'tract'</span>, how<span class="op">=</span><span class="st">'inner'</span>)</span>
+<span id="cb15-21"><a href="#cb15-21" aria-hidden="true" tabindex="-1"></a>philly_demographics <span class="op">=</span> philly_demographics.rename(columns <span class="op">=</span> {<span class="st">'GEOID10'</span>:<span class="st">'geoid'</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-<div class="cell" data-tags="[]" data-execution_count="13">
+<div class="cell" data-tags="[]">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>philly_demographics[<span class="st">'White'</span>] <span class="op">=</span> pd.to_numeric(philly_demographics[<span class="st">'White'</span>])</span>
-<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>philly_demographics[<span class="st">'white_percent'</span>] <span class="op">=</span> (philly_demographics[<span class="st">'White'</span>] <span class="op">/</span> philly_demographics[<span class="st">'Total'</span>]) <span class="op">*</span> <span class="dv">100</span></span>
-<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>philly_demographics[<span class="st">'Hispanic'</span>] <span class="op">=</span> pd.to_numeric(philly_demographics[<span class="st">'Hispanic'</span>])</span>
-<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>philly_demographics[<span class="st">'latino_percent'</span>] <span class="op">=</span> (philly_demographics[<span class="st">'Hispanic'</span>] <span class="op">/</span> philly_demographics[<span class="st">'Total'</span>]) <span class="op">*</span> <span class="dv">100</span></span>
-<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>philly_demographics[<span class="st">'Asian'</span>] <span class="op">=</span> pd.to_numeric(philly_demographics[<span class="st">'Asian'</span>])</span>
-<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>philly_demographics[<span class="st">'asian_percent'</span>] <span class="op">=</span> (philly_demographics[<span class="st">'Asian'</span>] <span class="op">/</span> philly_demographics[<span class="st">'Total'</span>]) <span class="op">*</span> <span class="dv">100</span></span>
-<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>philly_demographics[<span class="st">'AI/AN'</span>] <span class="op">=</span> pd.to_numeric(philly_demographics[<span class="st">'AI/AN'</span>])</span>
-<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>philly_demographics[<span class="st">'NH/PI'</span>] <span class="op">=</span> pd.to_numeric(philly_demographics[<span class="st">'NH/PI'</span>])</span>
-<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>philly_demographics[<span class="st">'Other_'</span>] <span class="op">=</span> pd.to_numeric(philly_demographics[<span class="st">'Other_'</span>])</span>
-<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>philly_demographics[<span class="st">'Two Plus'</span>] <span class="op">=</span> pd.to_numeric(philly_demographics[<span class="st">'Two Plus'</span>])</span>
-<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a>columns_to_sum <span class="op">=</span> [<span class="st">"AI/AN"</span>, <span class="st">"NH/PI"</span>, <span class="st">"Other_"</span>, <span class="st">"Two Plus"</span>]</span>
-<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a>philly_demographics[<span class="st">'other_percent'</span>] <span class="op">=</span> (philly_demographics[columns_to_sum].<span class="bu">sum</span>(axis<span class="op">=</span><span class="dv">1</span>) <span class="op">/</span> philly_demographics[<span class="st">'Total'</span>]) <span class="op">*</span> <span class="dv">100</span></span>
-<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a>philly_demographics <span class="op">=</span> philly_demographics[[<span class="st">'blk_percent'</span>,<span class="st">'white_percent'</span>,<span class="st">'latino_percent'</span>, <span class="st">'asian_percent'</span>, <span class="st">'other_percent'</span>, <span class="st">'geoid'</span>]] </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>philly_demographics[<span class="st">'Black'</span>] <span class="op">=</span> pd.to_numeric(philly_demographics[<span class="st">'Black'</span>])</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>philly_demographics[<span class="st">'Total'</span>] <span class="op">=</span> pd.to_numeric(philly_demographics[<span class="st">'Total'</span>])</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>philly_demographics[<span class="st">'blk_percent'</span>] <span class="op">=</span> (philly_demographics[<span class="st">'Black'</span>] <span class="op">/</span> philly_demographics[<span class="st">'Total'</span>]) <span class="op">*</span> <span class="dv">100</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-<div class="cell" data-tags="[]" data-execution_count="14">
+<div class="cell" data-tags="[]">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>philly_demographics[<span class="st">'geoid'</span>] <span class="op">=</span> philly_demographics[<span class="st">'geoid'</span>].astype(<span class="st">'int64'</span>)</span>
-<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>philly_demographics <span class="op">=</span> philly_demographics.dropna()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>philly_demographics[<span class="st">'White'</span>] <span class="op">=</span> pd.to_numeric(philly_demographics[<span class="st">'White'</span>])</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>philly_demographics[<span class="st">'white_percent'</span>] <span class="op">=</span> (philly_demographics[<span class="st">'White'</span>] <span class="op">/</span> philly_demographics[<span class="st">'Total'</span>]) <span class="op">*</span> <span class="dv">100</span></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>philly_demographics[<span class="st">'Hispanic'</span>] <span class="op">=</span> pd.to_numeric(philly_demographics[<span class="st">'Hispanic'</span>])</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>philly_demographics[<span class="st">'latino_percent'</span>] <span class="op">=</span> (philly_demographics[<span class="st">'Hispanic'</span>] <span class="op">/</span> philly_demographics[<span class="st">'Total'</span>]) <span class="op">*</span> <span class="dv">100</span></span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>philly_demographics[<span class="st">'Asian'</span>] <span class="op">=</span> pd.to_numeric(philly_demographics[<span class="st">'Asian'</span>])</span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>philly_demographics[<span class="st">'asian_percent'</span>] <span class="op">=</span> (philly_demographics[<span class="st">'Asian'</span>] <span class="op">/</span> philly_demographics[<span class="st">'Total'</span>]) <span class="op">*</span> <span class="dv">100</span></span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>philly_demographics[<span class="st">'AI/AN'</span>] <span class="op">=</span> pd.to_numeric(philly_demographics[<span class="st">'AI/AN'</span>])</span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a>philly_demographics[<span class="st">'NH/PI'</span>] <span class="op">=</span> pd.to_numeric(philly_demographics[<span class="st">'NH/PI'</span>])</span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a>philly_demographics[<span class="st">'Other_'</span>] <span class="op">=</span> pd.to_numeric(philly_demographics[<span class="st">'Other_'</span>])</span>
+<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a>philly_demographics[<span class="st">'Two Plus'</span>] <span class="op">=</span> pd.to_numeric(philly_demographics[<span class="st">'Two Plus'</span>])</span>
+<span id="cb17-11"><a href="#cb17-11" aria-hidden="true" tabindex="-1"></a>columns_to_sum <span class="op">=</span> [<span class="st">"AI/AN"</span>, <span class="st">"NH/PI"</span>, <span class="st">"Other_"</span>, <span class="st">"Two Plus"</span>]</span>
+<span id="cb17-12"><a href="#cb17-12" aria-hidden="true" tabindex="-1"></a>philly_demographics[<span class="st">'other_percent'</span>] <span class="op">=</span> (philly_demographics[columns_to_sum].<span class="bu">sum</span>(axis<span class="op">=</span><span class="dv">1</span>) <span class="op">/</span> philly_demographics[<span class="st">'Total'</span>]) <span class="op">*</span> <span class="dv">100</span></span>
+<span id="cb17-13"><a href="#cb17-13" aria-hidden="true" tabindex="-1"></a>philly_demographics <span class="op">=</span> philly_demographics[[<span class="st">'blk_percent'</span>,<span class="st">'white_percent'</span>,<span class="st">'latino_percent'</span>, <span class="st">'asian_percent'</span>, <span class="st">'other_percent'</span>, <span class="st">'geoid'</span>]] </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<div class="cell" data-tags="[]">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>philly_demographics[<span class="st">'geoid'</span>] <span class="op">=</span> philly_demographics[<span class="st">'geoid'</span>].astype(<span class="st">'int64'</span>)</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>philly_demographics <span class="op">=</span> philly_demographics.dropna()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
 </section>
 <section id="correlation-plots" class="level2">
 <h2 class="anchored" data-anchor-id="correlation-plots">Correlation Plots</h2>
 <p>Below, asthma risk facors and the CDC’s estimate of asthma prevalence within a census tract. In our analysis, we observed the most notable correlations with predictors such as the percentage of Black population in a census tract, indicating potential disparities. Prevalence of smoking appeared to have a positive correlation with the dependent variable. Furthermore, the health and wellness value appears to have a negative correlation with asthma prevalence in a given census tract.</p>
-<div class="cell" data-tags="[]" data-execution_count="15">
+<div class="cell" data-tags="[]">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>regression_df <span class="op">=</span> pd.merge(health_and_wellness, ozone_concentration, on<span class="op">=</span><span class="st">'geoid'</span>, how<span class="op">=</span><span class="st">'inner'</span>)</span>
-<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>regression_df <span class="op">=</span> pd.merge(regression_df, pmc, on<span class="op">=</span><span class="st">'geoid'</span>, how<span class="op">=</span><span class="st">'inner'</span>)</span>
-<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>regression_df <span class="op">=</span> pd.merge(regression_df, CDC_data, on<span class="op">=</span><span class="st">'geoid'</span>, how<span class="op">=</span><span class="st">'inner'</span>)</span>
-<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>regression_df <span class="op">=</span> pd.merge(regression_df, eji_pa, on<span class="op">=</span><span class="st">'geoid'</span>, how<span class="op">=</span><span class="st">'inner'</span>)</span>
-<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>regression_df <span class="op">=</span> pd.merge(regression_df, philly_demographics, on<span class="op">=</span><span class="st">'geoid'</span>, how<span class="op">=</span><span class="st">'inner'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>regression_df <span class="op">=</span> pd.merge(health_and_wellness, ozone_concentration, on<span class="op">=</span><span class="st">'geoid'</span>, how<span class="op">=</span><span class="st">'inner'</span>)</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>regression_df <span class="op">=</span> pd.merge(regression_df, pmc, on<span class="op">=</span><span class="st">'geoid'</span>, how<span class="op">=</span><span class="st">'inner'</span>)</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>regression_df <span class="op">=</span> pd.merge(regression_df, CDC_data, on<span class="op">=</span><span class="st">'geoid'</span>, how<span class="op">=</span><span class="st">'inner'</span>)</span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>regression_df <span class="op">=</span> pd.merge(regression_df, eji_pa, on<span class="op">=</span><span class="st">'geoid'</span>, how<span class="op">=</span><span class="st">'inner'</span>)</span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>regression_df <span class="op">=</span> pd.merge(regression_df, philly_demographics, on<span class="op">=</span><span class="st">'geoid'</span>, how<span class="op">=</span><span class="st">'inner'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-<div class="cell" data-tags="[]" data-execution_count="16">
+<div class="cell" data-tags="[]">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>regression_df.to_csv(<span class="st">'regression_df.csv'</span>, index<span class="op">=</span><span class="va">False</span>)</span>
-<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>regression_df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>regression_df.to_csv(<span class="st">'regression_df.csv'</span>, index<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>regression_df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
-<div class="cell-output cell-output-display" data-execution_count="16">
-<div>
-
-
-<table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th">geoid</th>
-<th data-quarto-table-cell-role="th">hw_value</th>
-<th data-quarto-table-cell-role="th">oc_value</th>
-<th data-quarto-table-cell-role="th">pmc_value</th>
-<th data-quarto-table-cell-role="th">asthma_prevalance</th>
-<th data-quarto-table-cell-role="th">smoking_prevalance</th>
-<th data-quarto-table-cell-role="th">E_PARK</th>
-<th data-quarto-table-cell-role="th">E_HOUAGE</th>
-<th data-quarto-table-cell-role="th">E_ROAD</th>
-<th data-quarto-table-cell-role="th">blk_percent</th>
-<th data-quarto-table-cell-role="th">white_percent</th>
-<th data-quarto-table-cell-role="th">latino_percent</th>
-<th data-quarto-table-cell-role="th">asian_percent</th>
-<th data-quarto-table-cell-role="th">other_percent</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">0</td>
-<td>42101000200</td>
-<td>74.596253</td>
-<td>43.920837</td>
-<td>9.267069</td>
-<td>8.8</td>
-<td>14.8</td>
-<td>100.0</td>
-<td>68.17</td>
-<td>100.0</td>
-<td>5.131698</td>
-<td>14.577657</td>
-<td>7.402361</td>
-<td>65.667575</td>
-<td>7.220708</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">1</td>
-<td>42101000200</td>
-<td>74.596253</td>
-<td>43.920837</td>
-<td>9.267069</td>
-<td>8.8</td>
-<td>14.8</td>
-<td>100.0</td>
-<td>68.17</td>
-<td>100.0</td>
-<td>4.251386</td>
-<td>55.452865</td>
-<td>0.000000</td>
-<td>39.279113</td>
-<td>1.016636</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">2</td>
-<td>42101000200</td>
-<td>74.596253</td>
-<td>43.920837</td>
-<td>9.267069</td>
-<td>8.8</td>
-<td>14.8</td>
-<td>100.0</td>
-<td>68.17</td>
-<td>100.0</td>
-<td>41.538462</td>
-<td>39.230769</td>
-<td>6.153846</td>
-<td>13.076923</td>
-<td>0.000000</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">3</td>
-<td>42101000300</td>
-<td>74.249221</td>
-<td>43.472629</td>
-<td>8.443596</td>
-<td>9.9</td>
-<td>8.6</td>
-<td>100.0</td>
-<td>63.11</td>
-<td>100.0</td>
-<td>2.544333</td>
-<td>60.061681</td>
-<td>5.551272</td>
-<td>12.181958</td>
-<td>19.660756</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">4</td>
-<td>42101000300</td>
-<td>74.249221</td>
-<td>43.472629</td>
-<td>8.443596</td>
-<td>9.9</td>
-<td>8.6</td>
-<td>100.0</td>
-<td>63.11</td>
-<td>100.0</td>
-<td>3.191489</td>
-<td>63.829787</td>
-<td>0.000000</td>
-<td>12.234043</td>
-<td>20.744681</td>
-</tr>
-</tbody>
-</table>
-
 </div>
-</div>
-</div>
-<div class="cell" data-tags="[]" data-execution_count="21">
+<div class="cell" data-tags="[]">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> plot_regression(x_variable, y_variable):</span>
-<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>    plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">6</span>))</span>
-<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Plot regression plot</span></span>
-<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>    sns.regplot(x<span class="op">=</span>regression_df[x_variable], y<span class="op">=</span>regression_df[y_variable])</span>
-<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>    plt.title(<span class="ss">f'Regression Plot - Asthma Prevalance vs. </span><span class="sc">{</span>x_variable<span class="sc">}</span><span class="ss">'</span>)</span>
-<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>    plt.xlabel(<span class="st">'Predictor'</span>)</span>
-<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a>    plt.ylabel(<span class="st">'Asthma Prevalance'</span>)</span>
-<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a>    plt.show()</span>
-<span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb16-12"><a href="#cb16-12" aria-hidden="true" tabindex="-1"></a><span class="co"># List of variables in the dataset excluding 'asthma_prevalance' and 'geoid'</span></span>
-<span id="cb16-13"><a href="#cb16-13" aria-hidden="true" tabindex="-1"></a>variables <span class="op">=</span> [col <span class="cf">for</span> col <span class="kw">in</span> regression_df.columns <span class="cf">if</span> col <span class="kw">not</span> <span class="kw">in</span> [<span class="st">"asthma_prevalance"</span>, <span class="st">"geoid"</span>]]</span>
-<span id="cb16-14"><a href="#cb16-14" aria-hidden="true" tabindex="-1"></a>y_variabless <span class="op">=</span> [col <span class="cf">for</span> col <span class="kw">in</span> regression_df.columns <span class="cf">if</span> col <span class="kw">in</span> [<span class="st">"asthma_prevalance"</span>]]</span>
-<span id="cb16-15"><a href="#cb16-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb16-16"><a href="#cb16-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Create interactive widgets for x-axis and y-axis variables</span></span>
-<span id="cb16-17"><a href="#cb16-17" aria-hidden="true" tabindex="-1"></a>x_variable_dropdown <span class="op">=</span> widgets.Dropdown(options<span class="op">=</span>variables, description<span class="op">=</span><span class="st">'X-axis Variable'</span>)</span>
-<span id="cb16-18"><a href="#cb16-18" aria-hidden="true" tabindex="-1"></a>y_variable_dropdown <span class="op">=</span> widgets.Dropdown(options<span class="op">=</span>y_variabless, description<span class="op">=</span><span class="st">'Y-axis Variable'</span>)</span>
-<span id="cb16-19"><a href="#cb16-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb16-20"><a href="#cb16-20" aria-hidden="true" tabindex="-1"></a><span class="co"># Use the interact function to link the widgets to the plot function</span></span>
-<span id="cb16-21"><a href="#cb16-21" aria-hidden="true" tabindex="-1"></a>dashboard1 <span class="op">=</span> interact(plot_regression, x_variable<span class="op">=</span>x_variable_dropdown, y_variable<span class="op">=</span>y_variable_dropdown)<span class="op">;</span></span>
-<span id="cb16-22"><a href="#cb16-22" aria-hidden="true" tabindex="-1"></a>display(dashboard1)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> plot_regression(x_variable, y_variable):</span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>    plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">6</span>))</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Plot regression plot</span></span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>    sns.regplot(x<span class="op">=</span>regression_df[x_variable], y<span class="op">=</span>regression_df[y_variable])</span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>    plt.title(<span class="ss">f'Regression Plot - Asthma Prevalance vs. </span><span class="sc">{</span>x_variable<span class="sc">}</span><span class="ss">'</span>)</span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a>    plt.xlabel(<span class="st">'Predictor'</span>)</span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a>    plt.ylabel(<span class="st">'Asthma Prevalance'</span>)</span>
+<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a>    plt.show()</span>
+<span id="cb21-11"><a href="#cb21-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-12"><a href="#cb21-12" aria-hidden="true" tabindex="-1"></a><span class="co"># List of variables in the dataset excluding 'asthma_prevalance' and 'geoid'</span></span>
+<span id="cb21-13"><a href="#cb21-13" aria-hidden="true" tabindex="-1"></a>variables <span class="op">=</span> [col <span class="cf">for</span> col <span class="kw">in</span> regression_df.columns <span class="cf">if</span> col <span class="kw">not</span> <span class="kw">in</span> [<span class="st">"asthma_prevalance"</span>, <span class="st">"geoid"</span>]]</span>
+<span id="cb21-14"><a href="#cb21-14" aria-hidden="true" tabindex="-1"></a>y_variabless <span class="op">=</span> [col <span class="cf">for</span> col <span class="kw">in</span> regression_df.columns <span class="cf">if</span> col <span class="kw">in</span> [<span class="st">"asthma_prevalance"</span>]]</span>
+<span id="cb21-15"><a href="#cb21-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-16"><a href="#cb21-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Create interactive widgets for x-axis and y-axis variables</span></span>
+<span id="cb21-17"><a href="#cb21-17" aria-hidden="true" tabindex="-1"></a>x_variable_dropdown <span class="op">=</span> widgets.Dropdown(options<span class="op">=</span>variables, description<span class="op">=</span><span class="st">'X-axis Variable'</span>)</span>
+<span id="cb21-18"><a href="#cb21-18" aria-hidden="true" tabindex="-1"></a>y_variable_dropdown <span class="op">=</span> widgets.Dropdown(options<span class="op">=</span>y_variabless, description<span class="op">=</span><span class="st">'Y-axis Variable'</span>)</span>
+<span id="cb21-19"><a href="#cb21-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-20"><a href="#cb21-20" aria-hidden="true" tabindex="-1"></a><span class="co"># Use the interact function to link the widgets to the plot function</span></span>
+<span id="cb21-21"><a href="#cb21-21" aria-hidden="true" tabindex="-1"></a>correlationplot <span class="op">=</span> interact(plot_regression, x_variable<span class="op">=</span>x_variable_dropdown, y_variable<span class="op">=</span>y_variable_dropdown)<span class="op">;</span></span>
+<span id="cb21-22"><a href="#cb21-22" aria-hidden="true" tabindex="-1"></a>display(correlationplot)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
-<div class="cell-output cell-output-display">
-<script type="application/vnd.jupyter.widget-view+json">
-{"model_id":"f580365d5d0b44f38344327d4c6255ac","version_major":2,"version_minor":0,"quarto_mimetype":"application/vnd.jupyter.widget-view+json"}
-</script>
-</div>
-<div class="cell-output cell-output-display">
-<pre><code>&lt;function __main__.plot_regression(x_variable, y_variable)&gt;</code></pre>
-</div>
 </div>
 </section>
 <section id="risk-factor-choropleth-maps" class="level2">
@@ -1098,34 +989,34 @@ C:\Users\cruse\mambaforge1\envs\musa-550-fall-2023\lib\site-packages\libpysal\cg
 <div class="cell" data-tags="[]">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>regression_gdf <span class="op">=</span> pd.merge(regression_df, censustracts, on<span class="op">=</span><span class="st">'geoid'</span>, how<span class="op">=</span><span class="st">'inner'</span>)</span>
-<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>regression_gdf <span class="op">=</span> gpd.GeoDataFrame(regression_gdf, geometry<span class="op">=</span><span class="st">'geometry'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>regression_gdf <span class="op">=</span> pd.merge(regression_df, censustracts, on<span class="op">=</span><span class="st">'geoid'</span>, how<span class="op">=</span><span class="st">'inner'</span>)</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>regression_gdf <span class="op">=</span> gpd.GeoDataFrame(regression_gdf, geometry<span class="op">=</span><span class="st">'geometry'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
 <div class="cell" data-tags="[]">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> generate_choropleth(variable):</span>
-<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>    choropleth_map <span class="op">=</span> regression_gdf.hvplot(geo<span class="op">=</span><span class="va">True</span>, c<span class="op">=</span>variable, cmap<span class="op">=</span><span class="st">'viridis'</span>, colorbar<span class="op">=</span><span class="va">True</span>, width<span class="op">=</span><span class="dv">800</span>, height<span class="op">=</span><span class="dv">600</span>)</span>
-<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> choropleth_map</span>
-<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>variables <span class="op">=</span> [col <span class="cf">for</span> col <span class="kw">in</span> regression_gdf.columns <span class="cf">if</span> col <span class="kw">not</span> <span class="kw">in</span> [<span class="st">"geoid"</span>, <span class="st">"geometry"</span>]]</span>
-<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a widget for variable selection</span></span>
-<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a>variable_dropdown <span class="op">=</span> pn.widgets.Select(options<span class="op">=</span>variables, value<span class="op">=</span>variables[<span class="dv">0</span>], name<span class="op">=</span><span class="st">'Select Variable'</span>)</span>
-<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Use interact from panel to generate the choropleth map based on the selected variable</span></span>
-<span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a><span class="at">@pn.depends</span>(variable_dropdown.param.value)</span>
-<span id="cb19-12"><a href="#cb19-12" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> update_choropleth(variable):</span>
-<span id="cb19-13"><a href="#cb19-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> generate_choropleth(variable)</span>
-<span id="cb19-14"><a href="#cb19-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb19-15"><a href="#cb19-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Combine the variable dropdown and the choropleth map</span></span>
-<span id="cb19-16"><a href="#cb19-16" aria-hidden="true" tabindex="-1"></a>dashboard <span class="op">=</span> pn.Column(</span>
-<span id="cb19-17"><a href="#cb19-17" aria-hidden="true" tabindex="-1"></a>    pn.Row(variable_dropdown),</span>
-<span id="cb19-18"><a href="#cb19-18" aria-hidden="true" tabindex="-1"></a>    pn.Row(update_choropleth)</span>
-<span id="cb19-19"><a href="#cb19-19" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb19-20"><a href="#cb19-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb19-21"><a href="#cb19-21" aria-hidden="true" tabindex="-1"></a>dashboard</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> generate_choropleth(variable):</span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>    choropleth_map <span class="op">=</span> regression_gdf.hvplot(geo<span class="op">=</span><span class="va">True</span>, c<span class="op">=</span>variable, cmap<span class="op">=</span><span class="st">'viridis'</span>, colorbar<span class="op">=</span><span class="va">True</span>, width<span class="op">=</span><span class="dv">800</span>, height<span class="op">=</span><span class="dv">600</span>)</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> choropleth_map</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>variables <span class="op">=</span> [col <span class="cf">for</span> col <span class="kw">in</span> regression_gdf.columns <span class="cf">if</span> col <span class="kw">not</span> <span class="kw">in</span> [<span class="st">"geoid"</span>, <span class="st">"geometry"</span>]]</span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a widget for variable selection</span></span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>variable_dropdown <span class="op">=</span> pn.widgets.Select(options<span class="op">=</span>variables, value<span class="op">=</span>variables[<span class="dv">0</span>], name<span class="op">=</span><span class="st">'Select Variable'</span>)</span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Use interact from panel to generate the choropleth map based on the selected variable</span></span>
+<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a><span class="at">@pn.depends</span>(variable_dropdown.param.value)</span>
+<span id="cb23-12"><a href="#cb23-12" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> update_choropleth(variable):</span>
+<span id="cb23-13"><a href="#cb23-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> generate_choropleth(variable)</span>
+<span id="cb23-14"><a href="#cb23-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-15"><a href="#cb23-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Combine the variable dropdown and the choropleth map</span></span>
+<span id="cb23-16"><a href="#cb23-16" aria-hidden="true" tabindex="-1"></a>dashboard <span class="op">=</span> pn.Column(</span>
+<span id="cb23-17"><a href="#cb23-17" aria-hidden="true" tabindex="-1"></a>    pn.Row(variable_dropdown),</span>
+<span id="cb23-18"><a href="#cb23-18" aria-hidden="true" tabindex="-1"></a>    pn.Row(update_choropleth)</span>
+<span id="cb23-19"><a href="#cb23-19" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb23-20"><a href="#cb23-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-21"><a href="#cb23-21" aria-hidden="true" tabindex="-1"></a>dashboard</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
 
